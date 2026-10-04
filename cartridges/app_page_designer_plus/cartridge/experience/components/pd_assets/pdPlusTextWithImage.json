@@ -1,0 +1,156 @@
+{
+  "name": "PD Plus Text With Image",
+  "description": "Select a photo that you want to insert into your layout component",
+  "group": "pd_assets",
+  "attribute_definition_groups": [
+        {
+          "id": "textImageComponent",
+          "name": "Custom Tile Configurations",
+          "description": "This component will display image with subtitle positions.",
+          "attribute_definitions": [
+                {
+                    "id": "isContainer",
+                    "name": "Layout Fluid",
+                    "description": "Set layout fluid or at center",
+                    "type": "boolean",
+                    "required": false
+                }, 
+                {
+                    "id": "textXaxisAlignment",
+                    "name": "Position of text along x-axis w.r.t Image",
+                    "description": "Position of text container with respect to Image",
+                    "type": "enum",
+                    "values": [
+                        "text on left",
+                        "text on right"
+                    ],
+                    "default_value": "text on left",
+                    "required": true
+                },
+                {
+                    "id": "textAlignmentVertical",
+                    "name": "Position of text container along y-axis",
+                    "description": "Position of text container along vertical direction",
+                    "type": "enum",
+                    "values": [
+                        "top",
+                        "center",
+                        "bottom"
+                    ],
+                    "default_value": "center",
+                    "required": false
+                },
+                {
+                    "id": "imgFile",
+                    "name": "Tile Image",
+                    "description": "Select a photo to be displayed",
+                    "type": "image",
+                    "required": true
+                },
+                {
+                    "id": "imgScaleHover",
+                    "name": "Scale Image on Hover",
+                    "description": "Scale the image on hover",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "imgAlt",
+                    "name": "Alternate Text of Image",
+                    "description": "The image alt text shown by the component.",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "richText",
+                    "name": "Rich text content area",
+                    "description": "This is the rich text content area",
+                    "type": "markup",
+                    "required": true
+                },
+                {
+                    "id": "buttonText",
+                    "name": "Button for Text Editor",
+                    "description": "This is the button for text content area",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "tileLink",
+                    "name": "Link on Anchor Button",
+                    "description": "Provide the Link URL of Anchor Button.",
+                    "type": "url",
+                    "required": false
+                },
+                {
+                    "id": "tileNewtab",
+                    "name": "New Tab",
+                    "description": "Open Link in New Tab",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "backgroundColor",
+                    "name": "Specify Background Color of Text Container",
+                    "description": "Set Background Color",
+                    "required": false,
+                    "type": "custom",
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "backgroundColorAlpha",
+                    "name": "Specify Background Color Alpha between 0 and 1 i.e 0.2",
+                    "description": "Set Background Color alpha between 0 and 1",
+                    "type": "enum",
+                    "default_value": 100,
+                    "values": [
+                        10,
+                        20,
+                        30,
+                        40,
+                        50,
+                        60,
+                        70,
+                        80,
+                        90,
+                        100
+                    ],
+                    "required": false
+                },
+                {
+                    "id": "buttonBgColor",
+                    "name": "Specify button background color",
+                    "description": "Set button background color",
+                    "required": false,
+                    "type": "custom",
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "buttonTextColor",
+                    "name": "Specify button text color",
+                    "description": "Set button text color",
+                    "required": false,
+                    "type": "custom",
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "buttonBorderColor",
+                    "name": "Specify button border color",
+                    "description": "Set button border color",
+                    "required": false,
+                    "type": "custom",
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                }
+            ]
+        }
+    ],
+  "region_definitions": []
+}

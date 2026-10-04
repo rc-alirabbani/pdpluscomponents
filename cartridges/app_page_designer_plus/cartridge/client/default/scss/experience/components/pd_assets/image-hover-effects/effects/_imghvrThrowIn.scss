@@ -1,0 +1,23 @@
+/* imghvr-throw-in-*
+   ----------------------------- */
+[class^="imghvr-throw-in"],
+[class*=" imghvr-throw-in"] {
+    figcaption { background-color: $figcaption-bg; }
+
+    &:hover {
+        figcaption { transform: rotate(0); }
+    }
+}
+
+/* imghvr-throw-in-left
+     ----------------------------- */
+.imghvr-throw-in-left {
+    figcaption {
+        transform: rotate(-90deg);
+        transform-origin: 100% 0;
+    }
+
+    &:hover {
+        figcaption { transform-origin: 0 100%; }
+    }
+}

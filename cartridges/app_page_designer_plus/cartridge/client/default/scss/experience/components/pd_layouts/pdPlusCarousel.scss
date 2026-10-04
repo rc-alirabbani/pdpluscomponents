@@ -1,0 +1,104 @@
+@import "~base/experience/components/commerceLayouts/carousel";
+@import "../../carousel/mediumCarousel";
+@import "../../../components/hero";
+
+/* Remove Horizontal Scroll */
+.experience-commerce_layouts-carousel { overflow: hidden; }
+
+.carousel-item {
+    padding-bottom: 0;
+
+    @include media-breakpoint-down(sm) { margin-right: -100%; }
+
+    .container-fluid & {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .carousel-inner {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.experience-einstein-einsteinCarousel .carousel-control-prev,
+.experience-einstein-einsteinCarousel .carousel-control-next,
+.experience-einstein-einsteinCarouselCategory .carousel-control-next,
+.experience-einstein-einsteinCarouselCategory .carousel-control-prev,
+.experience-einstein-einsteinCarouselProduct .carousel-control-prev,
+.experience-einstein-einsteinCarouselProduct .carousel-control-next,
+.experience-commerce_layouts-carousel .carousel-control-prev,
+.experience-commerce_layouts-carousel .carousel-control-next {
+    background-color: rgba($black, 0.4);
+    top: 50%;
+    margin-top: -2.625rem;
+
+    @include media-breakpoint-down(sm) { top: 36%; }
+}
+
+.experience-einstein-einsteinCarousel .carousel-control-prev,
+.experience-einstein-einsteinCarouselCategory .carousel-control-prev,
+.experience-einstein-einsteinCarouselProduct .carousel-control-prev,
+.experience-commerce_layouts-carousel .carousel-control-prev { left: 0; }
+
+.experience-einstein-einsteinCarousel .carousel-control-next,
+.experience-einstein-einsteinCarouselCategory .carousel-control-next,
+.experience-einstein-einsteinCarouselProduct .carousel-control-next,
+.experience-commerce_layouts-carousel .carousel-control-next { right: 0; }
+
+.carousel-indicators {
+    margin-bottom: 0;
+}
+
+.carousel-indicators li {
+    background-color: #ccc;
+    border-top: none;
+    border-bottom: none;
+}
+
+.pd-plus-carousel {
+    padding-bottom: 40px;
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 2.5rem;
+        height: 2.5rem;
+        background-color: rgba($black, 0.4);
+        top: 50%;
+        transform: translate(0, -50%);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include media-breakpoint-down(sm) { top: 50%; }
+    }
+
+    .carousel-control-prev {
+        left: 0;
+
+        .container & { left: -15px; }
+    }
+
+    .carousel-control-next {
+        right: 0;
+
+        .container & { right: -15px; }
+    }
+
+    .carousel-item,
+    .html-markup-outer {
+        height: auto;
+    }
+
+    .html-markup-outer {
+        padding: 1.25rem 3.25rem;
+    }
+}
+
+.container .pd-plus-carousel.carousel.slide .carousel-inner,
+.pd-plus-carousel.carousel.slide .carousel-inner {
+    height: auto;
+    min-height: 0;
+    display: block;
+}

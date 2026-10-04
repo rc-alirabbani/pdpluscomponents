@@ -1,0 +1,16 @@
+<isinclude sf-toolkit="off" template="components/modules" />
+
+<isscript>
+    var assets = require('*/cartridge/scripts/assets');
+    assets.addCss('/css/experience/components/pd_assets/pdPlusCampaignItem.css');
+    assets.addJs('/js/pdPlusCampaignBanner.js');
+</isscript>
+
+<div class="carousel-promo-item">
+    <isif condition="${pdict.promoTextItem}"><isprint value="${pdict.promoTextItem}" encoding="off" /></isif>
+    <div class="close-button <isprint value="${pdict.isHideCloseBtn}" encoding="off" />">
+        <button class="close" aria-label="${Resource.msg('button.close','campaignBanner',null)}">
+            <img src="${URLUtils.staticURL('/images/close-icon.svg')}" class="img-fluid" alt="close icon"/>
+        </button>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+@import "./patterns";
+
+.html-markup-outer {
+    padding: 1.457rem 1.5rem;
+
+    .h2-style {
+        font-size: 1.5625rem;
+        font-weight: 700;
+        line-height: 1.4em;
+        margin: 0 0 1.25rem;
+        padding: 0;
+    }
+
+    .title-wrap {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.875rem;
+
+        .h-sub {
+            position: relative;
+            min-width: 100%;
+            font-size: 0.875rem;
+            font-weight: 600;
+            line-height: 1.69em;
+            order: -1;
+            margin-bottom: 0.75rem;
+        }
+
+        .maxW-825 {
+            max-width: 51.5625rem;
+            margin-right: auto;
+            margin-left: auto;
+            p:last-child { margin-bottom: 0; }
+        }
+    }
+
+    .btn-wrap {
+        .btn-success,
+        .btn-danger { color: #fff !important; }
+    }
+}

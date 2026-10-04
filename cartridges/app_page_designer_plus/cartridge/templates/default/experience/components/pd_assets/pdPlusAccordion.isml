@@ -1,0 +1,24 @@
+<iscomment> PD Plus collapse Component  </iscomment>
+
+<div class="accordion-item ${pdict.accrBorderRadius}">
+    <button class="accordion-button" 
+        type="button" data-bs-toggle="collapse" aria-expanded="true" 
+        <isif condition="${pdict.bgComponentColor}"><isprint value="${pdict.bgComponentColor}" encoding="off" /></isif>
+    >
+    
+        <iscomment> Accordion Item </iscomment>
+        <div class="according-heading">
+            <isprint value="${pdict.accodionItem}" encoding="off" />
+        </div>
+        <i class="fa fa-angle-down"></i>
+    </button>
+
+    <div class="inner ${pdict.hideBorder ? 'hide-border-detail' : ''}" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <iscomment> Accordion item Detail</iscomment>
+            <div class="accordion-detail"  <isif condition="${pdict.itemDetailStyles}"><isprint value="${pdict.itemDetailStyles}" encoding="off" /></isif>>
+                <isprint value="${pdict.accordionDetail}" encoding="off" />
+            </div>
+        </div>
+    </div>
+</div>

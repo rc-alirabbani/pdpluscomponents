@@ -1,0 +1,30 @@
+{
+    "name": "PD Plus Promo Slide Item",
+    "description": "Banner for campaign Item",
+    "group": "pd_assets",
+    "attribute_definition_groups": [
+        {
+            "id": "campaignBannerMessage",
+            "name": "Header Promo Banner Message",
+            "description": "The message to be displayed on the Header Promo Banner.",
+            "attribute_definitions": [
+                {
+                    "id": "promoTextItem",
+                    "name": "Please enter content for promo message",
+                    "description": "Please enter content for promo message",
+                    "type": "markup",
+                    "required": true
+                },
+                {
+                    "id": "isHideCloseBtn",
+                    "name": "Click checkbox to hide the promo banner",
+                    "description": "Click checkbox to hide the promo banner",
+                    "type": "boolean",
+                    "default_value": true,
+                    "required": false
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

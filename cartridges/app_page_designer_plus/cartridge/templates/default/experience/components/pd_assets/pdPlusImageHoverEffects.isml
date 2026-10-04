@@ -1,0 +1,51 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/components/pd_assets/imageHoverEffects.css');
+</isscript>
+
+<figure class="${pdict.isHover} ${pdict.imageHoverEffectType}">
+
+  <isif condition="${pdict.imgSrc == null}">
+
+    <div class="img-outer">
+      <img class="img-fluid object-fit-${pdict.imgObjectFit}" src="${URLUtils.staticURL('/images/nulled-image.jpg')}"
+        alt="${Resource.msg('img.placeholder.text', 'pdplus_common', null)}" />
+    </div>
+
+  <iselse/>
+
+    <div class="img-outer">
+      <img class="img-fluid object-fit-${pdict.imgObjectFit}" src="${pdict.imgSrc.src.mobile}" alt="${pdict.imgAlt}" <isif condition="${pdict.styleCSSFilters}"> <isprint value="${pdict.styleCSSFilters}" encoding="off" /></isif> />
+    </div>
+
+  </isif>
+
+  <isif condition="${pdict.imgTitle !== null || pdict.imgParagraph !== null}">
+
+    <figcaption
+      class="image-details justify-content-${pdict.posX} align-items-${pdict.posY} flex-${pdict.flexDirection} flex-${pdict.flexWrap}" 
+      <isif condition="${pdict.figCaptionStyle}"> <isprint value="${pdict.figCaptionStyle}" encoding="off" /></isif>>
+
+      <isif condition="${pdict.imgTitle || pdict.imgParagraph}">
+        <div class="img-caption-inner">
+          <isif condition="${pdict.imgTitle}">
+            <div class="img-title">
+              <h3>${pdict.imgTitle}</h3>
+            </div>
+          </isif>
+          <isif condition="${pdict.imgParagraph}">
+            <div class="img-content">
+              <isprint value="${pdict.imgParagraph}" encoding="off" />
+            </div>
+          </isif>
+          <isif condition="${pdict.tilesLink !== '#'}">
+            <div class="tiles-links">
+              <a class="btn btn-primary" href="${pdict.tilesLink}">${pdict.tilesLinkText}</a>
+            </div>
+          </isif>
+        </div>
+      </isif>
+    </figcaption>
+
+  </isif>
+</figure>

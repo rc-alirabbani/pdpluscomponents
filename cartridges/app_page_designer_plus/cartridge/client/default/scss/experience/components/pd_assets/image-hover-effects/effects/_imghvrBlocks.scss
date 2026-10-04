@@ -1,0 +1,108 @@
+/* imghvr-blocks*
+   ----------------------------- */
+[class^="imghvr-blocks"],
+[class*=" imghvr-blocks"] {
+    &::before,
+    &::after,
+    figcaption::before,
+    figcaption::after {
+        content: "";
+        @include size(50%);
+
+        background-color: $figcaption-bg;
+        opacity: 0;
+        position: absolute;
+    }
+
+    &::before,
+    &::after { z-index: 1; }
+
+    &::before {
+        top: 0;
+        right: 0;
+    }
+
+    &::after {
+        bottom: 0;
+        left: 0;
+    }
+
+    figcaption {
+        z-index: 3;
+        background-color: transparent;
+
+        * {
+            opacity: 0;
+            transition-delay: 0;
+        }
+
+        &::before,
+        &::after { z-index: -1; }
+
+        &::before {
+            top: 0;
+            left: 0;
+        }
+
+        &::after {
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+    a { z-index: 3; }
+
+    &:hover {
+        &::before,
+        &::after,
+        figcaption::before,
+        figcaption::after {
+            transform: translate(0, 0) scale(1);
+            opacity: 1;
+        }
+
+        figcaption {
+            * {
+                opacity: 1;
+                transition-delay: $transition-duration;
+            }
+        }
+    }
+}
+
+/* imghvr-blocks-rotate-in-left
+     ----------------------------- */
+.imghvr-blocks-rotate-in-left {
+    &::before { transform: translateY(-150%); }
+
+    &::after { transform: translateY(150%); }
+
+    figcaption {
+        &::before { transform: translateX(-150%); }
+
+        &::after { transform: translateX(150%); }
+    }
+}
+
+/* imghvr-blocks-zoom-top-left
+     ----------------------------- */
+.imghvr-blocks-zoom-top-left {
+    &::before,
+    &::after,
+    figcaption::before,
+    figcaption::after { transform: scale(0.05); }
+
+    &:hover {
+        &::before { transition-delay: $transition-duration * 0.5; }
+
+        &::after { transition-delay: $transition-duration * 0.5; }
+
+        figcaption {
+            &::before { transition-delay: 0; }
+
+            &::after { transition-delay: $transition-duration; }
+
+            * { transition-delay: $transition-duration * 1.4; }
+        }
+    }
+}

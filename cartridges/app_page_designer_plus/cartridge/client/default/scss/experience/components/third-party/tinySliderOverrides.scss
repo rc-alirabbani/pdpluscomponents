@@ -1,0 +1,54 @@
+@import "../../../variables";
+
+.tns-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+
+    @include media-breakpoint-up(md) {
+        margin-bottom: 5px;
+    }
+
+    [data-controls='prev'],
+    [data-controls='next'] {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        font: normal normal normal 20px/1 FontAwesome;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        white-space: nowrap;
+        text-align: left;
+        overflow: hidden;
+        background: transparent;
+        color: $white;
+        border: none;
+        outline: none;
+        padding: 0;
+        height: 20px;
+        width: 20px;
+
+        &:disabled {
+            cursor: unset;
+        }
+    }
+
+    [data-controls='prev'] {
+        margin-right: 15px;
+        left: 25px;
+
+        &::before {
+            content: "\f177";
+        }
+    }
+
+    [data-controls='next'] {
+        right: 25px;
+
+        &::before {
+            content: "\f178";
+        }
+    }
+}

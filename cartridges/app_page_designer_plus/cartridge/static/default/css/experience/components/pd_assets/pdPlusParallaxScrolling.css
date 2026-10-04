@@ -1,0 +1,83 @@
+.section-background {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.parallaxScrollingSction {
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+@media (max-width: 768.98px) {
+  .parallaxScrollingSction {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    width: 100%;
+  }
+}
+.parallaxScrollingSction.section-background {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.parallaxScrollingSction.sectionFixed {
+  background-attachment: inherit;
+  background-position: center;
+  background-size: cover;
+}
+.parallaxScrollingSction .tile-link {
+  color: inherit;
+  text-decoration: none;
+}
+.parallaxScrollingSction.text-align-left {
+  text-align: left;
+}
+.parallaxScrollingSction.text-align-right {
+  text-align: right;
+}
+.parallaxScrollingSction.text-align-center {
+  text-align: center;
+}
+.parallaxScrollingSction .parallexSection {
+  max-width: 50%;
+}
+@media (max-width: 991.98px) {
+  .parallaxScrollingSction .parallexSection {
+    max-width: 100%;
+    padding: 0 30px !important;
+  }
+}
+.parallaxScrollingSction .parallexSection p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.parallaxScrollingSction .parallexSection p span {
+  color: inherit !important;
+}
+.parallaxScrollingSction .parallexSection .btn {
+  min-height: 50px;
+  padding: 0 20px;
+  border-radius: 8px;
+  text-transform: capitalize;
+}

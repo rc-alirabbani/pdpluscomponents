@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <content content-id="pdplustextandimage-demo">
+        <display-name xml:lang="x-default">PD Plus Text and Image Demo</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplustextandimage-demo-layout" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplustextandimage-demo-layout">
+        <display-name xml:lang="x-default">Text and image demo layout</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplustextandimage-demo-item" type="component.pd_layouts.pdPlusTextImageLayout.pdPlusTextWithImage">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPlusTextImageLayout</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false}]]></data>
+    </content>
+    <content content-id="pdplustextandimage-demo-item">
+        <display-name xml:lang="x-default">Image on the left</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusTextWithImage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"textXaxisAlignment":"text on right","textAlignmentVertical":"center","imgFile":{"path":"images/homepage/homepage-2/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imgAlt":"Image on the left","richText":"<h2>Image on the left</h2><p>The same component with the copy on the right, for a second story on the page.</p>","buttonText":"Shop the look","tileLink":"$url('Search-Show','cgid','womens')$","buttonBgColor":{"value":"#003963"},"buttonTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#003963"}}]]></data>
+    </content>
+</library>

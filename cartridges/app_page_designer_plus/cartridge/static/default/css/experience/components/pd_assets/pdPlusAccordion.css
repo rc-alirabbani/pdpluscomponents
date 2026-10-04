@@ -1,0 +1,86 @@
+.pdPlusAccordion {
+  margin: 0;
+  position: relative;
+}
+.pdPlusAccordion.headingBorder {
+  border: 1px solid #000;
+}
+.pdPlusAccordion.borderOnDetail {
+  border: 1px solid #000;
+}
+.pdPlusAccordion .accordion-item {
+  width: 100%;
+  margin: 0 0 12px;
+}
+.pdPlusAccordion .accordion-item.square .accordion-button {
+  border-radius: 0;
+}
+.pdPlusAccordion .accordion-item.rounded-bordered .accordion-button {
+  border-radius: 8px;
+}
+.pdPlusAccordion .accordion-item.circled-bordered .accordion-button {
+  border-radius: 30px;
+}
+.pdPlusAccordion .accordion-item .accordion-button {
+  color: #000;
+  background-color: #fff;
+  padding: 10px 20px;
+  min-height: 55px;
+  text-align: left;
+  font-weight: 500;
+  text-transform: capitalize;
+  width: 100%;
+  outline: none;
+  position: relative;
+  outline: none;
+}
+.pdPlusAccordion .accordion-item .accordion-button.border-bottom {
+  border-bottom: 1px sold #000;
+}
+.pdPlusAccordion .accordion-item .accordion-button i {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-size: 24px;
+}
+.pdPlusAccordion .accordion-item .accordion-button.hide-border {
+  border: none;
+}
+.pdPlusAccordion .accordion-item .accordion-button .according-heading p {
+  margin-bottom: 0;
+}
+.pdPlusAccordion .accordion-item .accordion-button.active i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.pdPlusAccordion .accordion-item .inner {
+  padding: 20px;
+  background: #fff;
+  display: none;
+}
+.pdPlusAccordion .accordion-item .inner.hide-border-detail {
+  border: none;
+}
+.pdPlusAccordion .accordion-item .inner .accordion-detail p {
+  margin-bottom: 0;
+  color: inherit;
+}
+.pdPlusAccordion .accordion-item .inner .accordion-detail p span {
+  color: inherit;
+}
+.pdPlusAccordion .experience-pd_assets-pdPlusAccordion:last-child .accordion-item {
+  margin-bottom: 0;
+}
+
+.image-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

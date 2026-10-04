@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><!--PAGETITLE--> | Royal Cyber — Storefront Next Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/preview-assets/preview.css" />
+</head>
+<body class="rc-page">
+    <a class="rc-skip" href="#maincontent">Skip to main content</a>
+    <header class="rc-header">
+        <div class="rc-header-bar">
+            <a class="rc-logo" href="/" aria-label="Royal Cyber">
+                <img src="https://migrations49b203355dbe7621.zzkc-010.my.commercecloud.salesforce.com/mobify/bundle/7/client/images/logo.png" alt="Royal Cyber" />
+            </a>
+            <nav class="rc-nav" aria-label="Primary">
+                <a href="#new-arrivals">New Arrivals</a>
+                <a href="#womens">Womens</a>
+                <a href="#mens">Mens</a>
+                <a href="#electronics">Electronics</a>
+                <a href="#gift-certificates">Gift Certificates</a>
+                <a href="#top-sellers">Top Sellers</a>
+            </nav>
+            <div class="rc-tools">
+                <form class="rc-search" action="#" role="search">
+                    <span aria-hidden="true">&#128269;</span>
+                    <input type="search" placeholder="Search" aria-label="Search" />
+                </form>
+                <a class="rc-icon" href="#account" aria-label="Account">&#128100;</a>
+                <a class="rc-icon" href="#wishlist" aria-label="Wishlist">&#9825;</a>
+                <a class="rc-icon" href="#cart" aria-label="Cart">&#128722;</a>
+            </div>
+        </div>
+    </header>
+    <!--HEADERBANNER-->
+    <div class="rc-crumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">›</span>
+        <span><!--PAGETITLE--></span>
+    </div>
+    <main id="maincontent">
+        <!--MAIN-->
+    </main>
+    <footer class="rc-footer">
+        <div class="rc-footer-grid">
+            <div>
+                <img class="rc-footer-logo" src="https://migrations49b203355dbe7621.zzkc-010.my.commercecloud.salesforce.com/mobify/bundle/7/client/images/logo.png" alt="Royal Cyber" />
+                <p>Demo storefront for Salesforce Commerce Cloud migration. Orders are not processed.</p>
+            </div>
+            <div>
+                <h2>Customer care</h2>
+                <a href="#about">About Us</a>
+                <a href="#accessibility">Accessibility Statement</a>
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#choices">Your Privacy Choices</a>
+            </div>
+            <div>
+                <h2>Follow</h2>
+                <a href="#youtube">YouTube</a>
+                <a href="#instagram">Instagram</a>
+                <a href="#x">X</a>
+                <a href="#facebook">Facebook</a>
+            </div>
+        </div>
+        <div class="rc-footer-base">
+            <span>© 2026 Royal Cyber</span>
+            <span>English (US)</span>
+            <span>US Dollar ($)</span>
+        </div>
+    </footer>
+    <!--CONFIG-->
+    <script>
+        document.querySelectorAll('.rc-carousel').forEach(function (carousel) {
+            var track = carousel.querySelector('.rc-carousel-track');
+            carousel.querySelectorAll('.rc-carousel-btn').forEach(function (button) {
+                button.addEventListener('click', function () {
+                    var card = track.querySelector('.rc-cat');
+                    var distance = card ? card.getBoundingClientRect().width + 16 : 280;
+                    track.scrollBy({ left: Number(button.getAttribute('data-dir')) * distance, behavior: 'smooth' });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

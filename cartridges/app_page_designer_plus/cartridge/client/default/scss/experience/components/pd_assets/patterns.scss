@@ -1,0 +1,107 @@
+
+@import "~base/variables";
+@import "./mixins";
+
+[class*="pattern-"]::before {
+    @include size(100%);
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 0.2;
+}
+
+.pattern-1::before {
+    background-image: repeating-linear-gradient(45deg, $black 25%, transparent 25%, transparent 75%, $black 75%, $black), repeating-linear-gradient(45deg, $black 25%, $white 25%, $white 75%, $black 75%, $black);
+    background-position: 0 0, 0.25rem 0.25rem;
+    background-size: 0.5rem 0.5rem;
+}
+
+.pattern-2::before {
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, $white 0.25rem), repeating-linear-gradient(rgba($black, 0.33), $black);
+}
+
+.pattern-3::before {
+    background-image: linear-gradient(135deg, $black 25%, transparent 25%), linear-gradient(225deg, $black 25%, transparent 25%), linear-gradient(45deg, $black 25%, transparent 25%), linear-gradient(315deg, $black 25%, $white 25%);
+    background-position: 0.25rem 0, 0.25rem 0, 0 0, 0 0;
+    background-size: 0.25rem 0.25rem;
+    background-repeat: repeat;
+}
+
+.pattern-4::before {
+    background-image: linear-gradient(135deg, $black 25%, transparent 25%), linear-gradient(225deg, $black 25%, transparent 25%), linear-gradient(45deg, $black 25%, transparent 25%), linear-gradient(315deg, $black 25%, $white 25%);
+    background-position: 0.25rem 0, 0.25rem 0, 0 0, 0 0;
+    background-size: 0.5rem 0.5rem;
+    background-repeat: repeat;
+}
+
+.pattern-5::before {
+    background: linear-gradient(135deg, rgba($black, 0.33) 25%, transparent 25%) -0.25rem 0 / 0.5rem 0.5rem, linear-gradient(225deg, $black 25%, transparent 25%) -0.25rem 0 / 0.5rem 0.5rem, linear-gradient(315deg, rgba($black, 0.33) 25%, transparent 25%) 0 0 / 0.5rem 0.5rem, linear-gradient(45deg, $black 25%, $white 25%) 0 0 / 0.5rem 0.5rem;
+}
+
+.pattern-6::before {
+    background-image: radial-gradient(ellipse farthest-corner at 0.25rem 0.25rem, $black, $black 50%, $white 50%);
+    background-size: 0.25rem 0.25rem;
+}
+
+.pattern-7::before {
+    background-image: radial-gradient(circle at center center, $black, $white), repeating-radial-gradient(circle at center center, $black, $black, 0.25rem, transparent 0.5rem, transparent 0.25rem);
+    background-blend-mode: multiply;
+}
+
+.pattern-8::before {
+    background: repeating-linear-gradient(45deg, $black, $black 0.125rem, $white 0.125rem, $white 0.625rem);
+}
+
+.pattern-9::before {
+    background: repeating-linear-gradient(-45deg, $black, $black 0.125rem, $white 0.125rem, $white 0.625rem);
+}
+
+.pattern-10::before {
+    background-image:
+        linear-gradient($black 0.05rem, transparent 0.05rem),
+        linear-gradient(90deg, $black 0.05rem, transparent 0.05rem),
+        linear-gradient($black 0.25rem, transparent 0.25rem),
+        linear-gradient(90deg, $black 0.25rem, $white 0.25rem);
+    background-size: 1.25rem 1.25rem, 1.25rem 1.25rem, 0.25rem 0.25rem, 0.25rem 0.25rem;
+    background-position: -0.05rem -0.05rem, -0.05rem -0.05rem, -0.25rem -0.25rem, -0.25rem -0.25rem;
+}
+
+.pattern-11::before {
+    background-image:
+        linear-gradient(30deg, $black 12%, transparent 12.5%, transparent 87%, $black 87.5%, $black),
+        linear-gradient(150deg, $black 12%, transparent 12.5%, transparent 87%, $black 87.5%, $black),
+        linear-gradient(30deg, $black 12%, transparent 12.5%, transparent 87%, $black 87.5%, $black),
+        linear-gradient(150deg, $black 12%, transparent 12.5%, transparent 87%, $black 87.5%, $black),
+        linear-gradient(60deg, rgba($black, 0.47) 25%, transparent 25.5%, transparent 75%, rgba($black, 0.47) 75%, rgba($black, 0.47)),
+        linear-gradient(60deg, rgba($black, 0.47) 25%, transparent 25.5%, transparent 75%, rgba($black, 0.47) 75%, rgba($black, 0.47));
+    background-size: 0.5rem 10.25rem;
+    background-position: 0 0, 0 0, 0.25rem 0.4375rem, 0.25rem 0.4375rem, 0 0, 0.25rem 0.4375rem;
+}
+
+.pattern-12::before {
+    background-image: radial-gradient($black 0.0125rem, $white 0.0125rem);
+    background-size: 0.25rem 0.25rem;
+}
+
+.pattern-13::before {
+    background-image: linear-gradient(0deg, $white 50%, $black 50%);
+    background-size: 0.25rem 0.25rem;
+}
+
+.pattern-14::before {
+    background-image: linear-gradient(to right, $black, $black 0.125rem, $white 0.125rem, $white);
+    background-size: 0.25rem 100%;
+}
+
+.pattern-15::before {
+    background-image: repeating-linear-gradient(45deg, $black 0, $black 0.25rem, $white 0, $white 50%);
+    background-size: 0.25rem 0.25rem;
+}
+
+.pattern-16::before {
+    background-image: linear-gradient(45deg, $black 50%, $white 50%);
+    background-size: 0.25rem 0.25rem;
+}

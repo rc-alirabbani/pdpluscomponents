@@ -1,0 +1,101 @@
+{
+    "name": "PD Plus Css Slider",
+    "group": "pd_layouts",
+    "attribute_definition_groups": [
+        {
+            "id": "componentSettings",
+            "name": "Component Settings",
+            "description": "The visual display of the container.",
+            "attribute_definitions": [
+                {
+                    "id": "isContainer",
+                    "name": "Layout Fluid",
+                    "description": "Set layout fluid or at center",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "slidercontols",
+                    "name": "Please select slider contols",
+                    "description": "slider contols e.g (arrows/arrows & pagination)",
+                    "type": "enum",
+                    "values": [
+                        "pagination",
+                        "arrows & pagination"
+                    ],
+                    "required": false
+                }
+            ]
+        },
+        {
+            "id": "layoutSettings",
+            "name": "UI Layout Settings",
+            "description": "The visual display of the container.",
+            "attribute_definitions": [
+                {
+                    "id": "setPaddingTop",
+                    "name": "Padding Top i.e. 20px / 1.25rem",
+                    "description": "Provide padding-top value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setPaddingRight",
+                    "name": "Padding-Right i.e. 5px / .3125rem",
+                    "description": "Provide padding-right value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setPaddingBottom",
+                    "name": "Padding-Bottom i.e. 15px / 0.9375rem",
+                    "description": "Provide padding-bottom value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setPaddingLeft",
+                    "name": "Padding Left i.e. 10px / 0.625rem",
+                    "description": "Provide padding-left value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setMarginTop",
+                    "name": "Margin Top i.e. 20px / 1.25rem",
+                    "description": "Provide margin-top value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setMarginRight",
+                    "name": "Margin Right i.e. 15px / 0.9375rem",
+                    "description": "Provide margin-right value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setMarginBottom",
+                    "name": "Margin Bottom  i.e. 30px / 1.875rem",
+                    "description": "Provide margin-bottom value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setMarginLeft",
+                    "name": "Margin Left i.e. -15px / -0.9375rem",
+                    "description": "Provide margin-left value applied outside the container",
+                    "type": "string",
+                    "required": false
+                }
+            ]
+        }
+    ],
+    "region_definitions": [
+        {
+            "id": "cssSliderLayout",
+            "name": "PD Plus css Slider Component",
+            "component_type_exclusions": []
+        }
+    ]
+}

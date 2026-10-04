@@ -1,0 +1,23 @@
+@mixin fill($padding: 0) {
+    position: absolute;
+    top: $padding;
+    bottom: $padding;
+    left: $padding;
+    right: $padding;
+}
+
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+@mixin img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@mixin text-truncate() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,5 @@
+<isinclude sf-toolkit="off" template="components/modules" />
+
+<div class="<isif condition="${pdict.cssClassName !== ''}">${pdict.cssClassName}</isif>">
+  <iscontentasset aid="${pdict.contentassetID}" />
+</div>

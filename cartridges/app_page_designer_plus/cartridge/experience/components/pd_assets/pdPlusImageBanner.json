@@ -1,0 +1,198 @@
+{
+    "name": "PD Plus Image Banner",
+    "description": "Tile with alignment Options",
+    "group": "pd_assets",
+    "attribute_definition_groups": [
+        {
+            "id": "customImageAttributes",
+            "name": "Custom Tile Configurations",
+            "description": "This component will display image with subtitle positions.",
+            "attribute_definitions": [
+                {
+                    "id": "className",
+                    "name": "CSS Class Name",
+                    "description": "Provide the CSS Class name of Component.",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "imgFile",
+                    "name": "Tile Image",
+                    "description": "Banner image should be banner width ",
+                    "type": "image",
+                    "required": true
+                },
+                {
+                    "id": "imgAlt",
+                    "name": "Alternate Text of Image",
+                    "description": "The image alt text shown by the component.",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "aspectRation",
+                    "name": "Please select image Aspect Ration",
+                    "description": "Aspect Ration e.g (Banner/Vertical width)",
+                    "type": "enum",
+                    "values": [
+                        "Auto - 1:1",
+                        "HD Images and Videos - 16:9",
+                        "Standard Monitor - 4:3",
+                        "Classic Films - 3:2",
+                        "Cenimascope - 21:9"
+                    ],
+                    "required": false
+                },
+                {
+                    "id": "imgBannerDetail",
+                    "name": "Image Banner Detail",
+                    "type": "markup",
+                    "required": true
+                },
+                {
+                    "id": "imgBannerCaptionBgColor",
+                    "name": "Tile Card Caption background color",
+                    "description": "Set the background color of Caption.",
+                    "type": "custom",
+                    "required": false,
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "imgBannerCaptionColorBgAlpha",
+                    "name": "Specify Background Color Alpha between 10 and 100",
+                    "description": "Set Background Color alpha between 0 and 1",
+                    "type": "enum",
+                    "default_value": 100,
+                    "values": [
+                        10,
+                        20,
+                        30,
+                        40,
+                        50,
+                        60,
+                        70,
+                        80,
+                        90,
+                        100
+                    ],
+                    "required": false
+                },
+                {
+                    "id": "imgBannerTextColor",
+                    "name": "Tile Card Caption Text color",
+                    "description": "Set the color of Caption.",
+                    "type": "custom",
+                    "required": false,
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "imageYPos",
+                    "name": "Position of Card along y-axis",
+                    "description": "Position of Card along vertical direction",
+                    "type": "enum",
+                    "values": [
+                        "top",
+                        "center",
+                        "bottom"
+                    ],
+                    "default_value": "center",
+                    "required": true
+                },
+                {
+                    "id": "imageXPos",
+                    "name": "Position of Card along x-axis",
+                    "description": "Position of Card along horizontal direction",
+                    "type": "enum",
+                    "values": [
+                        "right",
+                        "center",
+                        "left"
+                    ],
+                    "default_value": "center",
+                    "required": true
+                },
+                {
+                    "id": "btnsize",
+                    "name": "Please select button Size",
+                    "description": "Button Size e.g (Small/Medium/Large(Full width))",
+                    "type": "enum",
+                    "values": [
+                        "small",
+                        "medium",
+                        "large",
+                        "full"
+                    ],
+                    "required": false
+                },
+                {
+                    "id": "buttontext",
+                    "name": "Button text on card",
+                    "description": "Button text for card",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "tileLink",
+                    "name": "Link on Anchor Button",
+                    "description": "Provide the Link URL of Anchor Button.",
+                    "type": "url",
+                    "required": false
+                },
+                {
+                    "id": "tileNewtab",
+                    "name": "New Tab",
+                    "description": "Open Link in New Tab",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "btnBgColor",
+                    "name": "Button background color",
+                    "description": "Set the background color of button.",
+                    "type": "custom",
+                    "required": false,
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "buttonBorderColor",
+                    "name": "Button border color",
+                    "description": "Set the background color of banner.",
+                    "type": "custom",
+                    "required": false,
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "btnTextColor",
+                    "name": "Button Text color",
+                    "description": "Set the background color of button.",
+                    "type": "custom",
+                    "required": false,
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "btnBorderRadius",
+                    "name": "Please select the border of button",
+                    "description": "Border radius type e.g (Square/Rounded/circled)",
+                    "type": "enum",
+                    "values": [
+                        "square",
+                        "rounded",
+                        "circled"
+                    ],
+                    "required": false
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

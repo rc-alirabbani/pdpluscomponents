@@ -1,0 +1,11 @@
+<isscript>
+var assets = require('*/cartridge/scripts/assets.js');
+assets.addCss('/css/experience/components/pd_assets/pdPlusCssSlider.css');
+</isscript>
+
+<iscomment> <div class="pdPluscssSlider only-arrows only-pagination arrows-pagination"> </iscomment>
+<div class="pdPluscssSlider ${pdict.slidercontols}">
+    <div class="${pdict.isContainer}">
+        <isprint value="${pdict.regions.cssSliderLayout.render()}" encoding="off" />
+    </div>
+</div>

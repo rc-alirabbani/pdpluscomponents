@@ -1,0 +1,23 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/components/pd_assets/pdPlusCssSlider.css');
+</isscript>
+
+<iscomment> PD Plus css Slider Component  </iscomment>
+<input type="radio" id="${pdict.cssSliderNo}" name="slider" ${pdict.cssSliderNo === 'trigger1' ? 'checked' : ''} />
+<label for="${pdict.cssSliderNo}"><span class="sr-only"> CSS Slider.</span></label>
+
+<div class="slide" style="background-image: url('${pdict.imgFile}')">
+    <div class="slide-wrapper <isif condition="${pdict.imageYPos}">${pdict.imageYPos}</isif> <isif condition="${pdict.imageXPos}">${pdict.imageXPos}</isif>">
+        <div class="slideCaption" <isprint value="${pdict.bgComponentColor}" encoding="off" />>
+            <div class="slideContent"  <isif condition="${pdict.sliderTextStyles}"> <isprint value="${pdict.sliderTextStyles}" encoding="off" /></isif>
+            ><isif condition="${pdict.slideContent}"><isprint value="${pdict.slideContent}" encoding="off" /></isif></div>
+            <button class="btn" <isif condition="${pdict.btnBgStyles}"> <isprint value="${pdict.btnBgStyles}" encoding="off" /></isif>>
+                <a href="<isif condition="${pdict.tileLink}">${pdict.tileLink}</isif>"
+                    <isif condition="${pdict.tileNewtab === true}">target="_blank"</isif>>
+                    <isif condition="${pdict.buttontext}"><isprint value="${pdict.buttontext}" encoding="off" /></isif>
+                </a>
+            </button>
+        </div>
+    </div>
+</div>

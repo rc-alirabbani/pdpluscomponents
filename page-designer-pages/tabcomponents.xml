@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <content content-id="tabcomponents">
+        <display-name xml:lang="x-default">Tab Components</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="tabcomponents-layout" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="tabcomponents-layout">
+        <display-name xml:lang="x-default">Tabs</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="tabcomponents-women" type="component.pd_layouts.pdPlusTabsLayout.pdPlusTabsLayout">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="tabcomponents-men" type="component.pd_layouts.pdPlusTabsLayout.pdPlusTabsLayout">
+                <position>1.0</position>
+            </content-link>
+            <content-link content-id="tabcomponents-home" type="component.pd_layouts.pdPlusTabsLayout.pdPlusTabsLayout">
+                <position>2.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPlusTabsLayout</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"layoutTabs":"horizontal"}]]></data>
+    </content>
+    <content content-id="tabcomponents-women">
+        <display-name xml:lang="x-default">Women</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusTabs</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"tabTitle":"Women","tabDescription":"<p>Dresses, layers, and color for the new season.</p>","tabTextColor":{"value":"#003963"},"tabBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="tabcomponents-men">
+        <display-name xml:lang="x-default">Men</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusTabs</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"tabTitle":"Men","tabDescription":"<p>Jackets with a cleaner shoulder and easy trousers.</p>","tabTextColor":{"value":"#003963"},"tabBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="tabcomponents-home">
+        <display-name xml:lang="x-default">Home</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusTabs</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"tabTitle":"Home","tabDescription":"<p>Objects and textiles for a considered room.</p>","tabTextColor":{"value":"#003963"},"tabBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+</library>

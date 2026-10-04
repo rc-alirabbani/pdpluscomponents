@@ -1,0 +1,68 @@
+.storepage {
+    .experience-component {
+        margin-bottom: 1.5rem;
+    }
+
+    .common-image-filter {
+        filter: none;
+    }
+
+    .ITC-image,
+    .mainbanner-image {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 21 / 8;
+        object-fit: cover;
+    }
+
+    .photo-tile-image {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+
+    .image-heading-container {
+        color: #fff;
+    }
+
+    .image-heading-text,
+    .ITC-image-heading-text,
+    .image-heading-text span,
+    .ITC-image-heading-text span,
+    .ITC-image-heading-text p {
+        color: #fff;
+        font-weight: 700;
+        text-shadow: 0 1px 8px rgba(0, 0, 0, 0.45);
+    }
+
+    .mainbanner-sub-text p,
+    .link-large {
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 0.5rem;
+        padding: 0.45rem 0.9rem;
+        background: #ea580c;
+        border-radius: 4px;
+        font-weight: 600;
+    }
+
+    .editorialRichText-component-container {
+        padding: 1.5rem 0.5rem;
+
+        a {
+            color: #ea580c;
+            font-weight: 600;
+        }
+    }
+
+    .product-tile .pdp-link a,
+    .shopthelook-product-name a {
+        color: #17171b;
+    }
+
+    .price {
+        color: #003963;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <content content-id="threeColumnParallaxDemo">
+        <display-name xml:lang="x-default">Three Column Parallax Demo</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="threeColumnParallaxDemo-grid" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="threeColumnParallaxDemo-grid">
+        <display-name xml:lang="x-default">Three column grid</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="threeColumnParallaxDemo-a" type="component.pd_layouts.pdPlusGrid3r1c.column1">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="threeColumnParallaxDemo-b" type="component.pd_layouts.pdPlusGrid3r1c.column2">
+                <position>1.0</position>
+            </content-link>
+            <content-link content-id="threeColumnParallaxDemo-c" type="component.pd_layouts.pdPlusGrid3r1c.column3">
+                <position>2.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPlusGrid3r1c</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false}]]></data>
+    </content>
+    <content content-id="threeColumnParallaxDemo-a">
+        <display-name xml:lang="x-default">New</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusParallaxScrolling</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"ParallaxScrTextSection":"<h2>New</h2><p>Fresh arrivals in a parallax column.</p>","ParallaxScrbtn":"Shop new","ParallaxScrimg":{"path":"images/homepage/homepage-1/large.jpg","focal_point":{"x":0.5,"y":0.5}},"textAlignment":"center","textColor":{"value":"#ffffff"},"tileLink":"$url('Search-Show','cgid','newarrivals')$","parallaxSection":"Parallax","sectionHeight":"70vh","btnbgColor":{"value":"#ea580c"},"btntextColor":{"value":"#ffffff"},"btnBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="threeColumnParallaxDemo-b">
+        <display-name xml:lang="x-default">Fashion</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusParallaxScrolling</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"ParallaxScrTextSection":"<h2>Fashion</h2><p>Dresses and layers.</p>","ParallaxScrbtn":"Shop fashion","ParallaxScrimg":{"path":"images/homepage/homepage-5/large.jpg","focal_point":{"x":0.5,"y":0.5}},"textAlignment":"center","textColor":{"value":"#ffffff"},"tileLink":"$url('Search-Show','cgid','newarrivals')$","parallaxSection":"Parallax","sectionHeight":"70vh","btnbgColor":{"value":"#ea580c"},"btntextColor":{"value":"#ffffff"},"btnBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="threeColumnParallaxDemo-c">
+        <display-name xml:lang="x-default">Jewelry</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusParallaxScrolling</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"ParallaxScrTextSection":"<h2>Jewelry</h2><p>Finish the look.</p>","ParallaxScrbtn":"Shop jewelry","ParallaxScrimg":{"path":"images/homepage/homepage-6/large.jpg","focal_point":{"x":0.5,"y":0.5}},"textAlignment":"center","textColor":{"value":"#ffffff"},"tileLink":"$url('Search-Show','cgid','newarrivals')$","parallaxSection":"Parallax","sectionHeight":"70vh","btnbgColor":{"value":"#ea580c"},"btntextColor":{"value":"#ffffff"},"btnBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+</library>

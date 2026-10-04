@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <content content-id="twoColumnParallaxDemo">
+        <display-name xml:lang="x-default">Two Column Parallax Demo</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="twoColumnParallaxDemo-grid" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="twoColumnParallaxDemo-grid">
+        <display-name xml:lang="x-default">Two column grid</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="twoColumnParallaxDemo-a" type="component.pd_layouts.pdPlusGrid2r1c.pdPlusColumn1">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="twoColumnParallaxDemo-b" type="component.pd_layouts.pdPlusGrid2r1c.pdPlusColumn2">
+                <position>1.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPlusGrid2r1c</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false}]]></data>
+    </content>
+    <content content-id="twoColumnParallaxDemo-a">
+        <display-name xml:lang="x-default">Womens</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusParallaxScrolling</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"ParallaxScrTextSection":"<h2>Womens</h2><p>Parallax column for the womens edit.</p>","ParallaxScrbtn":"Shop womens","ParallaxScrimg":{"path":"images/homepage/homepage-2/large.jpg","focal_point":{"x":0.5,"y":0.5}},"textAlignment":"center","textColor":{"value":"#ffffff"},"tileLink":"$url('Search-Show','cgid','newarrivals')$","parallaxSection":"Parallax","sectionHeight":"70vh","btnbgColor":{"value":"#ea580c"},"btntextColor":{"value":"#ffffff"},"btnBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="twoColumnParallaxDemo-b">
+        <display-name xml:lang="x-default">Mens</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusParallaxScrolling</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"ParallaxScrTextSection":"<h2>Mens</h2><p>Parallax column for the mens edit.</p>","ParallaxScrbtn":"Shop mens","ParallaxScrimg":{"path":"images/homepage/homepage-3/large.jpg","focal_point":{"x":0.5,"y":0.5}},"textAlignment":"center","textColor":{"value":"#ffffff"},"tileLink":"$url('Search-Show','cgid','newarrivals')$","parallaxSection":"Parallax","sectionHeight":"70vh","btnbgColor":{"value":"#ea580c"},"btntextColor":{"value":"#ffffff"},"btnBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+</library>

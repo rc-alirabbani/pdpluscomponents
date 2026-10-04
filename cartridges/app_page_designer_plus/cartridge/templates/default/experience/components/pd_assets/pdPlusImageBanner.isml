@@ -1,0 +1,42 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/components/pd_assets/pdPlusImageBanner.css');
+</isscript>
+
+<div class="tile-link imageBanner ${pdict.className}" href="${pdict.tileLink}" <isif condition="${pdict.tileNewtab === true}">target="_blank"</isif>>
+  <figure class="bnr custom-caption  <isif condition=" ${pdict.imgFile == null}">nulled-image-container</isif>
+    ${pdict.imageYPos} ${pdict.imageXPos}">
+    <isif condition="${pdict.imgFile == null}">
+      <iscomment> If image not selected from BM then default image will be shown. </iscomment>
+       <picture class="bnr-img image-container">
+        <source srcset="${URLUtils.staticURL('/images/nulled-image.jpg')}" media="(min-width: 768px)" />
+        <img class="" src="${URLUtils.staticURL('/images/nulled-image.jpg')}" alt="${pdict.imgAlt}"
+          title="${pdict.imgAlt}" />
+      </picture>
+      <iselse>
+        <iscomment> Image coming from BM </iscomment>
+        <picture class="bnr-img image-container">
+          <source srcset="${pdict.imgFile.src.desktop}" media="(min-width: 768px)" />
+          <img class="img-fluid ${pdict.imgAspectRatio}" src="${pdict.imgFile.src.mobile}" alt="${pdict.imgAlt}" title="${pdict.imgAlt}" />
+        </picture>
+    </isif>
+
+    <iscomment> Banner Caption in Overlay </iscomment>
+    <figcaption class="bnr-caption">
+      <div class="bnr-caption-bg" <isprint value="${pdict.imageBannerStyles}" encoding="off" />>
+        <div class="image-banner-detail">
+            <isprint value="${pdict.imgBannerDetail}" encoding="off" />
+        </div>
+      
+         <button class="btn btn-primary category-link banner-btn ${pdict.btnwidthsize} ${pdict.borderRadiusBtn}"
+         <isif condition="${pdict.btnBgStyles}"><isprint value="${pdict.btnBgStyles}" encoding="off" /></isif>>
+            <a class="tile-link" href="${pdict.tileLink}" <isif condition="${pdict.tileNewtab === true}">target="_blank"</isif>> ${pdict.buttontext} </a>
+        </button>
+
+         <isif condition="${pdict.imgTitle !== 'undefined' && pdict.imgSubTitle !== 'undefined'}">
+                    <span class="bnr-caption-bg-color ${pdict.accrBorderRadius}" <isif condition="${pdict.imageBannerStyles}"><isprint value="${pdict.imageBannerStyles}" encoding="off" /></isif>></span>
+        </isif>
+      </div>
+    </figcaption>
+  </figure>
+</div>

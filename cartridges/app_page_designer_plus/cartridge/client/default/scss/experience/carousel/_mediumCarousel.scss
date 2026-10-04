@@ -1,0 +1,11 @@
+@import "~base/experience/carousel/mediumCarousel";
+
+@include media-breakpoint-up(md) {
+    .carousel-md-2.indicators-md {
+        .carousel-control-prev,
+        .carousel-control-next {
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}

@@ -1,0 +1,7 @@
+<header class="storefront-next-header">
+    <isinclude template="/components/header/skipNav" />
+    <isif condition="${pdict.regions.headerbanner}">
+        <isprint value="${pdict.regions.headerbanner.render()}" encoding="off" />
+    </isif>
+    <isinclude template="components/header/storefrontBar" />
+</header>

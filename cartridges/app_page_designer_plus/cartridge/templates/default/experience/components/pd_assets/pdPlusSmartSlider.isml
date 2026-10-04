@@ -1,0 +1,75 @@
+<isinclude sf-toolkit="off" template="components/modules" />
+<isscript>
+  var assets = require('*/cartridge/scripts/assets.js');
+  assets.addCss('/css/experience/components/pd_assets/smartSlider.css');
+</isscript>
+
+<div class="sslider-content">
+
+    <iscomment> If checkbox is clicked className Container will be added here else container-fluid className will be added </iscomment>
+    <div class="${pdict.isContainer}">
+
+        <div class="row ${pdict.alignItems}">
+
+            <iscomment> Content Asset Setting </iscomment>
+            <div class="col-12 col-md-6 smart-text order-1 order-md-${pdict.smartTextOrder}">
+                <isif condition="${pdict.vidContentAsset !== "undefined"}">
+                    <section <isif condition="${pdict.classNameSmartText !== ""}">class="${pdict.classNameSmartText}"</isif>>
+                        <iscontentasset aid="${pdict.vidContentAsset}" />
+                    </section>
+                </isif>
+            </div>
+
+            <iscomment> Video Setting </iscomment>
+            <div class="col-12 col-md-6 smart-video mb-4 mb-md-0 order-0 order-md-${pdict.smartVidOrder}">
+                <isif condition="${pdict.videoSelect == 'youtube'}">
+                    <iscomment> Youtube Player Setting </iscomment>
+                    <div class="embed-responsive embed-responsive-${pdict.videoResolution} ${pdict.classNameVideo}">
+                        <iframe class="embed-responsive-item full-scale" type="text/html" frameborder="0"
+                            src="//www.youtube.com/embed/${pdict.videoID}?title=${pdict.videoTitle}&autoplay=${pdict.videoAutoPlay}&muted=${pdict.videoMute}">
+                        </iframe>
+                    </div>
+      
+                <iselseif condition="${pdict.videoSelect == 'vimeo'}">
+                    <iscomment> Vimeo Player Setting </iscomment>
+                    <div class="embed-responsive embed-responsive-${pdict.videoResolution} ${pdict.classNameVideo}">
+                        <iframe class="embed-responsive-item full-scale" type="text/html" frameborder="0" 
+                            src="//player.vimeo.com/video/${pdict.videoID}?title=${pdict.videoTitle}&autoplay=${pdict.videoAutoPlay}&portrait=1&byline=0&loop=${pdict.videoLoop}&muted=${pdict.videoMute}"
+                            <isif condition="${pdict.videoFullScreen === 1}">allowFullScreen</isif>>
+                        </iframe>
+                    </div>
+
+                <iselseif condition="${pdict.videoSelect == 'dailymotion'}">
+                    <iscomment> Daily Motion </iscomment>
+                    <div class="embed-responsive embed-responsive-${pdict.videoResolution} ${pdict.classNameVideo}">
+                        <iframe class="embed-responsive-item" scrolling="no" frameborder="0"
+                            src="//www.dailymotion.com/embed/video/${pdict.videoID}?autoplay=0&muted=${pdict.videoMute}" 
+                            <isif condition="${pdict.videoFullScreen === 1}">allowFullScreen</isif> <isif condition="${pdict.videoAutoPlay === 1}">allow="autoplay"</isif>>
+                        </iframe>
+                    </div>
+        
+                <iselseif condition="${pdict.videoSelect == 'html5VideoPlayer'}">
+                    <iscomment> HTML5Video Player </iscomment>
+                    <div class="embed-responsive embed-responsive-${pdict.videoResolution} ${pdict.classNameVideo}" tabindex="-1">
+                        <video controls <isif condition="${pdict.videoMute === 1}">muted</isif> preload="none">
+                            <source src="${pdict.videoID}" type="video/mp4">
+                            ${Resource.msg('html-video-not-supported', 'pdplus_common', null)}
+                        </video>
+                    </div>
+
+                <iselseif condition="${pdict.videoSelect == 'custom-url'}">
+                    <iscomment> Custom URL </iscomment>
+                    <div class="embed-responsive embed-responsive-${pdict.videoResolution} ${pdict.classNameVideo}" tabindex="-1">
+                        <iframe class="embed-responsive-item" frameborder="0" scrolling="no" allow="autoplay" 
+                            src="${pdict.videoID}" <isif condition="${pdict.videoFullScreen === 1}">allowFullScreen</isif>>
+                        </iframe>
+                    </div>
+
+                <iselse/>
+                    <p>${Resource.msg('player-not-found', 'pdplus_common', null)}</p>
+        
+                </isif>
+            </div>
+        </div>
+    </div>
+</div>

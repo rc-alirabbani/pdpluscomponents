@@ -1,0 +1,70 @@
+@import "../../../variables";
+@import "~bootstrap/scss/mixins/breakpoints";
+
+.tabs-wrapper {
+    .tab-container {
+        border-bottom: 2px solid #d5d5d5;
+        display: inline-flex;
+
+        @include media-breakpoint-down(sm) {
+            flex-wrap: wrap;
+            display: flex;
+        }
+
+        .tabItem {
+            min-width: 185px;
+
+            button {
+                width: 100%;
+                border: none;
+                padding: 15px 15px;
+                font-weight: 500;
+                border: 5px solid transparent;
+
+                &:hover,
+                &:focus {
+                    outline: none;
+                    border-bottom-color: #dcdcdc;
+                    transition: all 0.5s ease;
+                }
+
+                &.active {
+                    border-bottom-color: #b4b4b4;
+                    transition: all 0.5s ease;
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        padding: 20px;
+        background: $white;
+        width: 100%;
+    }
+
+    &.vertical-tabs {
+        display: flex;
+
+        .tab-container {
+            display: block;
+            border-bottom: none;
+            background-color: #e7e7e7;
+
+            .tabItem {
+                button {
+                    &:hover,
+                    &:focus {
+                        border-left-color: #dcdcdc;
+                        border-bottom-color: transparent;
+                        background-color: #e9e9e9;
+                    }
+
+                    &.active {
+                        border-left-color: #b4b4b4;
+                        border-bottom-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}

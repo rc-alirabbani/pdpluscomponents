@@ -1,0 +1,33 @@
+/* imghvr-dive-*
+   ----------------------------- */
+[class^="imghvr-dive"],
+[class*=" imghvr-dive"] {
+    figcaption {
+        opacity: 0;
+        transition-delay: 0;
+    }
+
+    &:hover {
+        > img {
+            opacity: 0;
+            transition-delay: 0;
+        }
+
+        figcaption {
+            opacity: 1;
+            transition-delay: $transition-duration * 0.5;
+        }
+    }
+}
+
+/* imghvr-dive-cc
+     ----------------------------- */
+.imghvr-dive-cc {
+    figcaption { transform: rotate(-45deg) scale(5); }
+
+    &:hover {
+        > img { transform: rotate(45deg) scale(5); }
+
+        figcaption { transform: rotate(0) scale(1); }
+    }
+}

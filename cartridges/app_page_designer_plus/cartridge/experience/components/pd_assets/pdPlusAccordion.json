@@ -1,0 +1,101 @@
+{
+    "name": "PD Plus Collapsible",
+    "description": "Display Content Collapsible",
+    "group": "pd_assets",
+    "attribute_definition_groups": [
+        {
+            "id": "accordionComponent",
+            "name": "Collapsible Configurations",
+            "description": "This component will display Collapsible.",
+            "attribute_definitions": [
+                {
+                    "id": "accodionItem",
+                    "name": "Collapsible Item",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "accordionDetail",
+                    "name": "Collapsible Item Detail",
+                    "type": "markup",
+                    "required": true
+                },
+                {
+                    "id": "itemdetailColor",
+                    "name": "Collapsible Item Detail text Color",
+                    "description": "Set item Detail text Color",
+                    "required": false,
+                    "type": "custom",
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                  "id": "itemHeadingbgColor",
+                  "name": "Collapsible Item Background Color",
+                  "description": "Set Background Color",
+                  "required": false,
+                  "type": "custom",
+                  "editor_definition": {
+                      "type": "themer.colorpicker"
+                  }
+              },
+              
+              {
+                  "id": "HeadingbgColorAlpha",
+                  "name": "Specify Background Color Alpha between 10 and 100",
+                  "description": "Set Background Color alpha between 10 and 100",
+                  "type": "enum",
+                  "default_value": 100,
+                  "values": [
+                      10,
+                      20,
+                      30,
+                      40,
+                      50,
+                      60,
+                      70,
+                      80,
+                      90,
+                      100
+                  ],
+                  "required": false
+              },
+              
+              {
+                "id": "itemHeadingTextColor",
+                "name": "Collapsible Item Text Color",
+                "description": "Set Background Color",
+                "required": false,
+                "type": "custom",
+                "editor_definition": {
+                    "type": "themer.colorpicker"
+                }
+            },
+            {
+              "id": "itemHeadingBorderColor",
+              "name": "Collapsible Item Border Color",
+              "description": "Set Background Color",
+              "required": false,
+              "type": "custom",
+              "editor_definition": {
+                  "type": "themer.colorpicker"
+              }
+            },
+              {
+                  "id": "accrBorderRadius",
+                  "name": "Please Select The Border Type Of Collapsible Item",
+                  "description": "Border radius type e.g (Square/Rounded/circled)",
+                  "type": "enum",
+                  "values": [
+                      "square",
+                      "rounded",
+                      "circled"
+                  ],
+                  "required": false
+              }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

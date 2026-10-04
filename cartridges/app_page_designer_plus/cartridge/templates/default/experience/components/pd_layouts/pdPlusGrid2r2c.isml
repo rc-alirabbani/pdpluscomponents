@@ -1,0 +1,31 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/components/commerceLayouts/layout.css');
+    assets.addCss('/css/experience/components/pd_layouts/pdPlusGrid.css');
+</isscript>
+
+<div class="pdplus-component pdplus-2r-2c" <isif condition="${pdict.UILayout}"><isprint value="${pdict.UILayout}" encoding="off" /></isif>>
+    
+    <iscomment> If checkbox is clicked className Container will be added here else container-fluid className will be added </iscomment>
+    <div class="${pdict.isContainer}">
+
+        <iscomment> Background Image and Overlay Color Settings </iscomment>
+        <isif condition="${pdict.backgroundImage !== null}">        
+            <div class="background-img">
+                <img src="${pdict.backgroundImage.src.mobile}" alt="${pdict.imageAlt}" />          
+                <isif condition="${pdict.bgComponentColor}">
+                    <span <isprint value="${pdict.bgComponentColor}" encoding="off" />></span>
+                    <iselse/>
+                    <span></span>
+                </isif>
+            </div>
+        </isif>
+
+        <div class="row">
+            <isprint value="${pdict.regions.column1.setClassName(" region col-6 col-sm-3").render()}" encoding="off" />
+            <isprint value="${pdict.regions.column2.setClassName(" region col-6 col-sm-3").render()}" encoding="off" />
+            <isprint value="${pdict.regions.column3.setClassName(" region col-6 col-sm-3").render()}" encoding="off" />
+            <isprint value="${pdict.regions.column4.setClassName(" region col-6 col-sm-3").render()}" encoding="off" />
+        </div>
+    </div>
+</div>

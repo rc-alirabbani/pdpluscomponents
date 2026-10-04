@@ -1,0 +1,22 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/components/pd_layouts/pdPlusTabs.css');
+    assets.addJs('/js/tabsComponent.js');
+</isscript>
+
+<div class="pdplus-component" <isif condition="${pdict.bgComponentColor}"><isprint value="${pdict.bgComponentColor}" encoding="off" /></isif>>
+    <div class="tab-inner" <isif condition="${pdict.UILayout}"><isprint value="${pdict.UILayout}" encoding="off" /></isif>>
+        <iscomment> If checkbox is clicked className Container will be added here else container-fluid className will be added </iscomment>
+        <div class="${pdict.isContainer}">
+            <div class="tabs-wrapper ${pdict.layoutTabs}">
+                <iscomment> Region Created for tab navigation </iscomment>
+                <isprint value="${pdict.regions.pdPlusTabsLayout.setClassName('tab-container').render()}" encoding="off" />
+                
+                <iscomment> Tab description area placed with tab component </iscomment>
+                <div class="tab-content">
+                    <div class="tab-pane fade"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

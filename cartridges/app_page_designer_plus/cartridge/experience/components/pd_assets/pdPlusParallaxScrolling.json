@@ -1,0 +1,180 @@
+{
+    "name": "PD Plus Parallax Scrolling",
+    "description": "Display Content Parallax Scrolling",
+    "group": "pd_assets",
+    "attribute_definition_groups": [
+        {
+            "id": "ParallaxScrollingComponent",
+            "name": "Parallax Scrolling Configurations",
+            "description": "This component will display Parallax Scrolling.",
+            "attribute_definitions": [
+                {
+                    "id": "sectionHeight",
+                    "name": "parallax Section Height i.e. 20px / 1.25rem",
+                    "description": "Provide height value applied Parallax section Height",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "ParallaxScrTextSection",
+                    "name": "Parallax Scrolling Text Section",
+                    "type": "markup",
+                    "required": true
+                },
+                {
+                  "id": "ParallaxScrbtn",
+                  "name": "Text on Anchor Button",
+                  "type": "string",
+                  "required": false
+                },
+                {
+                  "id": "ParallaxScrimg",
+                  "name": "Parallax Scrolling Section background Image",
+                  "type": "image",
+                  "required": false
+                },
+                {
+                    "id": "textAlignment",
+                    "name": "Please select text alignment",
+                    "description": "select text alignment e.g (Left/Right/Center)",
+                    "type": "enum",
+                    "values": [
+                        "left",
+                        "right",
+                        "center"
+                    ],
+                    "required": false
+                },
+                {
+                    "id": "textColor",
+                    "name": "Specify Content Text Color",
+                    "description": "Set Content Text Color",
+                    "required": false,
+                    "type": "custom",
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "tileLink",
+                    "name": "Link the Anchor Button",
+                    "description": "Provide the Link URL of Anchor Button",
+                    "type": "url",
+                    "required": false
+                },
+                {
+                    "id": "tileNewtab",
+                    "name": "New Tab",
+                    "description": "Open Link in New Tab",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "btnbgColor",
+                    "name": "Specify Button background Color",
+                    "description": "Set Button background Color",
+                    "required": false,
+                    "type": "custom",
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "btntextColor",
+                    "name": "Specify Button Color",
+                    "description": "Set Button  Color",
+                    "required": false,
+                    "type": "custom",
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "btnBorderColor",
+                    "name": "Specify Button Border Color",
+                    "description": "Set Button  Color",
+                    "required": false,
+                    "type": "custom",
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "parallaxSection",
+                    "name": "Please select the background type ",
+                    "description": "Background type e.g (Parallax/Fixed)",
+                    "type": "enum",
+                    "values": [
+                        "Parallax",
+                        "Normal"
+                    ],
+                    "required": false
+                }
+            ]
+        },
+        {
+          "id": "layoutSettings",
+          "name": "Text Layout Settings",
+          "description": "The visual display of the container.",
+          "attribute_definitions": [
+              {
+                  "id": "setPaddingTop",
+                  "name": "Padding Top i.e. 20px / 1.25rem",
+                  "description": "Provide padding-top value applied outside the container",
+                  "type": "string",
+                  "required": false
+              },
+              {
+                  "id": "setPaddingRight",
+                  "name": "Padding-Right i.e. 5px / .3125rem",
+                  "description": "Provide padding-right value applied outside the container",
+                  "type": "string",
+                  "required": false
+              },
+              {
+                  "id": "setPaddingBottom",
+                  "name": "Padding-Bottom i.e. 15px / 0.9375rem",
+                  "description": "Provide padding-bottom value applied outside the container",
+                  "type": "string",
+                  "required": false
+              },
+              {
+                  "id": "setPaddingLeft",
+                  "name": "Padding Left i.e. 10px / 0.625rem",
+                  "description": "Provide padding-left value applied outside the container",
+                  "type": "string",
+                  "required": false
+              },
+              {
+                  "id": "setMarginTop",
+                  "name": "Margin Top i.e. 20px / 1.25rem",
+                  "description": "Provide margin-top value applied outside the container",
+                  "type": "string",
+                  "required": false
+              },
+              {
+                  "id": "setMarginRight",
+                  "name": "Margin Right i.e. 15px / 0.9375rem",
+                  "description": "Provide margin-right value applied outside the container",
+                  "type": "string",
+                  "required": false
+              },
+              {
+                  "id": "setMarginBottom",
+                  "name": "Margin Bottom  i.e. 30px / 1.875rem",
+                  "description": "Provide margin-bottom value applied outside the container",
+                  "type": "string",
+                  "required": false
+              },
+              {
+                  "id": "setMarginLeft",
+                  "name": "Margin Left i.e. -15px / -0.9375rem",
+                  "description": "Provide margin-left value applied outside the container",
+                  "type": "string",
+                  "required": false
+              }
+          ]
+      }
+    ],
+    "region_definitions": []
+}

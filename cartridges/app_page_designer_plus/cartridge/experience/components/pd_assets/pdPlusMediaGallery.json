@@ -1,0 +1,21 @@
+{
+  "name": "PD Plus Media Gallery",
+  "description": "A featured image with a supporting gallery.",
+  "group": "pd_assets",
+  "attribute_definition_groups": [
+    {
+      "id": "gallery",
+      "name": "Gallery",
+      "attribute_definitions": [
+        { "id": "heading", "name": "Heading", "type": "string", "required": false },
+        { "id": "intro", "name": "Intro", "type": "string", "required": false },
+        { "id": "feature", "name": "Feature image", "type": "image", "required": true },
+        { "id": "featureAlt", "name": "Feature alt text", "type": "string", "required": false },
+        { "id": "image2", "name": "Image 2", "type": "image", "required": true },
+        { "id": "image3", "name": "Image 3", "type": "image", "required": true },
+        { "id": "image4", "name": "Image 4", "type": "image", "required": true }
+      ]
+    }
+  ],
+  "region_definitions": []
+}

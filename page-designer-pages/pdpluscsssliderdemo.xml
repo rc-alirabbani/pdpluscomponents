@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <content content-id="pdpluscsssliderdemo">
+        <display-name xml:lang="x-default">PD Plus CSS Slider Demo</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdpluscsssliderdemo-layout" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdpluscsssliderdemo-layout">
+        <display-name xml:lang="x-default">PD Plus CSS Slider Demo slider</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdpluscsssliderdemo-slide-1" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdpluscsssliderdemo-slide-2" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>1.0</position>
+            </content-link>
+            <content-link content-id="pdpluscsssliderdemo-slide-3" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>2.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPluscssSliderLayout</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"slidercontols":"arrows & pagination"}]]></data>
+    </content>
+    <content content-id="pdpluscsssliderdemo-slide-1">
+        <display-name xml:lang="x-default">The studio sale</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide1","imgFile":{"path":"images/homepage/homepage-4/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>The studio sale</h2><p>A Page Designer Plus slide with sample merchandising copy.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Search-Show','cgid','newarrivals')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="pdpluscsssliderdemo-slide-2">
+        <display-name xml:lang="x-default">Light layers</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide2","imgFile":{"path":"images/homepage/homepage-2/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>Light layers</h2><p>A Page Designer Plus slide with sample merchandising copy.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Search-Show','cgid','newarrivals')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="pdpluscsssliderdemo-slide-3">
+        <display-name xml:lang="x-default">New color</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide3","imgFile":{"path":"images/homepage/homepage-5/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>New color</h2><p>A Page Designer Plus slide with sample merchandising copy.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Search-Show','cgid','newarrivals')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+</library>

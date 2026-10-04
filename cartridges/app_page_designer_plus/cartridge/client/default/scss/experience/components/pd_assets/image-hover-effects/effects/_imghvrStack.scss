@@ -1,0 +1,22 @@
+/* imghvr-stack-*
+   ----------------------------- */
+[class^="imghvr-stack-"],
+[class*=" imghvr-stack-"] {
+    > img,
+    figcaption { transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); }
+
+    &:hover {
+        > img {
+            transform: scale(0.75);
+            opacity: 0.5;
+        }
+
+        figcaption { transform: translate(0, 0); }
+    }
+}
+
+/* imghvr-stack-up
+     ----------------------------- */
+.imghvr-stack-up {
+    figcaption { transform: translateY(150%); }
+}

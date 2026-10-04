@@ -1,0 +1,22 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/pdPlusDemos.css');
+</isscript>
+<section class="pdx-boxes">
+    <article>
+        <img src="${pdict.image1}" alt="${pdict.title1}" />
+        <div>
+            <h3>${pdict.title1}</h3>
+            <div><isprint value="${pdict.text1}" encoding="off" /></div>
+            <isif condition="${pdict.button1}"><a class="pdx-btn" href="${pdict.link1}">${pdict.button1}</a></isif>
+        </div>
+    </article>
+    <article>
+        <img src="${pdict.image2}" alt="${pdict.title2}" />
+        <div>
+            <h3>${pdict.title2}</h3>
+            <div><isprint value="${pdict.text2}" encoding="off" /></div>
+            <isif condition="${pdict.button2}"><a class="pdx-btn" href="${pdict.link2}">${pdict.button2}</a></isif>
+        </div>
+    </article>
+</section>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <content content-id="pdplus-media-gallery">
+        <display-name xml:lang="x-default">PD Plus Media Gallery</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplus-media-gallery-item" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplus-media-gallery-item">
+        <display-name xml:lang="x-default">Media gallery</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusMediaGallery</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"heading":"Media gallery","intro":"A featured banner with supporting photos from the shared library.","feature":{"path":"images/homepage/homepage-4/large.jpg","focal_point":{"x":0.5,"y":0.5}},"featureAlt":"Campaign banner","image2":{"path":"images/homepage/homepage-5/medium.jpg","focal_point":{"x":0.5,"y":0.5}},"image3":{"path":"images/homepage/homepage-6/medium.jpg","focal_point":{"x":0.5,"y":0.5}},"image4":{"path":"images/homepage/homepage-1/medium.jpg","focal_point":{"x":0.5,"y":0.5}}}]]></data>
+    </content>
+</library>

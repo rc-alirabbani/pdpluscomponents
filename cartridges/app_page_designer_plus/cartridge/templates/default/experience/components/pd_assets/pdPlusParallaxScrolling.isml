@@ -1,0 +1,19 @@
+
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/components/pd_assets/pdPlusParallaxScrolling.css');
+    assets.addJs('/js/tabsComponent.js');
+</isscript>
+<div>
+    <div class="parallaxScrollingSction ${pdict.parallaxSection} ${pdict.textAlignment}" style="background-image: url(${pdict.ParallaxScrimg}); height : ${pdict.sectionHeight}">
+         <div class="parallexSection"  
+            <isif condition="${pdict.UILayout}"><isprint value="${pdict.UILayout}" encoding="off" /></isif>>
+            <isif condition="${pdict.ParallaxScrTextSection}">
+                <div class="parrallax-content" <isif condition="${pdict.textContentColor}"><isprint value="${pdict.textContentColor}" encoding="off" /></isif>><isprint value="${pdict.ParallaxScrTextSection}" encoding="off" /></div>
+                <button class="btn" <isif condition="${pdict.bgComponentColor}"><isprint value="${pdict.bgComponentColor}" encoding="off" /></isif>>
+                    <a class="tile-link" href="${pdict.tileLink}" <isif condition="${pdict.tileNewtab === true}">target="_blank"</isif>>  ${pdict.ParallaxScrbtn}</a>
+                </button>
+            </isif>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+<isscript>
+var assets = require('*/cartridge/scripts/assets.js');
+assets.addCss('/css/experience/components/pd_assets/pdPlusAccordion.css');
+assets.addJs('/js/pdPlusAccordion.js');
+</isscript>
+
+<iscomment> PD Plus Accordion Layout wrapper </iscomment>
+<div class="pdplus-component " 
+    <isif condition="${pdict.bgComponentColor}"><isprint value="${pdict.bgComponentColor}" encoding="off" /></isif>>
+    <div class="accordion-inner"<isif condition="${pdict.UILayout}"><isprint value="${pdict.UILayout}" encoding="off" /></isif>>
+        <iscomment> If checkbox is clicked className Container will be added here else container-fluid className will be added </iscomment>
+        <div class="${pdict.isContainer}">
+            <div class="pdPlusAccordion">
+                <isprint value="${pdict.regions.accordionlayout.render()}" encoding="off" />
+            </div>
+        </div>
+    </div>
+</div>

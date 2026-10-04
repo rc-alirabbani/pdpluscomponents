@@ -1,0 +1,14 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/pdPlusDemos.css');
+</isscript>
+<section class="pdx-masonry">
+    <isif condition="${pdict.heading}"><h2>${pdict.heading}</h2></isif>
+    <div class="pdx-masonry-grid">
+        <figure><img src="${pdict.image1}" alt="${pdict.caption1}" /><figcaption>${pdict.caption1}</figcaption></figure>
+        <figure><img src="${pdict.image2}" alt="${pdict.caption2}" /><figcaption>${pdict.caption2}</figcaption></figure>
+        <figure><img src="${pdict.image3}" alt="${pdict.caption3}" /><figcaption>${pdict.caption3}</figcaption></figure>
+        <figure><img src="${pdict.image4}" alt="${pdict.caption4}" /><figcaption>${pdict.caption4}</figcaption></figure>
+        <isif condition="${pdict.image5}"><figure><img src="${pdict.image5}" alt="${pdict.caption5}" /><figcaption>${pdict.caption5}</figcaption></figure></isif>
+    </div>
+</section>

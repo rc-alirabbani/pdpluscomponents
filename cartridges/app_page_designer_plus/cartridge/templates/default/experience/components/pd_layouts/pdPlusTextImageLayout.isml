@@ -1,0 +1,14 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/components/pd_layouts/pdPlusTabs.css');
+</isscript>
+
+<div class="pdplus-component" <isif condition="${pdict.bgComponentColor}"><isprint value="${pdict.bgComponentColor}" encoding="off" /></isif>>
+    <div class="textWithImageWrapper" <isif condition="${pdict.UILayout}"><isprint value="${pdict.UILayout}" encoding="off" /></isif>>
+        <iscomment> If checkbox is clicked className Container will be added here else container-fluid className will be added </iscomment>
+        <div class="${pdict.isContainer}">
+            <iscomment> Region Created for media and content </iscomment>
+            <isprint value="${pdict.regions.pdPlusTextWithImage.setClassName('content-holder').render()}" encoding="off" />
+        </div>
+    </div>
+</div>

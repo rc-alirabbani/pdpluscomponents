@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <content content-id="pdplustextandimage">
+        <display-name xml:lang="x-default">PD Plus Text and Image</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplustextandimage-layout" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplustextandimage-layout">
+        <display-name xml:lang="x-default">Text and image layout</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplustextandimage-item" type="component.pd_layouts.pdPlusTextImageLayout.pdPlusTextWithImage">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPlusTextImageLayout</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false}]]></data>
+    </content>
+    <content content-id="pdplustextandimage-item">
+        <display-name xml:lang="x-default">Text with image</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusTextWithImage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"textXaxisAlignment":"text on left","textAlignmentVertical":"center","imgFile":{"path":"images/homepage/homepage-3/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imgAlt":"Text with image","richText":"<h2>Text with image</h2><p>Headline and supporting copy sit beside a library photo. The button uses the navy storefront color.</p>","buttonText":"View the edit","tileLink":"$url('Search-Show','cgid','womens')$","buttonBgColor":{"value":"#003963"},"buttonTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#003963"}}]]></data>
+    </content>
+</library>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <content content-id="pdplus-flexible-row">
+        <display-name xml:lang="x-default">PD Plus Flexible Row</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplus-flexible-row-item" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplus-flexible-row-item">
+        <display-name xml:lang="x-default">Flexible row</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusFlexibleRow</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"image1":{"path":"images/homepage/homepage-1/medium.jpg","focal_point":{"x":0.5,"y":0.5}},"title1":"At home","text1":"Comfortable pieces for every room.","link1":"$url('Search-Show','cgid','womens')$","image2":{"path":"images/homepage/homepage-5/medium.jpg","focal_point":{"x":0.5,"y":0.5}},"title2":"Fashion","text2":"Color, tailoring, and new layers.","link2":"$url('Search-Show','cgid','newarrivals')$","image3":{"path":"images/homepage/homepage-6/medium.jpg","focal_point":{"x":0.5,"y":0.5}},"title3":"Accessories","text3":"Jewelry and finishing details.","link3":"$url('Search-Show','cgid','womens-jewelry')$"}]]></data>
+    </content>
+</library>

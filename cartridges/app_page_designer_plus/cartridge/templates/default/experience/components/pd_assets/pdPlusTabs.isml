@@ -1,0 +1,18 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/components/pd_layouts/pdPlusTabs.css');
+    assets.addJs('/js/tabsComponent.js');
+</isscript>
+
+<iscomment> Tabs Nav Items </iscomment>
+<div class="tabItem">
+    <button class="nav-link" 
+        data-bs-toggle="tab" 
+        data-bs-target="${pdict.tabTitle}" 
+        role="tab"
+        <isif condition="${pdict.bgComponentColor}"><isprint value="${pdict.bgComponentColor}" encoding="off"/></isif>>
+        ${pdict.tabTitle}
+    </button>
+
+    <div class="tab-description d-none"><isprint value="${pdict.tabDescription}" encoding="off" /></div>
+</div>

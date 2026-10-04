@@ -1,0 +1,143 @@
+.experience-pd_assets-customImageBanner {
+  height: 100%;
+}
+
+.tile-link {
+  text-decoration: none;
+}
+
+.bnr {
+  position: relative;
+  color: #2e343f;
+  margin-bottom: 0;
+  overflow: hidden;
+  /* Nulled Image Container */
+}
+.bnr .bnr-img {
+  padding-bottom: 85.318%;
+}
+.bnr.nulled-image-container {
+  height: 100%;
+}
+.bnr.nulled-image-container picture {
+  width: 100%;
+  height: 100%;
+}
+.bnr.nulled-image-container picture img {
+  width: 100%;
+  height: 100%;
+}
+.bnr .bnr-caption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: opacity 0.2s 0.75s;
+  transition: opacity 0.2s 0.75s;
+  padding: 4%;
+  width: 100%;
+}
+.bnr.bnr--xstart .bnr-caption {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.bnr.bnr--xcenter .bnr-caption {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.bnr.bnr--xbottom .bnr-caption {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.bnr.bnr--ystart .bnr-caption-bg {
+  margin-left: auto;
+  max-width: 60%;
+}
+.bnr.bnr--ycenter .bnr-caption-bg {
+  margin-right: auto;
+  margin-left: auto;
+}
+.bnr.bnr--yright .bnr-caption-bg {
+  margin-right: auto;
+}
+
+.image-hover-scale:hover .image-container img {
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.5s ease 0.05s;
+  transition: opacity 0.3s, -webkit-transform 0.5s ease 0.05s;
+  transition: transform 0.5s ease 0.05s, opacity 0.3s;
+  transition: transform 0.5s ease 0.05s, opacity 0.3s, -webkit-transform 0.5s ease 0.05s;
+  -webkit-transform: scale3d(1.075, 1.075, 1);
+          transform: scale3d(1.075, 1.075, 1);
+}
+.image-hover-scale .bnr-caption [class*=bnr-text] {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.image-hover-scale > * {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.image-hover-scale .bnr-img img {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  image-rendering: optimizeQuality;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.75s ease 0s;
+  transition: opacity 0.3s, -webkit-transform 0.75s ease 0s;
+  transition: transform 0.75s ease 0s, opacity 0.3s;
+  transition: transform 0.75s ease 0s, opacity 0.3s, -webkit-transform 0.75s ease 0s;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.product-tiles-outer .image-hover-scale .bnr-img img {
+  height: 100%;
+}
+
+.bnr-caption-bg {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 11%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.bnr-caption-bg .bnr-text3 {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1em;
+}
+.bnr-caption-bg .bnr-text3.bnr-text3 {
+  margin-top: 5%;
+}
+.bnr-caption-bg .heading-font {
+  font-size: 1.25rem;
+  font-weight: 900;
+  line-height: 1.25rem;
+}
+.bnr-caption-bg .bnr-caption-bg-color {
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  margin: 0;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

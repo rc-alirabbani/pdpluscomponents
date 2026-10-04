@@ -1,0 +1,158 @@
+{
+    "name": "PD Plus Textual & Smart Carousel Slide",
+    "description": "Display Slider with Text",
+    "group": "pd_assets",
+    "attribute_definition_groups": [
+        {
+            "id": "textualSliderAttributes",
+            "name": "Textual Slider Configurations",
+            "description": "This component will display Slider and Text.",
+            "attribute_definitions": [
+                {
+                    "id": "videoSelect",
+                    "name": "Select Video",
+                    "description": "Select Video",
+                    "type": "enum",
+                    "values": [
+                        "youtube",
+                        "vimeo",
+                        "dailymotion",
+                        "html5VideoPlayer",
+                        "custom-url"
+                    ],
+                    "default_value": "youtube",
+                    "required": false
+                },
+                {
+                    "id": "videoID",
+                    "name": "Video ID",
+                    "description": "Specify Video ID",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "vidContentAsset",
+                    "name": "Content Asset ID of Smart Slider",
+                    "description": "Enter content asset id",
+                    "type": "string",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "id": "sliderLayoutAttributes",
+            "name": "Slider Layout Settings",
+            "description": "Control Slider & Text Component",
+            "attribute_definitions": [
+                {
+                    "id": "classNameVideo",
+                    "name": "CSS Class name for Video background",
+                    "description": "Provide the class name of Video Component.",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "classNameSmartText",
+                    "name": "Custom Class name of Content Asset",
+                    "description": "Provide the class name of Content Asset.",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "isContainer",
+                    "name": "Layout Fluid",
+                    "description": "Set layout fluid or at center",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "alignItems",
+                    "name": "Vertical Alignment of Columns",
+                    "description": "Specify the vertical alignment of columns.",
+                    "type": "enum",
+                    "values": [
+                        "flex-start",
+                        "center",
+                        "flex-end"
+                    ],
+                    "default_value": "center",
+                    "required": false
+                },
+                {
+                    "id": "smartTextOrder",
+                    "name": "Order of Smart Text Column",
+                    "description": "The order value must be a number, default value is 0.",
+                    "type": "enum",
+                    "values": [
+                        "0",
+                        "1"
+                    ],
+                    "default_value": "0",
+                    "required": false
+                },
+                {
+                    "id": "smartVidOrder",
+                    "name": "Order of Smart Video Column",
+                    "description": "The order value must be a number, default value is 0.",
+                    "type": "enum",
+                    "values": [
+                        "0",
+                        "1"
+                    ],
+                    "default_value": "0",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "id": "videoControlAttributes",
+            "name": "Video Component Configurations",
+            "description": "Play with different controls of Video Component",
+            "attribute_definitions": [
+                {
+                    "id": "videoAutoPlay",
+                    "name": "AutoPlay",
+                    "description": "Autoplay Video on Page Load",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "videoMute",
+                    "name": "Mute Video",
+                    "description": "Mute Video when playing",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "videoLoop",
+                    "name": "Loop Video",
+                    "description": "Loop Video after play",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "videoFullScreen",
+                    "name": "Allow Full Screen",
+                    "description": "Allow Full Screen",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "videoResolution",
+                    "name": "Video Resolution",
+                    "description": "Select Video Resolution",
+                    "type": "enum",
+                    "values": [
+                        "21by9",
+                        "16by9",
+                        "4by3",
+                        "1by1"
+                    ],
+                    "default_value": "16by9",
+                    "required": false
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

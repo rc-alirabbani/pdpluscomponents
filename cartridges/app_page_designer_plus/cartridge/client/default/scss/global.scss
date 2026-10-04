@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700&display=swap");
+@import "~base/global";
+@import "experience/storefrontNext";
+@import "experience/pdPage";
+
+.page {
+    header .search-mobile { padding: 0 0.9375em; }
+}
+
+.text-sm-center {
+    @include media-breakpoint-down(sm) { text-align: center; }
+}

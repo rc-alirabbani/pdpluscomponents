@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <content content-id="pdplus-header-navigation">
+        <display-name xml:lang="x-default">PD Plus Header Navigation</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplus-header-navigation-item" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplus-header-navigation-item">
+        <display-name xml:lang="x-default">Header navigation</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusHeaderNavigation</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"heading":"Shop","label1":"New Arrivals","link1":"$url('Search-Show','cgid','newarrivals')$","label2":"Womens","link2":"$url('Search-Show','cgid','womens')$","label3":"Mens","link3":"$url('Search-Show','cgid','mens')$","label4":"Electronics","link4":"$url('Search-Show','cgid','electronics')$","label5":"Top Sellers","link5":"$url('Search-Show','cgid','womens-clothing')$"}]]></data>
+    </content>
+</library>

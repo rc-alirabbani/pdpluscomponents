@@ -1,0 +1,130 @@
+.pdplus-component {
+  position: relative;
+}
+@media (max-width: 768.98px) {
+  .pdplus-component {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+.pdplus-component.pdplus-3r-1c [class*=experience-pd_], .pdplus-component.pdplus-2r-1c [class*=experience-pd_] {
+  height: 100%;
+}
+.pdplus-component .background-img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.pdplus-component .background-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.pdplus-component .background-img span {
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 17, 38, 0.7);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.pdplus-grid-1r-1c .container-fluid .region {
+  padding: 0;
+}
+
+.pdplus-1r-4c,
+.pdplus-2r-2c,
+.mobile-3r-2c {
+  max-width: 1180px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+}
+
+.pdplus-1r-4c .container,
+.pdplus-1r-4c .container-fluid,
+.pdplus-2r-2c .container,
+.pdplus-2r-2c .container-fluid {
+  width: 100%;
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.pdplus-1r-4c .row,
+.pdplus-2r-2c .row,
+.mobile-3r-2c .grid-row {
+  display: grid;
+  gap: 1.25rem;
+  margin: 0;
+  width: 100%;
+}
+
+.pdplus-1r-4c .row {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.pdplus-2r-2c .row {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.mobile-3r-2c .grid-row {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.pdplus-1r-4c .row > .region,
+.pdplus-2r-2c .row > .region,
+.mobile-3r-2c .grid-row > .region {
+  width: auto;
+  max-width: none;
+  flex: none;
+  margin: 0;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+}
+
+.pdplus-1r-4c .html-markup-outer,
+.pdplus-2r-2c .html-markup-outer,
+.mobile-3r-2c .html-markup-outer {
+  padding: 0;
+  height: auto;
+}
+
+.pdplus-1r-4c .region,
+.pdplus-2r-2c .region,
+.mobile-3r-2c .region {
+  text-align: center;
+}
+
+.experience-pd_assets-pdPlusContentAsset,
+.pdplus-demo-block {
+  text-align: left;
+}
+
+.pdplus-grid-1r-1c {
+  max-width: 1180px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768.98px) {
+  .pdplus-1r-4c .row,
+  .pdplus-2r-2c .row,
+  .mobile-3r-2c .grid-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.pdplus-grid-1r-1c .background-img {
+  width: 100%;
+  left: 0;
+  right: 0;
+}

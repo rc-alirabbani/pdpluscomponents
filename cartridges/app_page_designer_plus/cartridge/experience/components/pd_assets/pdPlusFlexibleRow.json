@@ -1,0 +1,26 @@
+{
+  "name": "PD Plus Flexible Row",
+  "description": "Three feature tiles in one row.",
+  "group": "pd_assets",
+  "attribute_definition_groups": [
+    {
+      "id": "tiles",
+      "name": "Tiles",
+      "attribute_definitions": [
+        { "id": "image1", "name": "Tile 1 image", "type": "image", "required": true },
+        { "id": "title1", "name": "Tile 1 title", "type": "string", "required": true },
+        { "id": "text1", "name": "Tile 1 text", "type": "string", "required": false },
+        { "id": "link1", "name": "Tile 1 link", "type": "url", "required": false },
+        { "id": "image2", "name": "Tile 2 image", "type": "image", "required": true },
+        { "id": "title2", "name": "Tile 2 title", "type": "string", "required": true },
+        { "id": "text2", "name": "Tile 2 text", "type": "string", "required": false },
+        { "id": "link2", "name": "Tile 2 link", "type": "url", "required": false },
+        { "id": "image3", "name": "Tile 3 image", "type": "image", "required": true },
+        { "id": "title3", "name": "Tile 3 title", "type": "string", "required": true },
+        { "id": "text3", "name": "Tile 3 text", "type": "string", "required": false },
+        { "id": "link3", "name": "Tile 3 link", "type": "url", "required": false }
+      ]
+    }
+  ],
+  "region_definitions": []
+}

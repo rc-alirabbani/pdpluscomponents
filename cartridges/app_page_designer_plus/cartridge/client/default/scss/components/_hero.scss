@@ -1,0 +1,29 @@
+@import "~base/components/hero";
+
+.carousel.slide .carousel-inner {
+    @include media-breakpoint-up(md) {
+        height: 25rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .container & {
+        @include media-breakpoint-up(md) { height: 18rem; }
+    }
+}
+
+.hero {
+    height: 10rem;
+
+    @include media-breakpoint-up(md) { height: 36.25rem; }
+}
+
+h1.page-title {
+    left: 0;
+
+    @include media-breakpoint-up(md) { font-size: 3rem; }
+
+    @include media-breakpoint-up(sm) { font-size: 2rem; }
+
+    &::before { display: none; }
+}

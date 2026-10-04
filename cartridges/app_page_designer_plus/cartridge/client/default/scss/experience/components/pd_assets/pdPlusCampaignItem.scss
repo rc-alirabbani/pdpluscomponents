@@ -1,0 +1,106 @@
+@import "../../../variables";
+
+
+.campaign-banner {
+    border: 1px solid transparent;
+}
+
+.top-nav-wrapper {
+    .banner-item {
+        padding: 10px 20px;
+        text-align: center;
+
+        p {
+            margin-bottom: 0;
+            line-height: 1.5;
+            font-size: 14px;
+        }
+    }
+}
+
+
+.promo_campaign_wrapper {
+    .pd-plus-carousel {
+        padding-bottom: 0;
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            opacity: 0;
+            transition: all 0.5s ease;
+
+            @include media-breakpoint-down(sm) {
+                top: 50%;
+                width: 15px;
+            }
+        }
+
+        &:hover {
+            .carousel-control-prev,
+            .carousel-control-next {
+                opacity: 1;
+            }
+
+            .carousel-promo-item {
+                .close-button {
+                    opacity: 1 !important;
+                }
+            }
+        }
+    }
+
+    .carousel.slide .carousel-inner {
+        height: 55px;
+        line-height: 55px;
+        margin: 0;
+        flex-direction: column;
+
+        .carousel-item {
+            text-align: center;
+            padding: 0;
+
+            .carousel-promo-item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                padding: 0 15px;
+
+                p {
+                    margin-bottom: 0;
+                    margin-right: 10px;
+                    
+                    span {
+                        color: inherit !important;
+                    }
+
+                    @include media-breakpoint-down(sm) {
+                        font-size: 14px;
+                    }
+                }
+
+                .close-button {
+                    position: absolute;
+                    right: 45px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    opacity: 0;
+                    transition: all 0.5s ease;
+
+                    @include media-breakpoint-down(sm) {
+                        right: 25px;
+                        top: 46%;
+                    }
+
+                    img {
+                        max-width: 24px;
+
+                        @include media-breakpoint-down(sm) {
+                            max-width: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

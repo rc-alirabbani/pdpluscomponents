@@ -1,0 +1,59 @@
+.imghvr-center figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+[class^="imghvr-"],
+[class*=" imghvr-"] {
+    &:hover {
+        .ih-delay-xs { transition-delay: $transition-duration / 2; }
+
+        .ih-delay-sm { transition-delay: $transition-duration; }
+
+        .ih-delay-md { transition-delay: $transition-duration * 1.5; }
+
+        .ih-delay-lg { transition-delay: $transition-duration * 2; }
+
+        .ih-delay-xl { transition-delay: $transition-duration * 2.5; }
+
+        .ih-delay-xxl { transition-delay: $transition-duration * 3; }
+    }
+
+    [class^="ih-"],
+    [class*=" ih-"] { opacity: 0; }
+
+    .ih-fade-up { transform: translate(0, 1.5625rem); }
+
+    .ih-fade-down { transform: translate(0, -1.5625rem); }
+
+    .ih-fade-left { transform: translate(1.5625rem, 0); }
+
+    .ih-fade-right { transform: translate(-1.5625rem, 0); }
+
+    .ih-fade-up-big { transform: translate(0, 300%); }
+
+    .ih-fade-down-big { transform: translate(0, -300%); }
+
+    .ih-fade-left-big { transform: translate(150%, 0); }
+
+    .ih-fade-right-big { transform: translate(-150%, 0); }
+
+    .ih-zoom-in { transform: scale(0.1); }
+
+    .ih-zoom-out { transform: scale(1.5); }
+
+    .ih-flip-x { transform: rotateX(-90deg); }
+
+    .ih-flip-y { transform: rotateY(90deg); }
+
+    &:hover {
+        [class^="ih-"],
+        [class*=" ih-"] {
+            transform: translate(0, 0) scale(1) rotate(0);
+            opacity: 1;
+        }
+    }
+}

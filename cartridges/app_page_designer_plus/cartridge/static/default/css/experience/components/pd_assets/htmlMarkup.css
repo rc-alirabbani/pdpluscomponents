@@ -1,0 +1,141 @@
+[class*=pattern-]::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  opacity: 0.2;
+}
+
+.pattern-1::before {
+  background-image: repeating-linear-gradient(45deg, #000 25%, transparent 25%, transparent 75%, #000 75%, #000), repeating-linear-gradient(45deg, #000 25%, #fff 25%, #fff 75%, #000 75%, #000);
+  background-position: 0 0, 0.25rem 0.25rem;
+  background-size: 0.5rem 0.5rem;
+}
+
+.pattern-2::before {
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #fff 0.25rem), repeating-linear-gradient(rgba(0, 0, 0, 0.33), #000);
+}
+
+.pattern-3::before {
+  background-image: linear-gradient(135deg, #000 25%, transparent 25%), linear-gradient(225deg, #000 25%, transparent 25%), linear-gradient(45deg, #000 25%, transparent 25%), linear-gradient(315deg, #000 25%, #fff 25%);
+  background-position: 0.25rem 0, 0.25rem 0, 0 0, 0 0;
+  background-size: 0.25rem 0.25rem;
+  background-repeat: repeat;
+}
+
+.pattern-4::before {
+  background-image: linear-gradient(135deg, #000 25%, transparent 25%), linear-gradient(225deg, #000 25%, transparent 25%), linear-gradient(45deg, #000 25%, transparent 25%), linear-gradient(315deg, #000 25%, #fff 25%);
+  background-position: 0.25rem 0, 0.25rem 0, 0 0, 0 0;
+  background-size: 0.5rem 0.5rem;
+  background-repeat: repeat;
+}
+
+.pattern-5::before {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.33) 25%, transparent 25%) -0.25rem 0/0.5rem 0.5rem, linear-gradient(225deg, #000 25%, transparent 25%) -0.25rem 0/0.5rem 0.5rem, linear-gradient(315deg, rgba(0, 0, 0, 0.33) 25%, transparent 25%) 0 0/0.5rem 0.5rem, linear-gradient(45deg, #000 25%, #fff 25%) 0 0/0.5rem 0.5rem;
+}
+
+.pattern-6::before {
+  background-image: radial-gradient(ellipse farthest-corner at 0.25rem 0.25rem, #000, #000 50%, #fff 50%);
+  background-size: 0.25rem 0.25rem;
+}
+
+.pattern-7::before {
+  background-image: radial-gradient(circle at center center, #000, #fff), repeating-radial-gradient(circle at center center, #000, #000, 0.25rem, transparent 0.5rem, transparent 0.25rem);
+  background-blend-mode: multiply;
+}
+
+.pattern-8::before {
+  background: repeating-linear-gradient(45deg, #000, #000 0.125rem, #fff 0.125rem, #fff 0.625rem);
+}
+
+.pattern-9::before {
+  background: repeating-linear-gradient(-45deg, #000, #000 0.125rem, #fff 0.125rem, #fff 0.625rem);
+}
+
+.pattern-10::before {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.05rem, #000), color-stop(0.05rem, transparent)), -webkit-gradient(linear, left top, right top, color-stop(0.05rem, #000), color-stop(0.05rem, transparent)), -webkit-gradient(linear, left top, left bottom, color-stop(0.25rem, #000), color-stop(0.25rem, transparent)), -webkit-gradient(linear, left top, right top, color-stop(0.25rem, #000), color-stop(0.25rem, #fff));
+  background-image: linear-gradient(#000 0.05rem, transparent 0.05rem), linear-gradient(90deg, #000 0.05rem, transparent 0.05rem), linear-gradient(#000 0.25rem, transparent 0.25rem), linear-gradient(90deg, #000 0.25rem, #fff 0.25rem);
+  background-size: 1.25rem 1.25rem, 1.25rem 1.25rem, 0.25rem 0.25rem, 0.25rem 0.25rem;
+  background-position: -0.05rem -0.05rem, -0.05rem -0.05rem, -0.25rem -0.25rem, -0.25rem -0.25rem;
+}
+
+.pattern-11::before {
+  background-image: linear-gradient(30deg, #000 12%, transparent 12.5%, transparent 87%, #000 87.5%, #000), linear-gradient(150deg, #000 12%, transparent 12.5%, transparent 87%, #000 87.5%, #000), linear-gradient(30deg, #000 12%, transparent 12.5%, transparent 87%, #000 87.5%, #000), linear-gradient(150deg, #000 12%, transparent 12.5%, transparent 87%, #000 87.5%, #000), linear-gradient(60deg, rgba(0, 0, 0, 0.47) 25%, transparent 25.5%, transparent 75%, rgba(0, 0, 0, 0.47) 75%, rgba(0, 0, 0, 0.47)), linear-gradient(60deg, rgba(0, 0, 0, 0.47) 25%, transparent 25.5%, transparent 75%, rgba(0, 0, 0, 0.47) 75%, rgba(0, 0, 0, 0.47));
+  background-size: 0.5rem 10.25rem;
+  background-position: 0 0, 0 0, 0.25rem 0.4375rem, 0.25rem 0.4375rem, 0 0, 0.25rem 0.4375rem;
+}
+
+.pattern-12::before {
+  background-image: radial-gradient(#000 0.0125rem, #fff 0.0125rem);
+  background-size: 0.25rem 0.25rem;
+}
+
+.pattern-13::before {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #fff), color-stop(50%, #000));
+  background-image: linear-gradient(0deg, #fff 50%, #000 50%);
+  background-size: 0.25rem 0.25rem;
+}
+
+.pattern-14::before {
+  background-image: -webkit-gradient(linear, left top, right top, from(#000), color-stop(0.125rem, #000), color-stop(0.125rem, #fff), to(#fff));
+  background-image: linear-gradient(to right, #000, #000 0.125rem, #fff 0.125rem, #fff);
+  background-size: 0.25rem 100%;
+}
+
+.pattern-15::before {
+  background-image: repeating-linear-gradient(45deg, #000 0, #000 0.25rem, #fff 0, #fff 50%);
+  background-size: 0.25rem 0.25rem;
+}
+
+.pattern-16::before {
+  background-image: linear-gradient(45deg, #000 50%, #fff 50%);
+  background-size: 0.25rem 0.25rem;
+}
+
+.html-markup-outer {
+  padding: 1.457rem 1.5rem;
+}
+.html-markup-outer .h2-style {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  line-height: 1.4em;
+  margin: 0 0 1.25rem;
+  padding: 0;
+}
+.html-markup-outer .title-wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1.875rem;
+}
+.html-markup-outer .title-wrap .h-sub {
+  position: relative;
+  min-width: 100%;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.69em;
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  margin-bottom: 0.75rem;
+}
+.html-markup-outer .title-wrap .maxW-825 {
+  max-width: 51.5625rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.html-markup-outer .title-wrap .maxW-825 p:last-child {
+  margin-bottom: 0;
+}
+.html-markup-outer .btn-wrap .btn-success,
+.html-markup-outer .btn-wrap .btn-danger {
+  color: #fff !important;
+}

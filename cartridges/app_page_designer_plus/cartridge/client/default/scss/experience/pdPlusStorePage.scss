@@ -1,0 +1,45 @@
+@import "~base/experience/variables";
+@import "~base/experience/experienceGlobal";
+@import "~base/utilities/shapes";
+
+html { font-size: 1rem; }
+
+h3 { text-align: unset; }
+
+.pdPlus-wrapper {
+    overflow: hidden;
+
+    h1 {
+        @include media-breakpoint-down(sm) { font-size: 2rem; }
+    }
+
+    .mb-sm-3-5 {
+        @include media-breakpoint-down(sm) { margin-bottom: $spacer * 2; }
+    }
+
+    .region {
+        @include media-breakpoint-up(md) { margin-bottom: 0; }
+
+        @include media-breakpoint-down(sm) {
+            margin-bottom: 1.25rem;
+
+            &:last-child { margin-bottom: 0; }
+        }
+    }
+
+    .region_square::before { padding-top: 0; }
+
+    [class*="experience-pd_"] {
+        width: 100%;
+
+        > div,
+        > figure { height: 100%; }
+
+        .carousel-item { position: absolute; }
+
+        .carousel-inner {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}

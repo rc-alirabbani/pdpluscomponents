@@ -1,0 +1,145 @@
+{
+    "name": "PD Plus 3 Row x 1 Col (Mobile), PD Plus 1 Row x 3 Col (Desktop)",
+    "description": "This is a layout component of 3 rows by 1 column for mobile and 1 row by 3 columns for desktop/tablet.",
+    "group": "pd_layouts",
+    "attribute_definition_groups": [
+        {
+            "id": "componentSettings",
+            "name": "Component Settings",
+            "description": "The visual display of the container.",
+            "attribute_definitions": [
+                {
+                    "id": "isContainer",
+                    "name": "Layout Fluid",
+                    "description": "Set layout fluid or at center",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "backgroundColor",
+                    "name": "Specify Background Color",
+                    "description": "Set Background Color",
+                    "type": "custom",
+                    "required": false,
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "backgroundColorAlpha",
+                    "name": "Specify Background Color Alpha between 10 to 100",
+                    "description": "Set Background Color alpha between 10 to 100",
+                    "type": "enum",
+                    "default_value": 70,
+                    "values": [
+                        10,
+                        20,
+                        30,
+                        40,
+                        50,
+                        60,
+                        70,
+                        80,
+                        90,
+                        100
+                    ],
+                    "required": false
+                },
+                {
+                    "id": "backgroundImage",
+                    "name": "Specify Background Image",
+                    "description": "Set background Image",
+                    "type": "image",
+                    "required": false
+                },
+                {
+                    "id": "imageAlt",
+                    "name": "Specify Image Alt text",
+                    "description": "Set Image alt text",
+                    "type": "string",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "id": "layoutSettings",
+            "name": "UI Layout Settings",
+            "description": "The visual display of the container.",
+            "attribute_definitions": [
+                {
+                    "id": "setPaddingTop",
+                    "name": "Padding Top i.e. 20px / 1.25rem",
+                    "description": "Provide padding-top value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setPaddingRight",
+                    "name": "Padding Right i.e. 5px / 0.3125rem",
+                    "description": "Provide padding-right value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setPaddingBottom",
+                    "name": "Padding Bottom i.e. 15px / 0.9375rem",
+                    "description": "Provide padding-bottom value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setPaddingLeft",
+                    "name": "Padding Left i.e. 10px / 0.625rem",
+                    "description": "Provide padding-left value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setMarginTop",
+                    "name": "Margin Top i.e. 20px / 1.25rem",
+                    "description": "Provide margin-top value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setMarginRight",
+                    "name": "Margin Right i.e. 15px / 0.9375rem",
+                    "description": "Provide margin-right value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setMarginBottom",
+                    "name": "Margin Bottom i.e. 30px / 1.875rem",
+                    "description": "Provide margin-bottom value applied outside the container",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "setMarginLeft",
+                    "name": "Margin Left i.e. -15px / -0.9375rem",
+                    "description": "Provide margin-left value applied outside the container",
+                    "type": "string",
+                    "required": false
+                }
+            ]
+        }
+    ],
+    "region_definitions": [
+        {
+            "id": "column1",
+            "name": "PD Plus Column 1",
+            "component_type_exclusions": []
+        },
+        {
+            "id": "column2",
+            "name": "PD Plus Column 2",
+            "component_type_exclusions": []
+        },
+        {
+            "id": "column3",
+            "name": "PD Plus Column 3",
+            "component_type_exclusions": []
+        }
+    ]
+}

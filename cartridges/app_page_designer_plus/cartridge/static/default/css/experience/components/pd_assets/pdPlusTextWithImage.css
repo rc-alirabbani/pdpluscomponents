@@ -1,0 +1,45 @@
+.textWithImageWrapper .experience-pd_assets-pdPlusTextWithImage {
+  margin-bottom: 30px;
+}
+.textWithImageWrapper .experience-pd_assets-pdPlusTextWithImage:last-child {
+  margin-bottom: 0;
+}
+
+.text-image-container {
+  background-color: #fff;
+  color: #000;
+}
+.text-image-container.order-text-left .text-column {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+}
+.text-image-container.order-text-left .photo-column {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+.text-image-container.order-text-right .text-column {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+.text-image-container.order-text-right .photo-column {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+}
+.text-image-container .text-container {
+  padding: 40px;
+}
+.text-image-container .text-container .btn-wrapper .btn {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.text-image-container .text-container .btn-wrapper .btn .tile-link {
+  color: inherit !important;
+}
+.text-image-container .photo-tile-container .photo-tile-image {
+  width: 100%;
+}

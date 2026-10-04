@@ -1,0 +1,22 @@
+<div class="primary-images product-detail-left">
+    <div class="pdp-slider" id="pdpCarousel-${product.id}">
+        <div class="pdp-slider-thumbs" role="listbox">
+            <div class="thumb-slider">
+                <isloop items="${product.images['large']}" var="image" status="loopStatus">
+                    <div class='carousel-item <isif condition="${loopStatus.index == 0}">active</isif>'>
+                        <img src="${image.url}" class="d-block img-fluid" alt="${image.alt} image number ${image.index}" itemprop="image" />
+                    </div>
+                </isloop>
+            </div>
+        </div>
+        <div class="pdp-slider-main" role="listbox">
+            <div class="main-slider">
+                <isloop items="${product.images['large']}" var="image" status="loopStatus">
+                    <div class='carousel-item <isif condition="${loopStatus.index == 0}">active</isif>'>
+                        <img src="${image.url}" class="d-block img-fluid" alt="${image.alt} image number ${image.index}" itemprop="image" />
+                    </div>
+                </isloop>
+            </div>
+        </div>
+    </div>
+</div>

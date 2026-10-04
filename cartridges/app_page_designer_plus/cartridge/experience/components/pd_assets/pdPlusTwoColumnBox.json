@@ -1,0 +1,24 @@
+{
+  "name": "PD Plus Two Column Box",
+  "description": "Two content boxes side by side.",
+  "group": "pd_assets",
+  "attribute_definition_groups": [
+    {
+      "id": "boxes",
+      "name": "Boxes",
+      "attribute_definitions": [
+        { "id": "image1", "name": "Box 1 image", "type": "image", "required": true },
+        { "id": "title1", "name": "Box 1 title", "type": "string", "required": true },
+        { "id": "text1", "name": "Box 1 text", "type": "markup", "required": true },
+        { "id": "button1", "name": "Box 1 button", "type": "string", "required": false },
+        { "id": "link1", "name": "Box 1 link", "type": "url", "required": false },
+        { "id": "image2", "name": "Box 2 image", "type": "image", "required": true },
+        { "id": "title2", "name": "Box 2 title", "type": "string", "required": true },
+        { "id": "text2", "name": "Box 2 text", "type": "markup", "required": true },
+        { "id": "button2", "name": "Box 2 button", "type": "string", "required": false },
+        { "id": "link2", "name": "Box 2 link", "type": "url", "required": false }
+      ]
+    }
+  ],
+  "region_definitions": []
+}

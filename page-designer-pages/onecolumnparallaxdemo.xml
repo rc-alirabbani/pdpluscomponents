@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <content content-id="onecolumnparallaxdemo">
+        <display-name xml:lang="x-default">One Column Parallax Demo</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="onecolumnparallaxdemo-hero" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="onecolumnparallaxdemo-hero">
+        <display-name xml:lang="x-default">One column parallax</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusParallaxScrolling</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"ParallaxScrTextSection":"<h2>One column parallax</h2><p>A full-width Page Designer Plus parallax section with a banner image, headline, and button.</p>","ParallaxScrbtn":"Explore the edit","ParallaxScrimg":{"path":"images/homepage/homepage-4/large.jpg","focal_point":{"x":0.5,"y":0.5}},"textAlignment":"left","textColor":{"value":"#ffffff"},"tileLink":"$url('Search-Show','cgid','newarrivals')$","parallaxSection":"Parallax","sectionHeight":"70vh","btnbgColor":{"value":"#ea580c"},"btntextColor":{"value":"#ffffff"},"btnBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+</library>

@@ -1,0 +1,85 @@
+{
+  "id": "demo",
+  "name": "demo",
+  "design": "storefront-next",
+  "pageType": "pdPlus Storefront Page",
+  "pageTypeId": "pdPlusStorePage",
+  "hero": {
+    "title": "SFRA Page Designer to Storefront Next",
+    "text": "Convert experience components, deploy the headless cartridge, and prove parity on live storefront routes",
+    "button": "Explore Storefront Next",
+    "href": "#categories",
+    "image": "https://zzkc-010.my.commercecloud.salesforce.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw06c658ca/images/homepage-banner-desktop.jpg"
+  },
+  "categories": {
+    "title": "Explore by Category",
+    "subtitle": "Experience a modern, seamless shopping journey powered by Salesforce Next.",
+    "items": [
+      {
+        "label": "Mens",
+        "image": "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/ZZKC_010/on/demandware.static/-/Sites-storefront-catalog-m-en/default/dwa1cfc6c6/images/slot/landing/cat-landing-slotbanner-mens.webp?sfrm=jpg&q=70"
+      },
+      {
+        "label": "Womens",
+        "image": "https://edge.disstg.commercecloud.salesforce.com/dw/image/v2/ZZKC_010/on/demandware.static/-/Sites-storefront-catalog-m-en/default/dw2cfac2a6/images/slot/landing/cat-landing-slotbanner-womens.webp?sfrm=jpg&q=70"
+      },
+      {
+        "label": "Electronics",
+        "image": "https://zzkc-010.my.commercecloud.salesforce.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw66cb51cc/images/electronics.jpg"
+      },
+      {
+        "label": "New Arrivals",
+        "image": "https://zzkc-010.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-storefront-catalog-m-en/default/dwe42ddc2b/images/slot/sub_banners/cat-banner-mens-clothing.jpg"
+      },
+      {
+        "label": "Top Sellers",
+        "image": "https://zzkc-010.my.commercecloud.salesforce.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dwa6608ddd/images/womens.jpg"
+      }
+    ]
+  },
+  "stories": [
+    {
+      "image": "https://zzkc-010.my.commercecloud.salesforce.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dwa52ef412/images/homepage/homepage-1/medium.jpg",
+      "title": "Make Your Space Yours",
+      "text": "Create a home that feels comfortable, welcoming, and uniquely yours."
+    },
+    {
+      "image": "https://zzkc-010.my.commercecloud.salesforce.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw13d404f4/images/homepage/homepage-6/medium.jpg",
+      "title": "Power Up Your Everyday",
+      "text": "Discover the latest technology, innovative products, and smart essentials."
+    }
+  ],
+  "campaign": {
+    "kicker": "Campaign",
+    "title": "Trending Now",
+    "image": "https://zzkc-010.my.commercecloud.salesforce.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dwa6608ddd/images/womens.jpg"
+  },
+  "promos": [
+    {
+      "image": "https://zzkc-010.my.commercecloud.salesforce.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dwc2fe2753/images/top.jpg",
+      "text": "Create a home that feels comfortable, welcoming, and uniquely yours. Explore thoughtfully selected products for every room.",
+      "title": "Make Your Space Yours",
+      "button": "Shop Fashion",
+      "href": "#fashion"
+    },
+    {
+      "image": "https://zzkc-010.my.commercecloud.salesforce.com/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dwe4e4f04a/images/jewelery.jpg",
+      "text": "Discover the latest technology, innovative products, and smart essentials designed to make your everyday life easier.",
+      "title": "Power Up Your Everyday",
+      "button": "Explore Electronics",
+      "href": "#electronics"
+    },
+    {
+      "image": "https://zzkc-010.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-storefront-catalog-m-en/default/dw2cfac2a6/images/slot/landing/cat-landing-slotbanner-womens.jpg",
+      "text": "Our classic wrap is a must have for topping outfits. Try any one of our great colors to spice up your wardrobe.",
+      "title": "Style That Speaks for You",
+      "button": "Shop the Edit",
+      "href": "#style"
+    }
+  ],
+  "editorial": {
+    "kicker": "New this season",
+    "title": "Discover Something New",
+    "text": "Style that speaks for you, from tailored layers to the technology you use every day. This demo page is the layout and color system later Page Designer components will follow on the storefront."
+  }
+}

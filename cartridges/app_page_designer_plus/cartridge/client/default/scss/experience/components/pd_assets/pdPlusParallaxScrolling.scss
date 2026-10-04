@@ -1,0 +1,82 @@
+@import "../../../variables";
+
+.section-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.parallaxScrollingSction {
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+
+    @include media-breakpoint-down(sm) {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+        width: 100%;
+    }
+
+    &.section-background {
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &.sectionFixed {
+        background-attachment: inherit;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .tile-link {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    &.text-align-left {
+        text-align: left;
+    }
+
+    &.text-align-right {
+        text-align: right;
+    }
+
+    &.text-align-center {
+        text-align: center;
+    }
+
+    .parallexSection {
+        max-width: 50%;
+
+        @include media-breakpoint-down(md) {
+            max-width: 100%;
+            padding: 0 30px !important;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+
+            span {
+                color: inherit !important;
+            }
+        }
+
+        .btn {
+            min-height: 50px;
+            padding: 0 20px;
+            border-radius: 8px;
+            text-transform: capitalize;
+        }
+    }
+}

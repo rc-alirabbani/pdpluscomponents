@@ -1,0 +1,46 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/components/pd_assets/pdPlusTextWithImage.css');
+</isscript>
+
+<div class="text-image-container ${pdict.textXaxisAlignment}" <isif condition="${pdict.bgComponentColor}"><isprint value="${pdict.bgComponentColor}" encoding="off" /></isif>>
+    <div class="row align-items-${pdict.textAlignmentVertical}">
+        <div class="col-12 col-md-6 text-column">
+            <div class="text-container">
+                <div class="text-editor">
+                    <isprint value="${pdict.richText}" encoding="off"/>
+                </div>
+                <div class="btn-wrapper">
+                    <button class="btn" <isif condition="${pdict.btnBgComponentColor}"><isprint value="${pdict.btnBgComponentColor}" encoding="off"/></isif>>
+                        <a class="tile-link" href="${pdict.tileLink}" <isif condition="${pdict.tileNewtab === true}">target="_blank"</isif>> 
+                            <isif condition="${pdict.buttonText}"><isprint value="${pdict.buttonText}" encoding="off"/></isif>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 photo-column ">
+            <div class="photo-tile-container">
+                <figure class="bnr mb-0 photo-tile-figure <isif condition=" ${pdict.imgFile == null}">nulled-image-container</isif>
+                    <isif condition="${pdict.imgScaleHover === true}">image-hover-scale</isif> ${pdict.imageYPos} ${pdict.imageXPos}">
+
+                    <isif condition="${pdict.imgFile == null}">
+                        <iscomment> If image not selected from BM then default image will be shown. </iscomment>
+                        <picture class="bnr-img image-container">
+                            <source srcset="${URLUtils.staticURL('/images/nulled-image.jpg')}" media="(min-width: 768px)" />
+                            <img class="photo-tile-image img-fluid" src="${URLUtils.staticURL('/images/nulled-image.jpg')}" alt="${pdict.imgAlt}"
+                            title="${pdict.imgAlt}" />
+                        </picture>
+                    <iselse/>
+                        <iscomment> Image coming from BM </iscomment>
+                        <picture class="bnr-img image-container">
+                            <source srcset="${pdict.imgFile.src.desktop}" media="(min-width: 768px)" />
+                            <img class="photo-tile-image img-fluid" src="${pdict.imgFile.src.mobile}" alt="${pdict.imgAlt}" title="${pdict.imgAlt}" />
+                        </picture>
+                    </isif>
+                </figure>
+            </div>
+        </div>
+    </div>
+</div>
+

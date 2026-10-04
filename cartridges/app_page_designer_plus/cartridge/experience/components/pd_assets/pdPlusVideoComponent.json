@@ -1,0 +1,128 @@
+{
+    "name": "PD Plus Video",
+    "description": "Banner playing videos",
+    "group": "pd_assets",
+    "attribute_definition_groups": [
+        {
+            "id": "videoComponentAttributes",
+            "name": "Video Player Configurations",
+            "description": "This component will host video.",
+            "attribute_definitions": [
+                {
+                    "id": "className",
+                    "name": "CSS Class name for Video background i.e. bg-dark",
+                    "description": "Provide the class name of Video Component.",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "videoSelect",
+                    "name": "Select Video",
+                    "description": "Select Video",
+                    "type": "enum",
+                    "values": [
+                        "youtube",
+                        "vimeo",
+                        "dailymotion",
+                        "html5VideoPlayer",
+                        "custom-url"
+                    ],
+                    "default_value": "youtube",
+                    "required": false
+                },
+                {
+                    "id": "videoID",
+                    "name": "Video ID or URL",
+                    "description": "Specify Video ID or URL",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "videoScale",
+                    "name": "Video Scale",
+                    "description": "Specify Video Scale",
+                    "type": "string",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "id": "videoControlAttributes",
+            "name": "Player Control Settings",
+            "description": "With provided controls the player work correspondingly.",
+            "attribute_definitions": [
+                {
+                    "id": "videoAutoPlay",
+                    "name": "AutoPlay",
+                    "description": "Autoplay Video on Page Load",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "videoMute",
+                    "name": "Mute Video",
+                    "description": "Mute Video when playing",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "videoLoop",
+                    "name": "Loop Video",
+                    "description": "Loop Video after play",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "videoFullScreen",
+                    "name": "Allow Full Screen",
+                    "description": "Allow Full Screen",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "videoResolution",
+                    "name": "Video Resolution",
+                    "description": "Select Video Resolution",
+                    "type": "enum",
+                    "values": [
+                        "21by9",
+                        "16by9",
+                        "4by3",
+                        "1by1"
+                    ],
+                    "default_value": "16by9",
+                    "required": false
+                },
+                {
+                    "id": "videoPoster",
+                    "name": "Video Thumbnail",
+                    "description": "Video Thumbnail",
+                    "type": "image",
+                    "required": false
+                },
+                {
+                    "id": "imgAlt",
+                    "name": "Image Alternate Text",
+                    "description": "Image Alternate Text",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "videoModalPopup",
+                    "name": "Open Video in Modal Popup",
+                    "description": "Open Video in Modal Popup",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "videoPlayIcon",
+                    "name": "Play Icon",
+                    "description": "Display Play Icon",
+                    "type": "boolean",
+                    "required": false
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

@@ -1,0 +1,225 @@
+<isscript>
+var assets = require('*/cartridge/scripts/assets.js');
+assets.addJs('/js/videoComponent.js');
+assets.addCss('/css/experience/components/pd_assets/videoComponent.css');
+</isscript>
+
+<div class="mainbanner-container ${pdict.className}">
+  <div class="mainbanner-figure">
+
+    <isif condition="${pdict.videoSelect == 'youtube'}">
+
+      <isif condition="${pdict.videoModalPopup === true}">
+
+        <div class="video-modal-outer">
+
+          <isif condition="${pdict.videoPoster == null}">
+            <a data-src="//www.youtube.com/embed/${pdict.videoID}?rel=0&autoplay=${pdict.videoAutoPlay}&mute=${pdict.videoMute}" href="${'#'}" data-toggle="modal" data-target="${'#' + pdict.modalPopupID}">
+              <isif condition="${pdict.videoPlayIcon !== false}"><i class="fa fa-play-circle"></i></isif>
+              <img src="${URLUtils.staticURL('/images/nulled-image.jpg')}" alt="${Resource.msg('img.placeholder.text', 'pdplus_common', null)}" class="img-fluid" />
+            </a>
+            <iselse/>
+              <a data-src="//www.youtube.com/embed/${pdict.videoID}?rel=0&autoplay=${pdict.videoAutoPlay}&mute=${pdict.videoMute}" href="${'#'}" data-toggle="modal" data-target="${'#' + pdict.modalPopupID}">
+                <isif condition="${pdict.videoPlayIcon !== false}"><i class="fa fa-play-circle"></i></isif>
+                <img src="${pdict.videoPoster.src.mobile}" alt="${pdict.imgAlt}" class="img-fluid" />
+              </a>
+          </isif>
+
+          <div id="${pdict.modalPopupID}" class="modal fade videoModalPopup" tabindex="-1" role="dialog" aria-labelledby="videoModalPopup"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-body-pdplus">
+                  <div class="embed-responsive embed-responsive-${pdict.videoResolution}">
+                    <iframe id="iframe-${pdict.modalPopupID}" <isif condition="${pdict.videoScale}"><isprint value="${pdict.videoScale}" encoding="off" /></isif>
+                      data-src="//www.youtube.com/embed/${pdict.videoID}?rel=0&mute=${pdict.videoMute}&autoplay=${pdict.videoAutoPlay}&loop=${pdict.videoLoop}" class="embed-responsive-item" type="text/html" frameborder="0"
+                      <isif condition="${pdict.videoFullScreen === "1"}">allowFullScreen</isif>
+                      <isif condition="${pdict.videoAutoPlay === "1"}">allow="autoplay"</isif>
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      <iselse/>
+        
+        <div class="embed-responsive embed-responsive-${pdict.videoResolution}">
+          <iframe
+            <isif condition="${pdict.videoScale}"><isprint value="${pdict.videoScale}" encoding="off" /></isif>
+            class="embed-responsive-item full-scale" type="text/html" frameborder="0"
+            src="//www.youtube.com/embed/${pdict.videoID}?rel=0&mute=${pdict.videoMute}&autoplay=${pdict.videoAutoPlay}&loop=${pdict.videoLoop}"
+            <isif condition="${pdict.videoFullScreen === "1"}">allowFullScreen</isif>
+            <isif condition="${pdict.videoAutoPlay === "1"}">allow="autoplay"</isif>></iframe>
+        </div>
+      </isif>
+
+  <iselseif condition="${pdict.videoSelect == 'vimeo'}">
+
+      <isif condition="${pdict.videoModalPopup === true}">
+        <div class="video-modal-outer">
+          <isif condition="${pdict.videoPoster == null}">
+            <a data-src="//player.vimeo.com/video/${pdict.videoID}?title=${pdict.videoTitle}&autoplay=${pdict.videoAutoPlay}&portrait=1&byline=0" href="${"#"}" data-toggle="modal" data-target="${'#vimeo_' + pdict.modalPopupID}">
+              <isif condition="${pdict.videoPlayIcon !== false}"><i class="fa fa-play-circle"></i></isif>
+              <img src="${URLUtils.staticURL('/images/nulled-image.jpg')}" alt="${Resource.msg('img.placeholder.text', 'pdplus_common', null)}" class="img-fluid" />
+            </a>
+            <iselse/>
+              <a data-src="//player.vimeo.com/video/${pdict.videoID}?title=${pdict.videoTitle}&autoplay=${pdict.videoAutoPlay}&portrait=1&byline=0" href="${"#"}" data-toggle="modal" data-target="${'#vimeo_' + pdict.modalPopupID}">
+                <isif condition="${pdict.videoPlayIcon !== false}"><i class="fa fa-play-circle"></i></isif>
+                <img src="${pdict.videoPoster.src.mobile}" alt="${pdict.imgAlt}" class="img-fluid" />
+              </a>
+          </isif>
+
+          <div class="modal fade videoModalPopup" tabindex="-1" role="dialog" aria-labelledby="videoModalPopup"
+            aria-hidden="true" id="vimeo_${pdict.modalPopupID}">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-body-pdplus">
+                  <div class="embed-responsive embed-responsive-${pdict.videoResolution}">
+                    <iframe <isif condition="${pdict.videoScale}"><isprint value="${pdict.videoScale}" encoding="off" /></isif> class="embed-responsive-item" data-src="//player.vimeo.com/video/${pdict.videoID}?title=${pdict.videoTitle}&autoplay=${pdict.videoAutoPlay}&portrait=1&byline=0" type="text/html" frameborder="0" <isif condition="${pdict.videoAutoPlay === "1"}">allow="autoplay"</isif>></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      <iselse/>
+
+        <iscomment>Vimeo</iscomment>
+        <div class="embed-responsive embed-responsive-${pdict.videoResolution}">
+          <iframe <isif condition="${pdict.videoScale}"><isprint value="${pdict.videoScale}" encoding="off" /></isif> class="embed-responsive-item full-scale"
+            src="//player.vimeo.com/video/${pdict.videoID}?title=${pdict.videoTitle}&autoplay=${pdict.videoAutoPlay}&portrait=1&byline=0&loop=${pdict.videoLoop}&muted=1"
+            frameborder="0" allow="autoplay"
+            <isif condition="${pdict.videoFullScreen === "1"}">allowFullScreen</isif>
+            <isif condition="${pdict.videoAutoPlay === "1"}">allow="autoplay"</isif>></iframe>
+        </div>
+
+      </isif>      
+
+
+  <iselseif condition="${pdict.videoSelect == 'dailymotion'}">
+
+      
+      <isif condition="${pdict.videoModalPopup === true}">
+        <iscomment>DailyMotion when ModalPopup is true</iscomment>
+
+        <div class="video-modal-outer">
+          <isif condition="${pdict.videoPoster == null}">
+            <a data-src="//www.dailymotion.com/embed/video/${pdict.videoID}?title=${pdict.videoTitle}&autoplay=${pdict.videoAutoPlay}&muted=${pdict.videoMute}&loop=${pdict.videoLoop}" href="${"#"}" data-toggle="modal" data-target="${'#dailymotion_' + pdict.modalPopupID}">
+              <isif condition="${pdict.videoPlayIcon !== false}"><i class="fa fa-play-circle"></i></isif>
+              <img src="${URLUtils.staticURL('/images/nulled-image.jpg')}" alt="${Resource.msg('img.placeholder.text', 'pdplus_common', null)}" class="img-fluid" />
+            </a>
+            <iselse/>
+              <a data-src="//www.dailymotion.com/embed/video/${pdict.videoID}?title=${pdict.videoTitle}&autoplay=${pdict.videoAutoPlay}&muted=${pdict.videoMute}&loop=${pdict.videoLoop}" href="${"#"}" data-toggle="modal" data-target="${'#dailymotion_' + pdict.modalPopupID}">
+                <isif condition="${pdict.videoPlayIcon !== false}"><i class="fa fa-play-circle"></i></isif>
+                <img src="${pdict.videoPoster.src.mobile}" alt="${pdict.imgAlt}" class="img-fluid" />
+              </a>
+          </isif>
+
+          <div class="modal fade videoModalPopup" tabindex="-1" role="dialog" aria-labelledby="videoModalPopup"
+            aria-hidden="true" id="dailymotion_${pdict.modalPopupID}">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-body-pdplus">
+                  <div class="embed-responsive embed-responsive-${pdict.videoResolution}">
+                    <iframe <isif condition="${pdict.videoScale}"><isprint value="${pdict.videoScale}" encoding="off" /></isif> class="embed-responsive-item" data-src="//www.dailymotion.com/embed/video/${pdict.videoID}?title=${pdict.videoTitle}?autoplay=${pdict.videoAutoPlay}&muted=${pdict.videoMute}&loop=${pdict.videoLoop}" frameborder="0" scrolling="no" type="text/html"
+                      <isif condition="${pdict.videoFullScreen === "1"}">allowFullScreen</isif>
+                      <isif condition="${pdict.videoAutoPlay === "1"}">allow="autoplay"</isif>></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      <iselse/>
+
+        <iscomment>DailyMotion Without ModalPopup</iscomment>
+        <div class="embed-responsive embed-responsive-${pdict.videoResolution}">
+          <iframe <isif condition="${pdict.videoScale}"><isprint value="${pdict.videoScale}" encoding="off" /></isif> class="embed-responsive-item"
+            src="//www.dailymotion.com/embed/video/${pdict.videoID}?autoplay=${pdict.videoAutoPlay}&muted=${pdict.videoMute}&loop=${pdict.videoLoop}"
+            frameborder="0" scrolling="no"
+            <isif condition="${pdict.videoFullScreen === "1"}">allowFullScreen</isif>
+            <isif condition="${pdict.videoAutoPlay === "1"}">allow="autoplay"</isif>
+            ></iframe>
+        </div>
+
+      </isif> 
+
+
+  <iselseif condition="${pdict.videoSelect == 'html5VideoPlayer'}">
+
+      <isif condition="${pdict.videoModalPopup === true}">
+
+        <div class="video-modal-outer">
+
+          <isif condition="${pdict.videoPoster == null}">
+            <a data-src="${pdict.videoID}" href="${"#"}" data-toggle="modal" data-target="${'#html5_' + pdict.modalPopupID}">
+              <isif condition="${pdict.videoPlayIcon !== false}"><i class="fa fa-play-circle"></i></isif>
+              <img src="${URLUtils.staticURL('/images/nulled-image.jpg')}" alt="${Resource.msg('img.placeholder.text', 'pdplus_common', null)}" class="img-fluid" />
+            </a>
+            <iselse/>
+              <a data-src="${pdict.videoID}" href="${"#"}" data-toggle="modal" data-target="${'#html5_' + pdict.modalPopupID}">
+                <isif condition="${pdict.videoPlayIcon !== false}"><i class="fa fa-play-circle"></i></isif>
+                <img src="${pdict.videoPoster.src.mobile}" alt="${pdict.imgAlt}" class="img-fluid" />
+              </a>
+          </isif>
+
+          <div class="modal fade videoModalPopup" tabindex="-1" role="dialog" aria-labelledby="videoModalPopup"
+            aria-hidden="true" id="html5_${pdict.modalPopupID}">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-body-pdplus">
+                  <div class="embed-responsive embed-responsive-${pdict.videoResolution}">
+                    
+                    <video <isif condition="${pdict.videoScale}"><isprint value="${pdict.videoScale}" encoding="off" /></isif> class="html5-video-item embed-responsive-item" controls preload="true" 
+                      <isif condition="${pdict.videoLoop === "1"}">loop</isif>
+                      <isif condition="${pdict.videoMute === "1"}">muted</isif> 
+                      <isif condition="${pdict.videoAutoPlay === "1"}">autoplay</isif>>
+                      <source src="${pdict.videoID}" type="video/mp4">
+                      ${Resource.msg('html.video.not.supported', 'pdplus_common', null)}
+                    </video>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      <iselse/>
+
+        <iscomment>HTML5Video Player</iscomment>
+        <div class="embed-responsive embed-responsive-${pdict.videoResolution}" tabindex="-1">        
+          <video <isif condition="${pdict.videoScale}"><isprint value="${pdict.videoScale}" encoding="off" /></isif> class="html5-video-item embed-responsive-item" controls preload="true"
+            <isif condition="${pdict.videoLoop === "1"}">loop</isif>
+            <isif condition="${pdict.videoMute === "1"}">muted</isif> 
+            <isif condition="${pdict.videoAutoPlay === "1"}">autoplay</isif>>
+            <source src="${pdict.videoID}" type="video/mp4">
+            ${Resource.msg('html.video.not.supported', 'pdplus_common', null)}
+          </video>
+        </div>
+
+      </isif>
+  
+  <iselseif condition="${pdict.videoSelect == 'custom-url'}">
+
+      <div class="embed-responsive embed-responsive-${pdict.videoResolution}" tabindex="-1">
+        <iframe <isif condition="${pdict.videoScale}"><isprint value="${pdict.videoScale}" encoding="off" /></isif> class="embed-responsive-item" src="${pdict.videoID}&loop=${pdict.videoLoop}&muted=${pdict.videoMute}" frameborder="0" scrolling="no"
+          <isif condition="${pdict.videoFullScreen === "1"}">allowFullScreen</isif>
+          <isif condition="${pdict.videoAutoPlay === "1"}">allow="autoplay"</isif>></iframe>
+      </div>
+
+      <iselse/>
+        <p>${Resource.msg('player.not.found', 'pdplus_common', null)}</p>
+
+    </isif>
+
+  </div>
+</div>

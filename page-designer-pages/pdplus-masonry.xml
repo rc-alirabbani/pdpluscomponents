@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <content content-id="pdplus-masonry">
+        <display-name xml:lang="x-default">PD Plus Masonry</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplus-masonry-item" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplus-masonry-item">
+        <display-name xml:lang="x-default">Masonry</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusMasonry</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"heading":"The lookbook","image1":{"path":"images/homepage/homepage-3/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption1":"Tailoring","image2":{"path":"images/homepage/homepage-5/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption2":"Color","image3":{"path":"images/homepage/homepage-1/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption3":"Home","image4":{"path":"images/homepage/homepage-6/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption4":"Jewelry","image5":{"path":"images/homepage/homepage-2/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption5":"Campaign"}]]></data>
+    </content>
+</library>

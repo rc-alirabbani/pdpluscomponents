@@ -1,0 +1,16 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/pdPlusDemos.css');
+</isscript>
+<section class="pdx-gallery">
+    <div class="pdx-gallery-copy">
+        <h2>${pdict.heading}</h2>
+        <p>${pdict.intro}</p>
+    </div>
+    <div class="pdx-gallery-grid">
+        <img class="pdx-feature" src="${pdict.feature}" alt="${pdict.featureAlt}" />
+        <img src="${pdict.image2}" alt="" />
+        <img src="${pdict.image3}" alt="" />
+        <img src="${pdict.image4}" alt="" />
+    </div>
+</section>

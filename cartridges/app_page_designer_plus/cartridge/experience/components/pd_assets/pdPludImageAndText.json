@@ -1,0 +1,109 @@
+{
+  "name": "Tranding Image With Text",
+  "description": "This is a component combined image with text",
+  "group": "commerce_assets",
+  "attribute_definition_groups": [
+    {
+      "id": "ITCImage",
+      "attribute_definitions": [
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "image",
+          "required": true
+        },
+        {
+          "id": "alt",
+          "name": "Alt Text",
+          "description": "The image alt text shown by the component.",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "heading",
+          "name": "Text Overlay",
+          "type": "markup",
+          "required": false
+        },
+        {
+          "id": "ITCLink",
+          "name": "Image Link",
+          "type": "url",
+          "required": false
+        },
+        {
+          "id": "ITCText",
+          "name": "Text Below Image",
+          "type": "markup",
+          "required": false
+        },
+        {
+          "id": "tileTextColor",
+          "name": "Select the text color",
+          "description": "Hove Text Color",
+          "type": "custom",
+          "required": false,
+          "editor_definition": {
+              "type": "themer.colorpicker"
+          }
+      },
+      {
+        "id": "backgroundColor",
+        "name": "Specify Background Color",
+        "description": "Set Background Color",
+        "required": false,
+        "type": "custom",
+        "editor_definition": {
+            "type": "themer.colorpicker"
+        }
+    },
+    {
+        "id": "backgroundColorAlpha",
+        "name": "Specify Background Color Alpha between 0 and 1 i.e 0.2",
+        "description": "Set Background Color alpha between 0 and 1",
+        "type": "enum",
+        "default_value": 100,
+        "values": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90,
+            100
+        ],
+        "required": true
+    },
+    {
+      "id": "podHoverDirection",
+      "name": "Please select Hover effect direction",
+      "description": "Hover effect direction e.g (top/right/bottom/left)",
+      "type": "enum",
+      "values": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+      ],
+      "required": false
+    },
+    {
+      "id": "podTextDirection",
+      "name": "Please select text direction",
+      "description": "Text effect direction e.g (top/right/bottom/left)",
+      "type": "enum",
+      "values": [
+          "top",
+          "center",
+          "bottom"
+      ],
+      "required": false
+    }
+      ]
+    }
+  ],
+  "region_definitions": []
+}

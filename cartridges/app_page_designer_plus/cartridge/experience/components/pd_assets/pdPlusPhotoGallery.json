@@ -1,0 +1,23 @@
+{
+  "name": "PD Plus Photo Gallery",
+  "description": "A captioned photo gallery.",
+  "group": "pd_assets",
+  "attribute_definition_groups": [
+    {
+      "id": "photos",
+      "name": "Photos",
+      "attribute_definitions": [
+        { "id": "heading", "name": "Heading", "type": "string", "required": false },
+        { "id": "image1", "name": "Photo 1", "type": "image", "required": true },
+        { "id": "caption1", "name": "Caption 1", "type": "string", "required": false },
+        { "id": "image2", "name": "Photo 2", "type": "image", "required": true },
+        { "id": "caption2", "name": "Caption 2", "type": "string", "required": false },
+        { "id": "image3", "name": "Photo 3", "type": "image", "required": true },
+        { "id": "caption3", "name": "Caption 3", "type": "string", "required": false },
+        { "id": "image4", "name": "Photo 4", "type": "image", "required": true },
+        { "id": "caption4", "name": "Caption 4", "type": "string", "required": false }
+      ]
+    }
+  ],
+  "region_definitions": []
+}

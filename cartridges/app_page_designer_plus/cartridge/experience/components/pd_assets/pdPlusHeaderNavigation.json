@@ -1,0 +1,25 @@
+{
+  "name": "PD Plus Header Navigation",
+  "description": "A designed category navigation strip.",
+  "group": "pd_assets",
+  "attribute_definition_groups": [
+    {
+      "id": "nav",
+      "name": "Navigation",
+      "attribute_definitions": [
+        { "id": "heading", "name": "Heading", "type": "string", "required": false },
+        { "id": "label1", "name": "Link 1 label", "type": "string", "required": true },
+        { "id": "link1", "name": "Link 1", "type": "url", "required": false },
+        { "id": "label2", "name": "Link 2 label", "type": "string", "required": true },
+        { "id": "link2", "name": "Link 2", "type": "url", "required": false },
+        { "id": "label3", "name": "Link 3 label", "type": "string", "required": true },
+        { "id": "link3", "name": "Link 3", "type": "url", "required": false },
+        { "id": "label4", "name": "Link 4 label", "type": "string", "required": false },
+        { "id": "link4", "name": "Link 4", "type": "url", "required": false },
+        { "id": "label5", "name": "Link 5 label", "type": "string", "required": false },
+        { "id": "link5", "name": "Link 5", "type": "url", "required": false }
+      ]
+    }
+  ],
+  "region_definitions": []
+}

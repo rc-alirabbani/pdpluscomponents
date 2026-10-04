@@ -1,0 +1,25 @@
+{
+  "name": "PD Plus Masonry",
+  "description": "A masonry photo grid with captions.",
+  "group": "pd_assets",
+  "attribute_definition_groups": [
+    {
+      "id": "photos",
+      "name": "Photos",
+      "attribute_definitions": [
+        { "id": "heading", "name": "Heading", "type": "string", "required": false },
+        { "id": "image1", "name": "Image 1", "type": "image", "required": true },
+        { "id": "caption1", "name": "Caption 1", "type": "string", "required": false },
+        { "id": "image2", "name": "Image 2", "type": "image", "required": true },
+        { "id": "caption2", "name": "Caption 2", "type": "string", "required": false },
+        { "id": "image3", "name": "Image 3", "type": "image", "required": true },
+        { "id": "caption3", "name": "Caption 3", "type": "string", "required": false },
+        { "id": "image4", "name": "Image 4", "type": "image", "required": true },
+        { "id": "caption4", "name": "Caption 4", "type": "string", "required": false },
+        { "id": "image5", "name": "Image 5", "type": "image", "required": false },
+        { "id": "caption5", "name": "Caption 5", "type": "string", "required": false }
+      ]
+    }
+  ],
+  "region_definitions": []
+}

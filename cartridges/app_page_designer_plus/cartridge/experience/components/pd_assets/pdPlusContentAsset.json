@@ -1,0 +1,29 @@
+{
+    "name": "PD Plus Content Asset",
+    "description": "Display Content Asset Component",
+    "group": "pd_assets",
+    "attribute_definition_groups": [
+        {
+            "id": "contentassetattributes",
+            "name": "Content Asset Configurations",
+            "description": "This component will display content asset.",
+            "attribute_definitions": [
+                {
+                    "id": "contentassetID",
+                    "name": "Specify the content asset ID",
+                    "description": "Provide the content asset ID.",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "cssClassName",
+                    "name": "Specify the Class Name",
+                    "description": "Provide the Class Name on Content Asset Component.",
+                    "type": "string",
+                    "required": false
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

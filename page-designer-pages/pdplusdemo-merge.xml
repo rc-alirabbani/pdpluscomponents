@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+
+    <!-- ===== BEGIN footer content assets ===== -->
+    <content content-id="footer-locate-store">
+        <display-name xml:lang="x-default">Footer Store Locator</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class=&quot;footer-logo&quot;&gt;&lt;img alt=&quot;Royal Cyber&quot; src=&quot;images/logo.svg?$staticlink$&quot; style=&quot;height:40px;filter:brightness(0) invert(1);&quot;/&gt;&lt;/div&gt;&lt;h2 class=&quot;title&quot;&gt;Find a Store&lt;/h2&gt;&lt;div class=&quot;content&quot;&gt;&lt;p&gt;Use the store locator to find a location near you.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;$url('Stores-Find','showMap',true,'horizontalView',true,'isForm',true)$&quot; title=&quot;Store Locator&quot;&gt;Store Locator&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="root"/>
+        </folder-links>
+    </content>
+    <content content-id="footer-account">
+        <display-name xml:lang="x-default">Footer Account Links</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h2 class=&quot;title&quot;&gt;Account&lt;/h2&gt;&lt;ul class=&quot;menu-footer content&quot;&gt;&lt;li&gt;&lt;a href=&quot;$httpsURL('Account-Show')$&quot; title=&quot;My Account&quot;&gt;My Account&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;$httpsURL('Order-History')$&quot; title=&quot;Check Order&quot;&gt;Check Order&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;$httpsURL('Wishlist-Show')$&quot; title=&quot;Wishlist&quot;&gt;Wishlist&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="root"/>
+        </folder-links>
+    </content>
+    <content content-id="footer-support">
+        <display-name xml:lang="x-default">Footer Customer Service</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h2 class=&quot;title&quot;&gt;Customer Service&lt;/h2&gt;&lt;ul class=&quot;menu-footer content&quot;&gt;&lt;li&gt;&lt;a href=&quot;$url('Page-Show','cid','contact-us')$&quot; title=&quot;Contact Us&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;$url('Page-Show','cid','shipping')$&quot; title=&quot;Shipping&quot;&gt;Shipping&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;$url('Page-Show','cid','returns')$&quot; title=&quot;Returns&quot;&gt;Returns&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;$url('Home-Show')$&quot; title=&quot;Help&quot;&gt;Help&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="root"/>
+        </folder-links>
+    </content>
+    <content content-id="footer-about">
+        <display-name xml:lang="x-default">Footer About Links</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h2 class=&quot;title&quot;&gt;About&lt;/h2&gt;&lt;ul class=&quot;menu-footer content&quot;&gt;&lt;li&gt;&lt;a href=&quot;$url('Home-Show')$&quot; title=&quot;Home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;$url('Page-Show','cid','pdplusdemo')$&quot; title=&quot;Page Designer demo&quot;&gt;Page Designer demo&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;$url('Page-Show','cid','privacy-policy')$&quot; title=&quot;Privacy&quot;&gt;Privacy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;$url('Page-Show','cid','terms')$&quot; title=&quot;Terms&quot;&gt;Terms&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="root"/>
+        </folder-links>
+    </content>
+    <content content-id="footer-copy">
+        <display-name xml:lang="x-default">Footer Copyright</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class=&quot;copyright&quot;&gt;&amp;copy; 2026 Royal Cyber. All rights reserved.&lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="root"/>
+        </folder-links>
+    </content>
+    <!-- ===== END footer content assets ===== -->
+
+    <!-- ===== BEGIN pdplusdemo content block ===== -->
+    <content content-id="pdplus-demo-block">
+        <display-name xml:lang="x-default">PD Plus Demo Content Block</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class=&quot;pdplus-demo-block&quot;&gt;&lt;h2&gt;Content block&lt;/h2&gt;&lt;p&gt;This is the content asset &lt;strong&gt;pdplus-demo-block&lt;/strong&gt;, rendered by the Page Designer content asset component.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;$url('Home-Show')$&quot;&gt;Continue to the homepage&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="root"/>
+        </folder-links>
+    </content>
+    <!-- ===== END pdplusdemo content block ===== -->
+
+    <!-- ===== BEGIN page pdplusdemo components ===== -->
+    <!-- BEGIN pdplusdemo-image-banner | Image banner -->
+    <content content-id="pdplusdemo-image-banner">
+        <display-name xml:lang="x-default">Image banner</display-name>
+        <type>component.pd_assets.pdPlusImageBanner</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"imgFile":{"path":"/commercial/Advtages_of_Composites_Banner_1920x1080.jpg","focal_point":{"x":0.5,"y":0.5}},"imgAlt":"Page Designer Plus banner","aspectRation":"HD Images and Videos - 16:9","imgBannerDetail":"<h2>Page Designer Plus</h2><p>Every component on this page is ready to edit in Page Designer.</p>","imgBannerTextColor":{"value":"#ffffff"},"imgBannerCaptionBgColor":{"value":"#002a4a"},"imgBannerCaptionColorBgAlpha":80,"imageYPos":"center","imageXPos":"left","buttontext":"Explore the page","tileLink":"$url('Home-Show')$","btnsize":"medium"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-image-banner -->
+    <!-- BEGIN pdplusdemo-header-nav | Header navigation -->
+    <content content-id="pdplusdemo-header-nav">
+        <display-name xml:lang="x-default">Header navigation</display-name>
+        <type>component.pd_assets.pdPlusHeaderNavigation</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"heading":"Page Designer Plus components","label1":"Layouts","link1":"$url('Home-Show')$","label2":"Banners","link2":"$url('Home-Show')$","label3":"Galleries","link3":"$url('Home-Show')$","label4":"Content","link4":"$url('Home-Show')$","label5":"Video","link5":"$url('Home-Show')$"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-header-nav -->
+    <!-- BEGIN pdplusdemo-css-slide-1 | CSS slide 1 -->
+    <content content-id="pdplusdemo-css-slide-1">
+        <display-name xml:lang="x-default">CSS slide 1</display-name>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide1","imgFile":{"path":"/markets/Capabilities/5SBanner.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>Slide 1</h2><p>CSS slider item with a library banner.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Home-Show')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-css-slide-1 -->
+    <!-- BEGIN pdplusdemo-css-slide-2 | CSS slide 2 -->
+    <content content-id="pdplusdemo-css-slide-2">
+        <display-name xml:lang="x-default">CSS slide 2</display-name>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide2","imgFile":{"path":"/commercial/Medical_Banner_2_1920x1080.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>Slide 2</h2><p>CSS slider item with a library banner.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Home-Show')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-css-slide-2 -->
+    <!-- BEGIN pdplusdemo-css-slide-3 | CSS slide 3 -->
+    <content content-id="pdplusdemo-css-slide-3">
+        <display-name xml:lang="x-default">CSS slide 3</display-name>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide3","imgFile":{"path":"/markets/aerospacedefense/RadomesDesktop.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>Slide 3</h2><p>CSS slider item with a library banner.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Home-Show')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-css-slide-3 -->
+    <!-- BEGIN pdplusdemo-css-slider | CSS slider -->
+    <content content-id="pdplusdemo-css-slider">
+        <display-name xml:lang="x-default">CSS slider</display-name>
+        <type>component.pd_layouts.pdPluscssSliderLayout</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"slidercontols":"arrows & pagination","setPaddingTop":"24px","setPaddingBottom":"24px"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusdemo-css-slide-1" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-css-slide-2" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>1.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-css-slide-3" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>2.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-css-slider -->
+    <!-- BEGIN pdplusdemo-parallax | Parallax -->
+    <content content-id="pdplusdemo-parallax">
+        <display-name xml:lang="x-default">Parallax</display-name>
+        <type>component.pd_assets.pdPlusParallaxScrolling</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"ParallaxScrTextSection":"<h2>Parallax scrolling</h2><p>A full-width banner with headline and button.</p>","ParallaxScrbtn":"View the edit","ParallaxScrimg":{"path":"/commercial/Industrial_1920_1080.jpg","focal_point":{"x":0.5,"y":0.5}},"textAlignment":"left","textColor":{"value":"#ffffff"},"tileLink":"$url('Home-Show')$","parallaxSection":"Parallax","sectionHeight":"70vh","btnbgColor":{"value":"#ea580c"},"btntextColor":{"value":"#ffffff"},"btnBorderColor":{"value":"#ea580c"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-parallax -->
+    <!-- BEGIN pdplusdemo-flexible-row | Flexible row -->
+    <content content-id="pdplusdemo-flexible-row">
+        <display-name xml:lang="x-default">Flexible row</display-name>
+        <type>component.pd_assets.pdPlusFlexibleRow</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"image1":{"path":"/markets/Capabilities/CapabilitiesRow6Banner.jpg","focal_point":{"x":0.5,"y":0.5}},"title1":"Capabilities","text1":"Reusable tiles in a flexible row.","link1":"$url('Home-Show')$","image2":{"path":"/markets/Capabilities/ClosedMoldBanner.jpg","focal_point":{"x":0.5,"y":0.5}},"title2":"Markets","text2":"Each tile has its own image, title, and link.","link2":"$url('Home-Show')$","image3":{"path":"/markets/Capabilities/SupplyChainBanner.jpg","focal_point":{"x":0.5,"y":0.5}},"title3":"Industrial","text3":"Swap the copy in Page Designer.","link3":"$url('Home-Show')$"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-flexible-row -->
+    <!-- BEGIN pdplusdemo-text-image | Text with image -->
+    <content content-id="pdplusdemo-text-image">
+        <display-name xml:lang="x-default">Text with image</display-name>
+        <type>component.pd_assets.pdPlusTextWithImage</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"textXaxisAlignment":"text on left","textAlignmentVertical":"center","imgFile":{"path":"/commercial/Advtages_of_Composites_Banner_1920x1080.jpg","focal_point":{"x":0.5,"y":0.5}},"imgAlt":"Text with image","richText":"<h2>Text with image</h2><p>Headline and supporting copy sit beside a library photo.</p>","buttonText":"Learn more","tileLink":"$url('Home-Show')$","buttonBgColor":{"value":"#003963"},"buttonTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-text-image -->
+    <!-- BEGIN pdplusdemo-text-image-layout | Text image layout -->
+    <content content-id="pdplusdemo-text-image-layout">
+        <display-name xml:lang="x-default">Text image layout</display-name>
+        <type>component.pd_layouts.pdPlusTextImageLayout</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"backgroundColor":{"value":"#ffffff"},"backgroundColorAlpha":100,"setPaddingTop":"40px","setPaddingBottom":"40px"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusdemo-text-image" type="component.pd_layouts.pdPlusTextImageLayout.pdPlusTextWithImage">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-text-image-layout -->
+    <!-- BEGIN pdplusdemo-image-and-text | Image and text -->
+    <content content-id="pdplusdemo-image-and-text">
+        <display-name xml:lang="x-default">Image and text</display-name>
+        <type>component.commerce_assets.pdPludImageAndText</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"image":{"path":"/markets/Capabilities/5SBanner.jpg","focal_point":{"x":0.5,"y":0.5}},"alt":"Image and text","heading":"<h3>Image and text</h3>","ITCText":"<p>Trending image with text, placed in a two-column layout.</p>","ITCLink":"$url('Home-Show')$","backgroundColorAlpha":100,"tileTextColor":{"value":"#17171b"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-image-and-text -->
+    <!-- BEGIN pdplusdemo-editorial | Editorial rich text -->
+    <content content-id="pdplusdemo-editorial">
+        <display-name xml:lang="x-default">Editorial rich text</display-name>
+        <type>component.commerce_assets.pdPludEditorialRichText</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"richText":"<h2>Editorial rich text</h2><p>Use this block for a story, FAQ, or supporting copy next to an image.</p><p><a href=\"$url('Home-Show')$\">Back to home</a></p>"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-editorial -->
+    <!-- BEGIN pdplusdemo-grid-2 | Two column grid -->
+    <content content-id="pdplusdemo-grid-2">
+        <display-name xml:lang="x-default">Two column grid</display-name>
+        <type>component.pd_layouts.pdPlusGrid2r1c</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"paddingZero":false,"removeGutter":false,"backgroundColorAlpha":100,"setPaddingTop":"24px","setPaddingBottom":"24px"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusdemo-image-and-text" type="component.pd_layouts.pdPlusGrid2r1c.pdPlusColumn1">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-editorial" type="component.pd_layouts.pdPlusGrid2r1c.pdPlusColumn2">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-grid-2 -->
+    <!-- BEGIN pdplusdemo-hover-1 | Image hover 1 -->
+    <content content-id="pdplusdemo-hover-1">
+        <display-name xml:lang="x-default">Image hover 1</display-name>
+        <type>component.pd_assets.pdPlusImageHoverEffects</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"isHover":true,"imageHoverEffectType":"imghvr-fade","imgSrc":{"path":"/commercial/Medical_Banner_2_1920x1080.jpg","focal_point":{"x":0.5,"y":0.5}},"imgAlt":"Hover image 1","imgTitle":"Hover 1","imgParagraph":"<p>Hover the image to see the effect.</p>","imgObjectFit":"cover","tilesBgColor":"rgba(0,42,74,0.72)","tilesTextColor":"#ffffff","tilesLink":"$url('Home-Show')$"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-hover-1 -->
+    <!-- BEGIN pdplusdemo-hover-2 | Image hover 2 -->
+    <content content-id="pdplusdemo-hover-2">
+        <display-name xml:lang="x-default">Image hover 2</display-name>
+        <type>component.pd_assets.pdPlusImageHoverEffects</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"isHover":true,"imageHoverEffectType":"imghvr-push-up","imgSrc":{"path":"/markets/aerospacedefense/RadomesDesktop.jpg","focal_point":{"x":0.5,"y":0.5}},"imgAlt":"Hover image 2","imgTitle":"Hover 2","imgParagraph":"<p>Hover the image to see the effect.</p>","imgObjectFit":"cover","tilesBgColor":"rgba(0,42,74,0.72)","tilesTextColor":"#ffffff","tilesLink":"$url('Home-Show')$"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-hover-2 -->
+    <!-- BEGIN pdplusdemo-hover-3 | Image hover 3 -->
+    <content content-id="pdplusdemo-hover-3">
+        <display-name xml:lang="x-default">Image hover 3</display-name>
+        <type>component.pd_assets.pdPlusImageHoverEffects</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"isHover":true,"imageHoverEffectType":"imghvr-zoom-in","imgSrc":{"path":"/commercial/Industrial_1920_1080.jpg","focal_point":{"x":0.5,"y":0.5}},"imgAlt":"Hover image 3","imgTitle":"Hover 3","imgParagraph":"<p>Hover the image to see the effect.</p>","imgObjectFit":"cover","tilesBgColor":"rgba(0,42,74,0.72)","tilesTextColor":"#ffffff","tilesLink":"$url('Home-Show')$"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-hover-3 -->
+    <!-- BEGIN pdplusdemo-grid-3 | Three column grid -->
+    <content content-id="pdplusdemo-grid-3">
+        <display-name xml:lang="x-default">Three column grid</display-name>
+        <type>component.pd_layouts.pdPlusGrid3r1c</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"backgroundColorAlpha":100,"setPaddingTop":"24px","setPaddingBottom":"24px"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusdemo-hover-1" type="component.pd_layouts.pdPlusGrid3r1c.column1">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-hover-2" type="component.pd_layouts.pdPlusGrid3r1c.column2">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-hover-3" type="component.pd_layouts.pdPlusGrid3r1c.column3">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-grid-3 -->
+    <!-- BEGIN pdplusdemo-shop-interest | Shop by interest -->
+    <content content-id="pdplusdemo-shop-interest">
+        <display-name xml:lang="x-default">Shop by interest</display-name>
+        <type>component.pd_assets.pdPlusShopByInterest</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"heading":"Shop by interest","subheading":"Four entry points, each with an image and title.","image1":{"path":"/markets/Capabilities/CapabilitiesRow6Banner.jpg","focal_point":{"x":0.5,"y":0.5}},"title1":"Aerospace","link1":"$url('Home-Show')$","image2":{"path":"/markets/Capabilities/ClosedMoldBanner.jpg","focal_point":{"x":0.5,"y":0.5}},"title2":"Medical","link2":"$url('Home-Show')$","image3":{"path":"/markets/Capabilities/SupplyChainBanner.jpg","focal_point":{"x":0.5,"y":0.5}},"title3":"Industrial","link3":"$url('Home-Show')$","image4":{"path":"/commercial/Advtages_of_Composites_Banner_1920x1080.jpg","focal_point":{"x":0.5,"y":0.5}},"title4":"Capabilities","link4":"$url('Home-Show')$"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-shop-interest -->
+    <!-- BEGIN pdplusdemo-media-gallery | Media gallery -->
+    <content content-id="pdplusdemo-media-gallery">
+        <display-name xml:lang="x-default">Media gallery</display-name>
+        <type>component.pd_assets.pdPlusMediaGallery</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"heading":"Media gallery","intro":"A featured banner with three supporting photos.","feature":{"path":"/markets/Capabilities/5SBanner.jpg","focal_point":{"x":0.5,"y":0.5}},"featureAlt":"Featured banner","image2":{"path":"/commercial/Medical_Banner_2_1920x1080.jpg","focal_point":{"x":0.5,"y":0.5}},"image3":{"path":"/markets/aerospacedefense/RadomesDesktop.jpg","focal_point":{"x":0.5,"y":0.5}},"image4":{"path":"/commercial/Industrial_1920_1080.jpg","focal_point":{"x":0.5,"y":0.5}}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-media-gallery -->
+    <!-- BEGIN pdplusdemo-masonry | Masonry -->
+    <content content-id="pdplusdemo-masonry">
+        <display-name xml:lang="x-default">Masonry</display-name>
+        <type>component.pd_assets.pdPlusMasonry</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"heading":"Masonry","image1":{"path":"/markets/Capabilities/CapabilitiesRow6Banner.jpg","focal_point":{"x":0.5,"y":0.5}},"caption1":"Capabilities","image2":{"path":"/markets/Capabilities/ClosedMoldBanner.jpg","focal_point":{"x":0.5,"y":0.5}},"caption2":"Quality","image3":{"path":"/markets/Capabilities/SupplyChainBanner.jpg","focal_point":{"x":0.5,"y":0.5}},"caption3":"Tooling","image4":{"path":"/commercial/Advtages_of_Composites_Banner_1920x1080.jpg","focal_point":{"x":0.5,"y":0.5}},"caption4":"Markets","image5":{"path":"/markets/Capabilities/5SBanner.jpg","focal_point":{"x":0.5,"y":0.5}},"caption5":"Industrial"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-masonry -->
+    <!-- BEGIN pdplusdemo-photo-gallery | Photo gallery -->
+    <content content-id="pdplusdemo-photo-gallery">
+        <display-name xml:lang="x-default">Photo gallery</display-name>
+        <type>component.pd_assets.pdPlusPhotoGallery</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"heading":"Photo gallery","image1":{"path":"/commercial/Medical_Banner_2_1920x1080.jpg","focal_point":{"x":0.5,"y":0.5}},"caption1":"Banner one","image2":{"path":"/markets/aerospacedefense/RadomesDesktop.jpg","focal_point":{"x":0.5,"y":0.5}},"caption2":"Banner two","image3":{"path":"/commercial/Industrial_1920_1080.jpg","focal_point":{"x":0.5,"y":0.5}},"caption3":"Banner three","image4":{"path":"/markets/Capabilities/CapabilitiesRow6Banner.jpg","focal_point":{"x":0.5,"y":0.5}},"caption4":"Banner four"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-photo-gallery -->
+    <!-- BEGIN pdplusdemo-two-column-box | Two column boxes -->
+    <content content-id="pdplusdemo-two-column-box">
+        <display-name xml:lang="x-default">Two column boxes</display-name>
+        <type>component.pd_assets.pdPlusTwoColumnBox</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"image1":{"path":"/markets/Capabilities/ClosedMoldBanner.jpg","focal_point":{"x":0.5,"y":0.5}},"title1":"Engineering","text1":"<p>Sample copy for the first content box.</p>","button1":"Learn more","link1":"$url('Home-Show')$","image2":{"path":"/markets/Capabilities/SupplyChainBanner.jpg","focal_point":{"x":0.5,"y":0.5}},"title2":"Production","text2":"<p>Sample copy for the second content box.</p>","button2":"View details","link2":"$url('Home-Show')$"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-two-column-box -->
+    <!-- BEGIN pdplusdemo-tab-1 | Capabilities -->
+    <content content-id="pdplusdemo-tab-1">
+        <display-name xml:lang="x-default">Capabilities</display-name>
+        <type>component.pd_assets.pdPlusTabs</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"tabTitle":"Capabilities","tabDescription":"<p>Capabilities tab content. Replace this copy in Page Designer.</p>","tabTextColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-tab-1 -->
+    <!-- BEGIN pdplusdemo-tab-2 | Markets -->
+    <content content-id="pdplusdemo-tab-2">
+        <display-name xml:lang="x-default">Markets</display-name>
+        <type>component.pd_assets.pdPlusTabs</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"tabTitle":"Markets","tabDescription":"<p>Markets tab content. Replace this copy in Page Designer.</p>","tabTextColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-tab-2 -->
+    <!-- BEGIN pdplusdemo-tab-3 | Quality -->
+    <content content-id="pdplusdemo-tab-3">
+        <display-name xml:lang="x-default">Quality</display-name>
+        <type>component.pd_assets.pdPlusTabs</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"tabTitle":"Quality","tabDescription":"<p>Quality tab content. Replace this copy in Page Designer.</p>","tabTextColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-tab-3 -->
+    <!-- BEGIN pdplusdemo-tabs | Tabs -->
+    <content content-id="pdplusdemo-tabs">
+        <display-name xml:lang="x-default">Tabs</display-name>
+        <type>component.pd_layouts.pdPlusTabsLayout</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"layoutTabs":"horizontal","backgroundColor":{"value":"#ffffff"},"backgroundColorAlpha":100,"setPaddingTop":"24px","setPaddingBottom":"24px"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusdemo-tab-1" type="component.pd_layouts.pdPlusTabsLayout.pdPlusTabsLayout">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-tab-2" type="component.pd_layouts.pdPlusTabsLayout.pdPlusTabsLayout">
+                <position>1.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-tab-3" type="component.pd_layouts.pdPlusTabsLayout.pdPlusTabsLayout">
+                <position>2.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-tabs -->
+    <!-- BEGIN pdplusdemo-accordion-1 | Materials -->
+    <content content-id="pdplusdemo-accordion-1">
+        <display-name xml:lang="x-default">Materials</display-name>
+        <type>component.pd_assets.pdPlusAccordion</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"accodionItem":"Materials","accordionDetail":"<p>Composite and metal tooling options for repeat production.</p>","itemHeadingbgColor":{"value":"#003963"},"itemdetailColor":{"value":"#17171b"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-accordion-1 -->
+    <!-- BEGIN pdplusdemo-accordion-2 | Support -->
+    <content content-id="pdplusdemo-accordion-2">
+        <display-name xml:lang="x-default">Support</display-name>
+        <type>component.pd_assets.pdPlusAccordion</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"accodionItem":"Support","accordionDetail":"<p>Talk with the team about a prototype or a production run.</p>","itemHeadingbgColor":{"value":"#003963"},"itemdetailColor":{"value":"#17171b"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-accordion-2 -->
+    <!-- BEGIN pdplusdemo-accordion | Collapsible -->
+    <content content-id="pdplusdemo-accordion">
+        <display-name xml:lang="x-default">Collapsible</display-name>
+        <type>component.pd_layouts.pdPlusAccordionLayout</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"backgroundColor":{"value":"#ffffff"},"backgroundColorAlpha":100,"setPaddingTop":"24px","setPaddingBottom":"24px"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusdemo-accordion-1" type="component.pd_layouts.pdPlusAccordionLayout.accordionlayout">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-accordion-2" type="component.pd_layouts.pdPlusAccordionLayout.accordionlayout">
+                <position>1.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-accordion -->
+    <!-- BEGIN pdplusdemo-carousel-slide-1 | Carousel slide 1 -->
+    <content content-id="pdplusdemo-carousel-slide-1">
+        <display-name xml:lang="x-default">Carousel slide 1</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<h3>Carousel slide 1</h3><p>This slide sits in the Page Designer carousel.</p>","bgColor":{"value":"#f5f5f5"},"txtColor":{"value":"#17171b"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-carousel-slide-1 -->
+    <!-- BEGIN pdplusdemo-carousel-slide-2 | Carousel slide 2 -->
+    <content content-id="pdplusdemo-carousel-slide-2">
+        <display-name xml:lang="x-default">Carousel slide 2</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<h3>Carousel slide 2</h3><p>This slide sits in the Page Designer carousel.</p>","bgColor":{"value":"#fff7ed"},"txtColor":{"value":"#17171b"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-carousel-slide-2 -->
+    <!-- BEGIN pdplusdemo-carousel | Carousel -->
+    <content content-id="pdplusdemo-carousel">
+        <display-name xml:lang="x-default">Carousel</display-name>
+        <type>component.pd_layouts.pdPlusCarousel</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"xsCarouselIndicators":true,"xsCarouselControls":true,"xsCarouselSlidesToDisplay":1,"smCarouselIndicators":true,"smCarouselControls":true,"smCarouselSlidesToDisplay":1,"mdCarouselIndicators":true,"mdCarouselSlidesToDisplay":1}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusdemo-carousel-slide-1" type="component.pd_layouts.pdPlusCarousel.slides">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-carousel-slide-2" type="component.pd_layouts.pdPlusCarousel.slides">
+                <position>1.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-carousel -->
+    <!-- BEGIN pdplusdemo-promo-1 | Promo 1 -->
+    <content content-id="pdplusdemo-promo-1">
+        <display-name xml:lang="x-default">Promo 1</display-name>
+        <type>component.pd_assets.pdPlusCampaignItem</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"promoTextItem":"<p>Free shipping on qualifying orders</p>","isHideCloseBtn":false}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-promo-1 -->
+    <!-- BEGIN pdplusdemo-promo-2 | Promo 2 -->
+    <content content-id="pdplusdemo-promo-2">
+        <display-name xml:lang="x-default">Promo 2</display-name>
+        <type>component.pd_assets.pdPlusCampaignItem</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"promoTextItem":"<p>New components are live on this demo</p>","isHideCloseBtn":false}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-promo-2 -->
+    <!-- BEGIN pdplusdemo-promo | Promo carousel -->
+    <content content-id="pdplusdemo-promo">
+        <display-name xml:lang="x-default">Promo carousel</display-name>
+        <type>component.pd_layouts.pdPlusCampaignPromo</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"xsCarouselSlidesToDisplay":1,"smCarouselSlidesToDisplay":1,"mdCarouselSlidesToDisplay":1,"isContainer":false,"isHideCarouselArrow":false,"backgroundColor":{"value":"#003963"},"backgroundColorAlpha":100,"promoTextColor":{"value":"#ffffff"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusdemo-promo-1" type="component.pd_layouts.pdPlusCampaignPromo.slides">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-promo-2" type="component.pd_layouts.pdPlusCampaignPromo.slides">
+                <position>1.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-promo -->
+    <!-- BEGIN pdplusdemo-content-asset | Content asset block -->
+    <content content-id="pdplusdemo-content-asset">
+        <display-name xml:lang="x-default">Content asset block</display-name>
+        <type>component.pd_assets.pdPlusContentAsset</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"contentassetID":"pdplus-demo-block","cssClassName":"pdplus-demo-block"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-content-asset -->
+    <!-- BEGIN pdplusdemo-grid-1 | One column grid -->
+    <content content-id="pdplusdemo-grid-1">
+        <display-name xml:lang="x-default">One column grid</display-name>
+        <type>component.pd_layouts.pdPlusGrid1r1c</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"backgroundColor":{"value":"#f5f5f5"},"backgroundColorAlpha":100,"setPaddingTop":"24px","setPaddingBottom":"24px"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusdemo-content-asset" type="component.pd_layouts.pdPlusGrid1r1c.column1">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-grid-1 -->
+    <!-- BEGIN pdplusdemo-col4-1 | Four column cell 1 -->
+    <content content-id="pdplusdemo-col4-1">
+        <display-name xml:lang="x-default">Four column cell 1</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<h3>Column 1</h3><p>Four-column layout cell.</p>","txtColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-col4-1 -->
+    <!-- BEGIN pdplusdemo-col4-2 | Four column cell 2 -->
+    <content content-id="pdplusdemo-col4-2">
+        <display-name xml:lang="x-default">Four column cell 2</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<h3>Column 2</h3><p>Four-column layout cell.</p>","txtColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-col4-2 -->
+    <!-- BEGIN pdplusdemo-col4-3 | Four column cell 3 -->
+    <content content-id="pdplusdemo-col4-3">
+        <display-name xml:lang="x-default">Four column cell 3</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<h3>Column 3</h3><p>Four-column layout cell.</p>","txtColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-col4-3 -->
+    <!-- BEGIN pdplusdemo-col4-4 | Four column cell 4 -->
+    <content content-id="pdplusdemo-col4-4">
+        <display-name xml:lang="x-default">Four column cell 4</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<h3>Column 4</h3><p>Four-column layout cell.</p>","txtColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-col4-4 -->
+    <!-- BEGIN pdplusdemo-grid-4 | Four column grid -->
+    <content content-id="pdplusdemo-grid-4">
+        <display-name xml:lang="x-default">Four column grid</display-name>
+        <type>component.pd_layouts.pdPlusGrid1r4c</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"backgroundColorAlpha":100}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusdemo-col4-1" type="component.pd_layouts.pdPlusGrid1r4c.col1">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-col4-2" type="component.pd_layouts.pdPlusGrid1r4c.col2">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-col4-3" type="component.pd_layouts.pdPlusGrid1r4c.col3">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-col4-4" type="component.pd_layouts.pdPlusGrid1r4c.col4">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-grid-4 -->
+    <!-- BEGIN pdplusdemo-quad-1 | Quad cell 1 -->
+    <content content-id="pdplusdemo-quad-1">
+        <display-name xml:lang="x-default">Quad cell 1</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<h3>Block 1</h3><p>Two-by-two layout cell.</p>","txtColor":{"value":"#17171b"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-quad-1 -->
+    <!-- BEGIN pdplusdemo-quad-2 | Quad cell 2 -->
+    <content content-id="pdplusdemo-quad-2">
+        <display-name xml:lang="x-default">Quad cell 2</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<h3>Block 2</h3><p>Two-by-two layout cell.</p>","txtColor":{"value":"#17171b"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-quad-2 -->
+    <!-- BEGIN pdplusdemo-quad-3 | Quad cell 3 -->
+    <content content-id="pdplusdemo-quad-3">
+        <display-name xml:lang="x-default">Quad cell 3</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<h3>Block 3</h3><p>Two-by-two layout cell.</p>","txtColor":{"value":"#17171b"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-quad-3 -->
+    <!-- BEGIN pdplusdemo-quad-4 | Quad cell 4 -->
+    <content content-id="pdplusdemo-quad-4">
+        <display-name xml:lang="x-default">Quad cell 4</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<h3>Block 4</h3><p>Two-by-two layout cell.</p>","txtColor":{"value":"#17171b"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-quad-4 -->
+    <!-- BEGIN pdplusdemo-grid-2x2 | Two by two grid -->
+    <content content-id="pdplusdemo-grid-2x2">
+        <display-name xml:lang="x-default">Two by two grid</display-name>
+        <type>component.pd_layouts.pdPlusGrid2r2c</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"backgroundColorAlpha":100}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusdemo-quad-1" type="component.pd_layouts.pdPlusGrid2r2c.column1">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-quad-2" type="component.pd_layouts.pdPlusGrid2r2c.column2">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-quad-3" type="component.pd_layouts.pdPlusGrid2r2c.column3">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-quad-4" type="component.pd_layouts.pdPlusGrid2r2c.column4">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-grid-2x2 -->
+    <!-- BEGIN pdplusdemo-mobile-1 | Mobile grid cell 1 -->
+    <content content-id="pdplusdemo-mobile-1">
+        <display-name xml:lang="x-default">Mobile grid cell 1</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<p><strong>Cell 1</strong></p>","txtColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-mobile-1 -->
+    <!-- BEGIN pdplusdemo-mobile-2 | Mobile grid cell 2 -->
+    <content content-id="pdplusdemo-mobile-2">
+        <display-name xml:lang="x-default">Mobile grid cell 2</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<p><strong>Cell 2</strong></p>","txtColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-mobile-2 -->
+    <!-- BEGIN pdplusdemo-mobile-3 | Mobile grid cell 3 -->
+    <content content-id="pdplusdemo-mobile-3">
+        <display-name xml:lang="x-default">Mobile grid cell 3</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<p><strong>Cell 3</strong></p>","txtColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-mobile-3 -->
+    <!-- BEGIN pdplusdemo-mobile-4 | Mobile grid cell 4 -->
+    <content content-id="pdplusdemo-mobile-4">
+        <display-name xml:lang="x-default">Mobile grid cell 4</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<p><strong>Cell 4</strong></p>","txtColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-mobile-4 -->
+    <!-- BEGIN pdplusdemo-mobile-5 | Mobile grid cell 5 -->
+    <content content-id="pdplusdemo-mobile-5">
+        <display-name xml:lang="x-default">Mobile grid cell 5</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<p><strong>Cell 5</strong></p>","txtColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-mobile-5 -->
+    <!-- BEGIN pdplusdemo-mobile-6 | Mobile grid cell 6 -->
+    <content content-id="pdplusdemo-mobile-6">
+        <display-name xml:lang="x-default">Mobile grid cell 6</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<p><strong>Cell 6</strong></p>","txtColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-mobile-6 -->
+    <!-- BEGIN pdplusdemo-mobile-grid | Mobile grid -->
+    <content content-id="pdplusdemo-mobile-grid">
+        <display-name xml:lang="x-default">Mobile grid</display-name>
+        <type>component.pd_layouts.pdPlusMobileGrid3r2c</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusdemo-mobile-1" type="component.pd_layouts.pdPlusMobileGrid3r2c.column1">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-mobile-2" type="component.pd_layouts.pdPlusMobileGrid3r2c.column2">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-mobile-3" type="component.pd_layouts.pdPlusMobileGrid3r2c.column3">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-mobile-4" type="component.pd_layouts.pdPlusMobileGrid3r2c.column4">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-mobile-5" type="component.pd_layouts.pdPlusMobileGrid3r2c.column5">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-mobile-6" type="component.pd_layouts.pdPlusMobileGrid3r2c.column6">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-mobile-grid -->
+    <!-- BEGIN pdplusdemo-video | Video -->
+    <content content-id="pdplusdemo-video">
+        <display-name xml:lang="x-default">Video</display-name>
+        <type>component.pd_assets.pdPlusVideoComponent</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"videoSelect":"youtube","videoID":"aqz-KE-bpKQ","videoAutoPlay":false,"videoMute":true,"videoLoop":false,"videoFullScreen":true}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-video -->
+    <!-- BEGIN pdplusdemo-smart-slider | Smart slider -->
+    <content content-id="pdplusdemo-smart-slider">
+        <display-name xml:lang="x-default">Smart slider</display-name>
+        <type>component.pd_assets.pdPlusSmartSlider</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"videoSelect":"youtube","videoID":"aqz-KE-bpKQ","vidContentAsset":"pdplus-demo-block"}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-smart-slider -->
+    <!-- BEGIN pdplusdemo-intro | Page Designer Plus demo -->
+    <content content-id="pdplusdemo-intro">
+        <display-name xml:lang="x-default">Page Designer Plus demo</display-name>
+        <type>component.pd_assets.pdPlusHtmlMarkup</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <data xml:lang="x-default"><![CDATA[{"placeHTML":"<h2>Page Designer Plus demo</h2>","bgColor":{"value":"#ffffff"},"txtColor":{"value":"#003963"}}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo-intro -->
+    <!-- BEGIN pdplusdemo | PD Plus Demo -->
+    <content content-id="pdplusdemo">
+        <display-name xml:lang="x-default">PD Plus Demo</display-name>
+        <type>page.pdPlusStorePage</type>
+        <config>{
+  "visibility" : [ ]
+}</config>
+        <visibility-mode xml:lang="x-default">visible</visibility-mode>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusdemo-image-banner" type="page.pdPlusStorePage.headerbanner">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-intro" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-header-nav" type="page.pdPlusStorePage.main">
+                <position>1.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-css-slider" type="page.pdPlusStorePage.main">
+                <position>2.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-parallax" type="page.pdPlusStorePage.main">
+                <position>3.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-flexible-row" type="page.pdPlusStorePage.main">
+                <position>4.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-text-image-layout" type="page.pdPlusStorePage.main">
+                <position>5.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-grid-2" type="page.pdPlusStorePage.main">
+                <position>6.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-grid-3" type="page.pdPlusStorePage.main">
+                <position>7.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-shop-interest" type="page.pdPlusStorePage.main">
+                <position>8.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-media-gallery" type="page.pdPlusStorePage.main">
+                <position>9.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-masonry" type="page.pdPlusStorePage.main">
+                <position>10.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-photo-gallery" type="page.pdPlusStorePage.main">
+                <position>11.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-two-column-box" type="page.pdPlusStorePage.main">
+                <position>12.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-tabs" type="page.pdPlusStorePage.main">
+                <position>13.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-accordion" type="page.pdPlusStorePage.main">
+                <position>14.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-carousel" type="page.pdPlusStorePage.main">
+                <position>15.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-promo" type="page.pdPlusStorePage.main">
+                <position>16.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-grid-1" type="page.pdPlusStorePage.main">
+                <position>17.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-grid-4" type="page.pdPlusStorePage.main">
+                <position>18.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-grid-2x2" type="page.pdPlusStorePage.main">
+                <position>19.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-mobile-grid" type="page.pdPlusStorePage.main">
+                <position>20.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-video" type="page.pdPlusStorePage.main">
+                <position>21.0</position>
+            </content-link>
+            <content-link content-id="pdplusdemo-smart-slider" type="page.pdPlusStorePage.main">
+                <position>22.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+    </content>
+    <!-- END pdplusdemo -->
+    <!-- ===== END page pdplusdemo components ===== -->
+
+</library>

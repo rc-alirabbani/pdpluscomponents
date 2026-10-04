@@ -1,0 +1,192 @@
+.topbar-refinements {
+    .experience-pd_assets-pdPlusImageHoverEffects { border: 0.625rem solid $white; }
+}
+
+.experience-pd_assets-pdPlusImageHoverEffects { height: 100%; }
+
+.object-fit {
+    &-fill { object-fit: fill; }
+
+    &-contain { object-fit: contain; }
+
+    &-cover { object-fit: cover; }
+
+    &-scale-down { object-fit: scale-down; }
+
+    &-none { object-fit: none; }
+}
+
+[class^="imghvr-"],
+[class*=" imghvr-"] {
+    @include size(100%);
+
+    transform: translateZ(0);
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+    background-color: transparent;
+    color: $white;
+    overflow: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+
+    .img-outer {
+        height: 100%;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    figcaption { @include fill(0); }
+
+    .img-title {
+        h3 {
+            font-size: 1.125rem;
+            line-height: 1.625;
+            font-weight: 700;
+            margin: 0 0 0.25rem;
+        }
+    }
+
+    .img-content p { font-size: 0.9375rem; }
+}
+
+.tiles-links {
+    margin-top: 0.9375rem;
+
+    a { font-size: 0.875rem; }
+}
+
+.gallery-tiles {
+    margin-bottom: 0;
+    height: calc(100% - 1rem);
+    display: flex;
+    flex-wrap: wrap;
+
+    .img-outer img {
+        @include size(100%);
+
+        vertical-align: top;
+        max-width: 100%;
+    }
+
+    .image-details {
+        padding: 0.9375rem;
+        width: 100%;
+
+        .img-title h3 {
+            font-size: 1.125rem;
+            line-height: 1.625;
+            font-weight: 700;
+            margin: 0 0 0.25rem;
+        }
+
+        .img-content p {
+            font-size: 0.9375rem;
+
+            &:only-child { margin-bottom: 0; }
+        }
+    }
+}
+
+.image-details {
+    display: flex;
+    margin: 0;
+
+    &.flex-row,
+    &.flex-row-reverse {
+        .img-title,
+        .img-content {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        &.justify-content-start {
+            .img-title h3,
+            .img-content p { text-align: left; }
+        }
+
+        &.justify-content-center {
+            .img-title h3,
+            .img-content p { text-align: center; }
+        }
+
+        &.justify-content-end {
+            .img-title h3,
+            .img-content p { text-align: right; }
+        }
+    }
+
+    &.flex-column.align-items-start,
+    &.flex-column.align-items-stretch {
+        .img-title h3,
+        .img-content p { text-align: left; }
+    }
+
+    &.flex-column.align-items-center {
+        .img-title h3,
+        .img-content p { text-align: center; }
+    }
+
+    &.flex-column.align-items-end {
+        .img-title h3,
+        .img-content p { text-align: right; }
+    }
+}
+
+[class^="imghvr-"],
+[class*=" imghvr-"],
+[class^="imghvr-"]::before,
+[class^="imghvr-"]::after,
+[class*=" imghvr-"]::before,
+[class*=" imghvr-"]::after,
+[class^="imghvr-"] *,
+[class*=" imghvr-"] *,
+[class^="imghvr-"] *::before,
+[class^="imghvr-"] *::after,
+[class*=" imghvr-"] *::before,
+[class*=" imghvr-"] *::after {
+    box-sizing: border-box;
+    transition: all 0.35s ease;
+}
+
+.experience-pd_assets-pdPlusImageHoverEffects figure[class*="imghvr-"] {
+    figcaption.image-details {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        padding: 1.5rem;
+    }
+
+    .img-caption-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 0.35rem;
+        width: auto;
+        max-width: 100%;
+        flex: 0 1 auto;
+    }
+
+    .img-caption-inner .img-title,
+    .img-caption-inner .img-content,
+    .img-caption-inner .tiles-links {
+        flex: 0 0 auto;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .img-caption-inner .img-title h3,
+    .img-caption-inner .img-content p {
+        margin: 0;
+    }
+
+    .img-caption-inner .tiles-links {
+        margin-top: 0.65rem;
+    }
+}

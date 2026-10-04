@@ -1,0 +1,150 @@
+{
+    "name": "PD Plus Promo Carousel",
+    "group": "pd_layouts",
+    "attribute_definition_groups": [
+        {
+            "id": "extraSmallConfiguration",
+            "name": "Phone configurations",
+            "description": "Configuration for how the carousel will display on phones. Please put like sized items in the carousel",
+            "attribute_definitions": [
+                {
+                    "id": "xsCarouselSlidesToDisplay",
+                    "name": "Number of slides to display on phones",
+                    "type": "enum",
+                    "values": [
+                        1
+                    ],
+                    "required": true,
+                    "default_value": 1
+                }
+            ]
+        },
+        {
+            "id": "smallConfiguration",
+            "name": "Tablet configurations",
+            "description": "Configuration for how the carousel will display on tablets. Please put like sized items in the carousel",
+            "attribute_definitions": [
+                {
+                    "id": "smCarouselSlidesToDisplay",
+                    "name": "Number of slides to display on tablets",
+                    "type": "enum",
+                    "values": [
+                        1
+                    ],
+                    "required": true,
+                    "default_value": 1
+                }
+            ]
+        },
+        {
+            "id": "mediumConfiguration",
+            "name": "Desktop configurations",
+            "description": "Configuration for how the carousel will display on desktop. Please put like sized items in the carousel",
+            "attribute_definitions": [
+                {
+                    "id": "mdCarouselSlidesToDisplay",
+                    "name": "Number of slides to display on desktop",
+                    "type": "enum",
+                    "values": [
+                        1
+                    ],
+                    "required": true,
+                    "default_value": 1
+                }
+            ]
+        },
+        {
+            "id": "slideWrapperConfig",
+            "name": "Slider wrapper configurations",
+            "description": "Configuration for how the carousel will display. Please put like styles for items in the carousel",
+            "attribute_definitions": [
+                {
+                    "id": "isContainer",
+                    "name": "Layout Fluid",
+                    "description": "Set layout fluid or at center",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "isHideCarouselArrow",
+                    "name": "Click on checkbox to hide the carousel arrows",
+                    "description": "Checked and hide the carousel nav",
+                    "type": "boolean",
+                    "default_value": false,
+                    "required": false
+                },
+                {
+                    "id": "backgroundColor",
+                    "name": "Specify Promo banner background Color",
+                    "description": "Set Background Color",
+                    "required": false,
+                    "type": "custom",
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "backgroundColorAlpha",
+                    "name": "Specify Background Color Alpha between 0 and 1 i.e 0.2",
+                    "description": "Set Background Color alpha between 0 and 1",
+                    "type": "enum",
+                    "default_value": 100,
+                    "values": [
+                        10,
+                        20,
+                        30,
+                        40,
+                        50,
+                        60,
+                        70,
+                        80,
+                        90,
+                        100
+                    ],
+                    "required": false
+                },
+                {
+                    "id": "promoTextColor",
+                    "name": "Specify Promo banner text color",
+                    "description": "Set Promo text color",
+                    "required": false,
+                    "type": "custom",
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "promoBorderColor",
+                    "name": "Specify promo border bottom color",
+                    "description": "Set promo border bottom color",
+                    "required": false,
+                    "type": "custom",
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                }
+            ]
+        }
+    ],
+    "region_definitions": [
+        {
+            "id": "slides",
+            "name": "PD Plus Slide Items",
+            "component_type_exclusions": [
+                { "type_id": "commerce_layouts.pdPlusCampaignPromo" },
+                { "type_id": "commerce_layouts.carousel" },
+                { "type_id": "commerce_layouts.mobileGrid1r1c" },
+                { "type_id": "commerce_layouts.mobileGrid2r1c" },
+                { "type_id": "commerce_layouts.mobileGrid2r2c" },
+                { "type_id": "commerce_layouts.mobileGrid2r3c" },
+                { "type_id": "commerce_layouts.mobileGrid3r1c" },
+                { "type_id": "commerce_layouts.mobileGrid3r2c" },
+                { "type_id": "commerce_layouts.popularCategories" },
+                { "type_id": "einstein.einsteinCarousel" },
+                { "type_id": "einstein.einsteinCarouselCategory" },
+                { "type_id": "einstein.einsteinCarouselProduct" },
+                { "type_id": "commerce_layouts.mobileGridLookBook" }
+              ]
+        }
+    ]
+}

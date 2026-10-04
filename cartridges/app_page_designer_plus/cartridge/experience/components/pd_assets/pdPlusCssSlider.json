@@ -1,0 +1,122 @@
+{
+    "name": "PD Plus CSS Slider",
+    "description": "Display Slider Content",
+    "group": "pd_assets",
+    "attribute_definition_groups": [
+        {
+            "id": "cssSliderComponent",
+            "name": "CSS Slider Configurations",
+            "description": "This component will display Css Slider.",
+            "attribute_definitions": [
+                {
+                    "id": "cssSliderNo",
+                    "name": "CSS Slider No.(i.e. 1,2,3..) Don't Duplicate",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "imgFile",
+                    "name": "Slide Image",
+                    "description": "Select a photo to be displayed",
+                    "type": "image",
+                    "required": true
+                },
+                {
+                    "id": "imageYPos",
+                    "name": "Position of Card along y-axis",
+                    "description": "Position of Card along vertical direction",
+                    "type": "enum",
+                    "values": [
+                        "top",
+                        "center",
+                        "bottom"
+                    ],
+                    "default_value": "center",
+                    "required": true
+                },
+                {
+                    "id": "imageXPos",
+                    "name": "Position of Card along x-axis",
+                    "description": "Position of Card along horizontal direction",
+                    "type": "enum",
+                    "values": [
+                        "right",
+                        "center",
+                        "left"
+                    ],
+                    "default_value": "center",
+                    "required": true
+                },
+                {
+                    "id": "slideContent",
+                    "name": "Spacify slider content in editor",
+                    "description": "Spacify slider content",
+                    "type": "markup",
+                    "required": false
+                },
+                {
+                    "id": "sliderTextColor",
+                    "name": "Specify slide text color",
+                    "description": "Set slide caption text color",
+                    "required": false,
+                    "type": "custom",
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "buttontext",
+                    "name": "Anchor Button Text",
+                    "description": "Anchor Button Text for card",
+                    "type": "string",
+                    "required": false
+                },
+                {
+                    "id": "tileLink",
+                    "name": "Link on Anchor Button",
+                    "description": "Provide the Link URL of Anchor Button.",
+                    "type": "url",
+                    "required": false
+                },
+                {
+                    "id": "tileNewtab",
+                    "name": "New Tab",
+                    "description": "Open Link in New Tab",
+                    "type": "boolean",
+                    "required": false
+                },
+                {
+                    "id": "btnBgColor",
+                    "name": "Button background color",
+                    "description": "Set the background color of button.",
+                    "type": "custom",
+                    "required": false,
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "btnTextColor",
+                    "name": "Button Text color",
+                    "description": "Set the button color",
+                    "type": "custom",
+                    "required": false,
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                },
+                {
+                    "id": "buttonBorderColor",
+                    "name": "Button border color",
+                    "description": "Set the background color of banner.",
+                    "type": "custom",
+                    "required": false,
+                    "editor_definition": {
+                        "type": "themer.colorpicker"
+                    }
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}

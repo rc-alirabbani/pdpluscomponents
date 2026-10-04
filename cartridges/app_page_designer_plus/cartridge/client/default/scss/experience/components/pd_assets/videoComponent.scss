@@ -1,0 +1,65 @@
+@import "~base/variables";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins/breakpoints";
+@import "./mixins";
+
+.experience-pd_assets-videoComponent { @include size(100%); }
+
+.videoModalPopup {
+    .modal-body-pdplus {
+        position: relative;
+        flex: 0 0 auto;
+        padding: 1rem;
+    }
+}
+
+.mainbanner-figure { @include size(100%); }
+
+.embed-responsive {
+    height: 100%;
+
+    video,
+    iframe { object-fit: cover; }
+}
+
+.mainbanner-container {
+    .experience-component & { height: 100%; }
+}
+
+.video-fullWidth { height: 100%; }
+
+.video-modal-outer {
+    @include size(100%);
+
+    a {
+        display: block;
+        height: 100%;
+        position: relative;
+
+        img {
+            @include size(100%);
+
+            object-fit: cover;
+        }
+
+        i {
+            @include size(100%);
+
+            transition: background-color 0.3ms linear;
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 10vw;
+            color: $white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+.objectfit-video {
+    @include size(100%);
+
+    object-fit: cover;
+}

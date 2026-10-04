@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <content content-id="pdplustwocolumnboxitem">
+        <display-name xml:lang="x-default">PD Plus Two Column Box</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplustwocolumnboxitem-item" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplustwocolumnboxitem-item">
+        <display-name xml:lang="x-default">Two column box</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusTwoColumnBox</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"image1":{"path":"images/homepage/homepage-1/large.jpg","focal_point":{"x":0.5,"y":0.5}},"title1":"Make your space yours","text1":"<p>Sample copy for a two-column content box. Swap the image and text in Page Designer.</p>","button1":"Shop fashion","link1":"$url('Search-Show','cgid','womens')$","image2":{"path":"images/homepage/homepage-6/large.jpg","focal_point":{"x":0.5,"y":0.5}},"title2":"Power up your everyday","text2":"<p>A second box for electronics, accessories, or a campaign story.</p>","button2":"Explore electronics","link2":"$url('Search-Show','cgid','electronics')$"}]]></data>
+    </content>
+</library>

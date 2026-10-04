@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+<content content-id="onecolumnparallaxdemo">
+        <display-name xml:lang="x-default">One Column Parallax Demo</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="onecolumnparallaxdemo-hero" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="onecolumnparallaxdemo-hero">
+        <display-name xml:lang="x-default">One column parallax</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusParallaxScrolling</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"ParallaxScrTextSection":"<h2>One column parallax</h2><p>A full-width Page Designer Plus parallax section with a banner image, headline, and button.</p>","ParallaxScrbtn":"Explore the edit","ParallaxScrimg":{"path":"images/homepage/homepage-4/large.jpg","focal_point":{"x":0.5,"y":0.5}},"textAlignment":"left","textColor":{"value":"#ffffff"},"tileLink":"$url('Search-Show','cgid','newarrivals')$","parallaxSection":"Parallax","sectionHeight":"70vh","btnbgColor":{"value":"#ea580c"},"btntextColor":{"value":"#ffffff"},"btnBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+<content content-id="pdplus-flexible-row">
+        <display-name xml:lang="x-default">PD Plus Flexible Row</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplus-flexible-row-item" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplus-flexible-row-item">
+        <display-name xml:lang="x-default">Flexible row</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusFlexibleRow</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"image1":{"path":"images/homepage/homepage-1/medium.jpg","focal_point":{"x":0.5,"y":0.5}},"title1":"At home","text1":"Comfortable pieces for every room.","link1":"$url('Search-Show','cgid','womens')$","image2":{"path":"images/homepage/homepage-5/medium.jpg","focal_point":{"x":0.5,"y":0.5}},"title2":"Fashion","text2":"Color, tailoring, and new layers.","link2":"$url('Search-Show','cgid','newarrivals')$","image3":{"path":"images/homepage/homepage-6/medium.jpg","focal_point":{"x":0.5,"y":0.5}},"title3":"Accessories","text3":"Jewelry and finishing details.","link3":"$url('Search-Show','cgid','womens-jewelry')$"}]]></data>
+    </content>
+<content content-id="pdplus-header-navigation">
+        <display-name xml:lang="x-default">PD Plus Header Navigation</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplus-header-navigation-item" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplus-header-navigation-item">
+        <display-name xml:lang="x-default">Header navigation</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusHeaderNavigation</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"heading":"Shop","label1":"New Arrivals","link1":"$url('Search-Show','cgid','newarrivals')$","label2":"Womens","link2":"$url('Search-Show','cgid','womens')$","label3":"Mens","link3":"$url('Search-Show','cgid','mens')$","label4":"Electronics","link4":"$url('Search-Show','cgid','electronics')$","label5":"Top Sellers","link5":"$url('Search-Show','cgid','womens-clothing')$"}]]></data>
+    </content>
+<content content-id="pdplus-masonry">
+        <display-name xml:lang="x-default">PD Plus Masonry</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplus-masonry-item" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplus-masonry-item">
+        <display-name xml:lang="x-default">Masonry</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusMasonry</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"heading":"The lookbook","image1":{"path":"images/homepage/homepage-3/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption1":"Tailoring","image2":{"path":"images/homepage/homepage-5/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption2":"Color","image3":{"path":"images/homepage/homepage-1/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption3":"Home","image4":{"path":"images/homepage/homepage-6/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption4":"Jewelry","image5":{"path":"images/homepage/homepage-2/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption5":"Campaign"}]]></data>
+    </content>
+<content content-id="pdplus-media-gallery">
+        <display-name xml:lang="x-default">PD Plus Media Gallery</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplus-media-gallery-item" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplus-media-gallery-item">
+        <display-name xml:lang="x-default">Media gallery</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusMediaGallery</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"heading":"Media gallery","intro":"A featured banner with supporting photos from the shared library.","feature":{"path":"images/homepage/homepage-4/large.jpg","focal_point":{"x":0.5,"y":0.5}},"featureAlt":"Campaign banner","image2":{"path":"images/homepage/homepage-5/medium.jpg","focal_point":{"x":0.5,"y":0.5}},"image3":{"path":"images/homepage/homepage-6/medium.jpg","focal_point":{"x":0.5,"y":0.5}},"image4":{"path":"images/homepage/homepage-1/medium.jpg","focal_point":{"x":0.5,"y":0.5}}}]]></data>
+    </content>
+<content content-id="pdplus-shopbyinterest">
+        <display-name xml:lang="x-default">PD Plus Shop By Interest</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplus-shopbyinterest-item" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplus-shopbyinterest-item">
+        <display-name xml:lang="x-default">Shop by interest</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusShopByInterest</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"heading":"Shop by interest","subheading":"Start with the edit that fits the way you shop.","image1":{"path":"images/homepage/homepage-5/large.jpg","focal_point":{"x":0.5,"y":0.5}},"title1":"Fashion","link1":"$url('Search-Show','cgid','womens')$","image2":{"path":"images/homepage/homepage-3/large.jpg","focal_point":{"x":0.5,"y":0.5}},"title2":"Mens","link2":"$url('Search-Show','cgid','mens')$","image3":{"path":"images/homepage/homepage-1/large.jpg","focal_point":{"x":0.5,"y":0.5}},"title3":"Home","link3":"$url('Search-Show','cgid','newarrivals')$","image4":{"path":"images/homepage/homepage-6/large.jpg","focal_point":{"x":0.5,"y":0.5}},"title4":"Jewelry","link4":"$url('Search-Show','cgid','womens-jewelry')$"}]]></data>
+    </content>
+<content content-id="pdpluscsssliderdemo">
+        <display-name xml:lang="x-default">PD Plus CSS Slider Demo</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdpluscsssliderdemo-layout" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdpluscsssliderdemo-layout">
+        <display-name xml:lang="x-default">PD Plus CSS Slider Demo slider</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdpluscsssliderdemo-slide-1" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdpluscsssliderdemo-slide-2" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>1.0</position>
+            </content-link>
+            <content-link content-id="pdpluscsssliderdemo-slide-3" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>2.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPluscssSliderLayout</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"slidercontols":"arrows & pagination"}]]></data>
+    </content>
+    <content content-id="pdpluscsssliderdemo-slide-1">
+        <display-name xml:lang="x-default">The studio sale</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide1","imgFile":{"path":"images/homepage/homepage-4/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>The studio sale</h2><p>A Page Designer Plus slide with sample merchandising copy.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Search-Show','cgid','newarrivals')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="pdpluscsssliderdemo-slide-2">
+        <display-name xml:lang="x-default">Light layers</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide2","imgFile":{"path":"images/homepage/homepage-2/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>Light layers</h2><p>A Page Designer Plus slide with sample merchandising copy.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Search-Show','cgid','newarrivals')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="pdpluscsssliderdemo-slide-3">
+        <display-name xml:lang="x-default">New color</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide3","imgFile":{"path":"images/homepage/homepage-5/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>New color</h2><p>A Page Designer Plus slide with sample merchandising copy.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Search-Show','cgid','newarrivals')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+<content content-id="pdplusslider">
+        <display-name xml:lang="x-default">PD Plus Slider</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusslider-layout" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplusslider-layout">
+        <display-name xml:lang="x-default">PD Plus Slider slider</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplusslider-slide-1" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplusslider-slide-2" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>1.0</position>
+            </content-link>
+            <content-link content-id="pdplusslider-slide-3" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>2.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPluscssSliderLayout</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"slidercontols":"arrows & pagination"}]]></data>
+    </content>
+    <content content-id="pdplusslider-slide-1">
+        <display-name xml:lang="x-default">Spring edit</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide1","imgFile":{"path":"images/homepage/homepage-2/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>Spring edit</h2><p>A Page Designer Plus slide with sample merchandising copy.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Search-Show','cgid','newarrivals')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="pdplusslider-slide-2">
+        <display-name xml:lang="x-default">Tailoring</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide2","imgFile":{"path":"images/homepage/homepage-3/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>Tailoring</h2><p>A Page Designer Plus slide with sample merchandising copy.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Search-Show','cgid','newarrivals')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="pdplusslider-slide-3">
+        <display-name xml:lang="x-default">Accessories</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide3","imgFile":{"path":"images/homepage/homepage-6/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>Accessories</h2><p>A Page Designer Plus slide with sample merchandising copy.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Search-Show','cgid','newarrivals')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+<content content-id="pdplusslider-demo">
+        <display-name xml:lang="x-default">PD Plus Slider Demo</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplussliderdemo-layout" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplussliderdemo-layout">
+        <display-name xml:lang="x-default">PD Plus Slider Demo slider</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplussliderdemo-slide-1" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="pdplussliderdemo-slide-2" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>1.0</position>
+            </content-link>
+            <content-link content-id="pdplussliderdemo-slide-3" type="component.pd_layouts.pdPluscssSliderLayout.cssSliderLayout">
+                <position>2.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPluscssSliderLayout</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"slidercontols":"arrows & pagination"}]]></data>
+    </content>
+    <content content-id="pdplussliderdemo-slide-1">
+        <display-name xml:lang="x-default">Campaign one</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide1","imgFile":{"path":"images/homepage/homepage-4/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>Campaign one</h2><p>A Page Designer Plus slide with sample merchandising copy.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Search-Show','cgid','newarrivals')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="pdplussliderdemo-slide-2">
+        <display-name xml:lang="x-default">Campaign two</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide2","imgFile":{"path":"images/homepage/homepage-1/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>Campaign two</h2><p>A Page Designer Plus slide with sample merchandising copy.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Search-Show','cgid','newarrivals')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="pdplussliderdemo-slide-3">
+        <display-name xml:lang="x-default">Campaign three</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusCssSlider</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"cssSliderNo":"slide3","imgFile":{"path":"images/homepage/homepage-5/medium.jpg","focal_point":{"x":0.5,"y":0.5}},"imageYPos":"center","imageXPos":"left","slideContent":"<h2>Campaign three</h2><p>A Page Designer Plus slide with sample merchandising copy.</p>","sliderTextColor":{"value":"#ffffff"},"buttontext":"Shop now","tileLink":"$url('Search-Show','cgid','newarrivals')$","btnBgColor":{"value":"#ea580c"},"btnTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+<content content-id="pdplustextandimage">
+        <display-name xml:lang="x-default">PD Plus Text and Image</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplustextandimage-layout" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplustextandimage-layout">
+        <display-name xml:lang="x-default">Text and image layout</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplustextandimage-item" type="component.pd_layouts.pdPlusTextImageLayout.pdPlusTextWithImage">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPlusTextImageLayout</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false}]]></data>
+    </content>
+    <content content-id="pdplustextandimage-item">
+        <display-name xml:lang="x-default">Text with image</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusTextWithImage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"textXaxisAlignment":"text on left","textAlignmentVertical":"center","imgFile":{"path":"images/homepage/homepage-3/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imgAlt":"Text with image","richText":"<h2>Text with image</h2><p>Headline and supporting copy sit beside a library photo. The button uses the navy storefront color.</p>","buttonText":"View the edit","tileLink":"$url('Search-Show','cgid','womens')$","buttonBgColor":{"value":"#003963"},"buttonTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#003963"}}]]></data>
+    </content>
+<content content-id="pdplustextandimage-demo">
+        <display-name xml:lang="x-default">PD Plus Text and Image Demo</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplustextandimage-demo-layout" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplustextandimage-demo-layout">
+        <display-name xml:lang="x-default">Text and image demo layout</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplustextandimage-demo-item" type="component.pd_layouts.pdPlusTextImageLayout.pdPlusTextWithImage">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPlusTextImageLayout</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false}]]></data>
+    </content>
+    <content content-id="pdplustextandimage-demo-item">
+        <display-name xml:lang="x-default">Image on the left</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusTextWithImage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"textXaxisAlignment":"text on right","textAlignmentVertical":"center","imgFile":{"path":"images/homepage/homepage-2/large.jpg","focal_point":{"x":0.5,"y":0.5}},"imgAlt":"Image on the left","richText":"<h2>Image on the left</h2><p>The same component with the copy on the right, for a second story on the page.</p>","buttonText":"Shop the look","tileLink":"$url('Search-Show','cgid','womens')$","buttonBgColor":{"value":"#003963"},"buttonTextColor":{"value":"#ffffff"},"buttonBorderColor":{"value":"#003963"}}]]></data>
+    </content>
+<content content-id="pdplustwocolumnboxitem">
+        <display-name xml:lang="x-default">PD Plus Two Column Box</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="pdplustwocolumnboxitem-item" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="pdplustwocolumnboxitem-item">
+        <display-name xml:lang="x-default">Two column box</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusTwoColumnBox</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"image1":{"path":"images/homepage/homepage-1/large.jpg","focal_point":{"x":0.5,"y":0.5}},"title1":"Make your space yours","text1":"<p>Sample copy for a two-column content box. Swap the image and text in Page Designer.</p>","button1":"Shop fashion","link1":"$url('Search-Show','cgid','womens')$","image2":{"path":"images/homepage/homepage-6/large.jpg","focal_point":{"x":0.5,"y":0.5}},"title2":"Power up your everyday","text2":"<p>A second box for electronics, accessories, or a campaign story.</p>","button2":"Explore electronics","link2":"$url('Search-Show','cgid','electronics')$"}]]></data>
+    </content>
+<content content-id="photogallery">
+        <display-name xml:lang="x-default">Photo Gallery</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="photogallery-item" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="photogallery-item">
+        <display-name xml:lang="x-default">Photo gallery</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusPhotoGallery</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"heading":"Photo gallery","image1":{"path":"images/homepage/homepage-2/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption1":"Campaign","image2":{"path":"images/homepage/homepage-3/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption2":"Portrait","image3":{"path":"images/homepage/homepage-5/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption3":"Dresses","image4":{"path":"images/homepage/homepage-6/large.jpg","focal_point":{"x":0.5,"y":0.5}},"caption4":"Jewelry"}]]></data>
+    </content>
+<content content-id="tabcomponents">
+        <display-name xml:lang="x-default">Tab Components</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="tabcomponents-layout" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="tabcomponents-layout">
+        <display-name xml:lang="x-default">Tabs</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="tabcomponents-women" type="component.pd_layouts.pdPlusTabsLayout.pdPlusTabsLayout">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="tabcomponents-men" type="component.pd_layouts.pdPlusTabsLayout.pdPlusTabsLayout">
+                <position>1.0</position>
+            </content-link>
+            <content-link content-id="tabcomponents-home" type="component.pd_layouts.pdPlusTabsLayout.pdPlusTabsLayout">
+                <position>2.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPlusTabsLayout</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false,"layoutTabs":"horizontal"}]]></data>
+    </content>
+    <content content-id="tabcomponents-women">
+        <display-name xml:lang="x-default">Women</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusTabs</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"tabTitle":"Women","tabDescription":"<p>Dresses, layers, and color for the new season.</p>","tabTextColor":{"value":"#003963"},"tabBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="tabcomponents-men">
+        <display-name xml:lang="x-default">Men</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusTabs</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"tabTitle":"Men","tabDescription":"<p>Jackets with a cleaner shoulder and easy trousers.</p>","tabTextColor":{"value":"#003963"},"tabBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="tabcomponents-home">
+        <display-name xml:lang="x-default">Home</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusTabs</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"tabTitle":"Home","tabDescription":"<p>Objects and textiles for a considered room.</p>","tabTextColor":{"value":"#003963"},"tabBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+<content content-id="threeColumnParallaxDemo">
+        <display-name xml:lang="x-default">Three Column Parallax Demo</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="threeColumnParallaxDemo-grid" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="threeColumnParallaxDemo-grid">
+        <display-name xml:lang="x-default">Three column grid</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="threeColumnParallaxDemo-a" type="component.pd_layouts.pdPlusGrid3r1c.column1">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="threeColumnParallaxDemo-b" type="component.pd_layouts.pdPlusGrid3r1c.column2">
+                <position>1.0</position>
+            </content-link>
+            <content-link content-id="threeColumnParallaxDemo-c" type="component.pd_layouts.pdPlusGrid3r1c.column3">
+                <position>2.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPlusGrid3r1c</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false}]]></data>
+    </content>
+    <content content-id="threeColumnParallaxDemo-a">
+        <display-name xml:lang="x-default">New</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusParallaxScrolling</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"ParallaxScrTextSection":"<h2>New</h2><p>Fresh arrivals in a parallax column.</p>","ParallaxScrbtn":"Shop new","ParallaxScrimg":{"path":"images/homepage/homepage-1/large.jpg","focal_point":{"x":0.5,"y":0.5}},"textAlignment":"center","textColor":{"value":"#ffffff"},"tileLink":"$url('Search-Show','cgid','newarrivals')$","parallaxSection":"Parallax","sectionHeight":"70vh","btnbgColor":{"value":"#ea580c"},"btntextColor":{"value":"#ffffff"},"btnBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="threeColumnParallaxDemo-b">
+        <display-name xml:lang="x-default">Fashion</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusParallaxScrolling</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"ParallaxScrTextSection":"<h2>Fashion</h2><p>Dresses and layers.</p>","ParallaxScrbtn":"Shop fashion","ParallaxScrimg":{"path":"images/homepage/homepage-5/large.jpg","focal_point":{"x":0.5,"y":0.5}},"textAlignment":"center","textColor":{"value":"#ffffff"},"tileLink":"$url('Search-Show','cgid','newarrivals')$","parallaxSection":"Parallax","sectionHeight":"70vh","btnbgColor":{"value":"#ea580c"},"btntextColor":{"value":"#ffffff"},"btnBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="threeColumnParallaxDemo-c">
+        <display-name xml:lang="x-default">Jewelry</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusParallaxScrolling</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"ParallaxScrTextSection":"<h2>Jewelry</h2><p>Finish the look.</p>","ParallaxScrbtn":"Shop jewelry","ParallaxScrimg":{"path":"images/homepage/homepage-6/large.jpg","focal_point":{"x":0.5,"y":0.5}},"textAlignment":"center","textColor":{"value":"#ffffff"},"tileLink":"$url('Search-Show','cgid','newarrivals')$","parallaxSection":"Parallax","sectionHeight":"70vh","btnbgColor":{"value":"#ea580c"},"btntextColor":{"value":"#ffffff"},"btnBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+<content content-id="twoColumnParallaxDemo">
+        <display-name xml:lang="x-default">Two Column Parallax Demo</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="twoColumnParallaxDemo-grid" type="page.pdPlusStorePage.main">
+                <position>0.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>page.pdPlusStorePage</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{}]]></data>
+    </content>
+    <content content-id="twoColumnParallaxDemo-grid">
+        <display-name xml:lang="x-default">Two column grid</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <content-links>
+            <content-link content-id="twoColumnParallaxDemo-a" type="component.pd_layouts.pdPlusGrid2r1c.pdPlusColumn1">
+                <position>0.0</position>
+            </content-link>
+            <content-link content-id="twoColumnParallaxDemo-b" type="component.pd_layouts.pdPlusGrid2r1c.pdPlusColumn2">
+                <position>1.0</position>
+            </content-link>
+        </content-links>
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_layouts.pdPlusGrid2r1c</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"isContainer":false}]]></data>
+    </content>
+    <content content-id="twoColumnParallaxDemo-a">
+        <display-name xml:lang="x-default">Womens</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusParallaxScrolling</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"ParallaxScrTextSection":"<h2>Womens</h2><p>Parallax column for the womens edit.</p>","ParallaxScrbtn":"Shop womens","ParallaxScrimg":{"path":"images/homepage/homepage-2/large.jpg","focal_point":{"x":0.5,"y":0.5}},"textAlignment":"center","textColor":{"value":"#ffffff"},"tileLink":"$url('Search-Show','cgid','newarrivals')$","parallaxSection":"Parallax","sectionHeight":"70vh","btnbgColor":{"value":"#ea580c"},"btntextColor":{"value":"#ffffff"},"btnBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+    <content content-id="twoColumnParallaxDemo-b">
+        <display-name xml:lang="x-default">Mens</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        
+        <sitemap-included-flag>false</sitemap-included-flag>
+        <type>component.pd_assets.pdPlusParallaxScrolling</type>
+        <config>{"visibility":[]}</config>
+        <data xml:lang="x-default"><![CDATA[{"ParallaxScrTextSection":"<h2>Mens</h2><p>Parallax column for the mens edit.</p>","ParallaxScrbtn":"Shop mens","ParallaxScrimg":{"path":"images/homepage/homepage-3/large.jpg","focal_point":{"x":0.5,"y":0.5}},"textAlignment":"center","textColor":{"value":"#ffffff"},"tileLink":"$url('Search-Show','cgid','newarrivals')$","parallaxSection":"Parallax","sectionHeight":"70vh","btnbgColor":{"value":"#ea580c"},"btntextColor":{"value":"#ffffff"},"btnBorderColor":{"value":"#ea580c"}}]]></data>
+    </content>
+</library>

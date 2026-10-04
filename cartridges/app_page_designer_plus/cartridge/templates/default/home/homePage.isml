@@ -1,0 +1,105 @@
+<isdecorate template="common/layout/page">
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addCss('/css/homePage.css');
+        var library = 'RefArchSharedLibrary';
+        var hero = URLUtils.staticURL(URLUtils.CONTEXT_LIBRARY, library, 'images/homepage/homepage-4/large.jpg');
+        var catMens = URLUtils.staticURL(URLUtils.CONTEXT_LIBRARY, library, 'images/homepage/homepage-3/large.jpg');
+        var catWomens = URLUtils.staticURL(URLUtils.CONTEXT_LIBRARY, library, 'images/homepage/homepage-5/large.jpg');
+        var catElectronics = URLUtils.staticURL(URLUtils.CONTEXT_LIBRARY, library, 'images/homepage/homepage-1/large.jpg');
+        var catNew = URLUtils.staticURL(URLUtils.CONTEXT_LIBRARY, library, 'images/homepage/homepage-6/large.jpg');
+        var catTop = URLUtils.staticURL(URLUtils.CONTEXT_LIBRARY, library, 'images/homepage/homepage-2/large.jpg');
+        var storyHome = URLUtils.staticURL(URLUtils.CONTEXT_LIBRARY, library, 'images/homepage/homepage-1/medium.jpg');
+        var storyTech = URLUtils.staticURL(URLUtils.CONTEXT_LIBRARY, library, 'images/homepage/homepage-6/medium.jpg');
+        var campaign = URLUtils.staticURL(URLUtils.CONTEXT_LIBRARY, library, 'images/homepage/homepage-2/large.jpg');
+        var promoFashion = URLUtils.staticURL(URLUtils.CONTEXT_LIBRARY, library, 'images/homepage/homepage-2/medium.jpg');
+        var promoTech = URLUtils.staticURL(URLUtils.CONTEXT_LIBRARY, library, 'images/homepage/homepage-6/medium.jpg');
+        var promoStyle = URLUtils.staticURL(URLUtils.CONTEXT_LIBRARY, library, 'images/homepage/homepage-5/medium.jpg');
+    </isscript>
+
+    <section class="sn-hero">
+        <div class="sn-hero-copy">
+            <p class="sn-kicker">Page Designer Plus</p>
+            <h1>SFRA Page Designer Components</h1>
+            <p>Create rich, configurable storefront pages using reusable Page Designer Plus components and layouts.</p>
+            <a class="sn-btn sn-btn-accent" href="#components">Explore Components</a>
+        </div>
+        <div class="sn-hero-media" style="background-image:url('${hero}')"></div>
+    </section>
+
+    <section class="sn-section" id="components">
+        <div class="sn-section-head">
+            <h2>Layouts</h2>
+            <p>Category and feature regions built with Page Designer Plus layout components.</p>
+        </div>
+        <div class="sn-cats">
+            <a class="sn-cat" href="${URLUtils.url('Search-Show', 'cgid', 'mens')}">
+                <img src="${catMens}" alt="Mens" />
+                <span>Mens</span>
+            </a>
+            <a class="sn-cat" href="${URLUtils.url('Search-Show', 'cgid', 'womens')}">
+                <img src="${catWomens}" alt="Womens" />
+                <span>Womens</span>
+            </a>
+            <a class="sn-cat" href="${URLUtils.url('Search-Show', 'cgid', 'electronics')}">
+                <img src="${catElectronics}" alt="Electronics" />
+                <span>Electronics</span>
+            </a>
+            <a class="sn-cat" href="${URLUtils.url('Search-Show', 'cgid', 'newarrivals')}">
+                <img src="${catNew}" alt="New Arrivals" />
+                <span>New Arrivals</span>
+            </a>
+            <a class="sn-cat" href="${URLUtils.url('Search-Show', 'cgid', 'mens-clothing-jackets')}">
+                <img src="${catTop}" alt="Top Sellers" />
+                <span>Top Sellers</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="sn-section sn-stories">
+        <article>
+            <div class="sn-story-media"><img src="${storyHome}" alt="Image and text" /></div>
+            <h3>Image and text</h3>
+            <p>A two-column component for a headline, supporting copy, and image.</p>
+        </article>
+        <article>
+            <div class="sn-story-media"><img src="${storyTech}" alt="Text with image" /></div>
+            <h3>Text with image</h3>
+            <p>Swap alignment and stack the same component for a second feature story.</p>
+        </article>
+    </section>
+
+    <section class="sn-campaign" style="background-image:url('${campaign}')">
+        <div class="sn-campaign-copy">
+            <p class="sn-kicker">Campaign banner</p>
+            <h2>Full-width banner</h2>
+        </div>
+    </section>
+
+    <section class="sn-section sn-promos">
+        <article class="sn-promo">
+            <img src="${promoFashion}" alt="Image with text" />
+            <div class="sn-promo-copy">
+                <p>Overlay heading, body, and button on a single image.</p>
+                <h3>Image with text</h3>
+                <a class="sn-btn sn-btn-navy" href="#components">View component</a>
+            </div>
+        </article>
+        <article class="sn-promo">
+            <img src="${promoTech}" alt="Promo card" />
+            <div class="sn-promo-copy">
+                <p>Repeat the component in a row to build a feature set.</p>
+                <h3>Promo card</h3>
+                <a class="sn-btn sn-btn-navy" href="#components">View component</a>
+            </div>
+        </article>
+        <article class="sn-promo">
+            <img src="${promoStyle}" alt="Content tile" />
+            <div class="sn-promo-copy">
+                <p>Each card keeps its own copy, link, and button label.</p>
+                <h3>Content tile</h3>
+                <a class="sn-btn sn-btn-navy" href="#components">View component</a>
+            </div>
+        </article>
+    </section>
+</isdecorate>

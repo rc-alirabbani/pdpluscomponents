@@ -1,0 +1,32 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/components/pd_layouts/pdPlusCarousel.css');
+    assets.addJs('/js/carousel.js');
+</isscript>
+
+<div id="${pdict.id}"
+  class="pd-plus-carousel carousel slide carousel-xs-1 carousel-sm-1 carousel-md-1
+            ${pdict.displayIndicators.xs} ${pdict.displayIndicators.sm} ${pdict.displayIndicators.md}
+            ${pdict.displayControls.xs} ${pdict.displayControls.sm} ${pdict.displayControls.md}
+            ${pdict.insufficientNumberOfSlides.xs} ${pdict.insufficientNumberOfSlides.sm} ${pdict.insufficientNumberOfSlides.md}"
+  data-keyboard="true" data-interval="false" data-number-of-slides="${pdict.numberOfSlides}"
+  data-sm="1" data-xs="1" data-md="1">
+
+  <isprint value="${pdict.regions.slides.render()}" encoding="off" />
+
+  <ol class="carousel-indicators">
+    <isloop items=${pdict.regions.slides.region.visibleComponents} var="indicator" status="loopState">
+      <li class="${loopState.first ? 'active' : ''}" data-position="${loopState.index}"></li>
+    </isloop>
+  </ol>
+
+  <a class="carousel-control-prev" href="${'#' + pdict.id}" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">${Resource.msg('carousel-control-prev-text','pdplus_common',null)}</span>
+  </a>
+
+  <a class="carousel-control-next" href="${'#' + pdict.id}" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">${Resource.msg('carousel-control-next-text','pdplus_common',null)}</span>
+  </a>
+</div>

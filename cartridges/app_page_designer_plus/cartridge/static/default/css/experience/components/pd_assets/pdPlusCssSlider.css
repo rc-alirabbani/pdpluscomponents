@@ -1,0 +1,202 @@
+.cssslider {
+  position: relative;
+}
+
+.pdPluscssSlider {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+}
+.pdPluscssSlider .experience-cssSliderLayout {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.pdPluscssSlider.only-pagination .experience-pd_assets-pdPlusCssSlider input + label:after {
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.pdPluscssSlider.only-pagination .experience-pd_assets-pdPlusCssSlider:has(input:checked) + .experience-pd_assets-pdPlusCssSlider input + label:after {
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.pdPluscssSlider.arrows-pagination:hover input + label::after {
+  opacity: 1;
+  pointer-events: visible;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.pdPluscssSlider.arrows-pagination:hover .experience-pd_assets-pdPlusCssSlider:has(input:checked) + .experience-pd_assets-pdPlusCssSlider input + label::after {
+  opacity: 1;
+  pointer-events: visible;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.pdPluscssSlider [class*=pdPlusCssSlider] {
+  pointer-events: auto;
+  display: inline-block;
+  width: auto;
+}
+.pdPluscssSlider [class*=pdPlusCssSlider]:first-child {
+  pointer-events: auto;
+}
+.pdPluscssSlider [class*=pdPlusCssSlider]:first-child .slide {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+.pdPluscssSlider input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.pdPluscssSlider label {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: solid 2px #fff;
+  border-radius: 999px;
+  background-color: transparent;
+  margin: 0 6px 20px;
+  padding: 4px;
+  z-index: 2;
+  cursor: pointer;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+  -webkit-box-shadow: 0 0 20px 0 #000;
+          box-shadow: 0 0 20px 0 #000;
+  z-index: 11;
+}
+.pdPluscssSlider input:checked + label {
+  background-color: #fff;
+}
+.pdPluscssSlider input + label::after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 512' width='100' style='fill:white'%3E%3Cpath d='M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z' /%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center 55%;
+  background-size: 80px 80px;
+  line-height: 100vh;
+  -webkit-transition: background-size 200ms;
+  transition: background-size 200ms;
+  position: absolute;
+  color: white;
+  height: calc(95vh - 12px);
+  width: 80px;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.pdPluscssSlider input + label:hover::after {
+  background-size: 90px 90px;
+}
+.pdPluscssSlider input:checked + label::after {
+  background-image: none;
+  width: 100vw;
+  left: 0;
+  z-index: 10;
+  display: none;
+}
+.pdPluscssSlider input:checked + label + .slide ~ input + label::after {
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.pdPluscssSlider input:focus + label {
+  -webkit-box-shadow: 0 0 0 2px teal, 0 0 18px #fff;
+          box-shadow: 0 0 0 2px teal, 0 0 18px #fff;
+}
+.pdPluscssSlider .slide {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  opacity: 1;
+  text-align: left;
+}
+.pdPluscssSlider .slide .slide-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 4%;
+}
+.pdPluscssSlider .slide .slideCaption {
+  max-width: 50%;
+  padding: 4%;
+}
+@media (max-width: 768.98px) {
+  .pdPluscssSlider .slide .slideCaption {
+    padding: 4%;
+    max-width: 100%;
+  }
+}
+.pdPluscssSlider .slide .slideCaption .slideContent p:last-child {
+  margin-bottom: 0;
+}
+.pdPluscssSlider .slide .slideCaption .btn {
+  margin-top: 20px;
+  height: 48px;
+  min-width: 150px;
+}
+.pdPluscssSlider .slide .slideCaption .btn a {
+  color: inherit !important;
+}
+.pdPluscssSlider .slide .slideCaption .btn a:hover {
+  text-decoration: none;
+}
+.pdPluscssSlider input:checked ~ .slide,
+.pdPluscssSlider input:checked + label + .slide {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+
+.experience-pd_assets-pdPlusCssSlider:has(input:checked) + .experience-pd_assets-pdPlusCssSlider input + label::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 512' width='100' fill='white'%3E%3Cpath d='M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z' /%3E%3C/svg%3E");
+  width: 80px;
+  right: 0;
+  left: auto;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.experience-pd_assets-pdPlusCssSlider:has(input:checked) ~ .experience-pd_assets-pdPlusCssSlider input + label::after {
+  display: none;
+}
+
+.experience-pd_assets-pdPlusCssSlider:has(input:checked) + .experience-pd_assets-pdPlusCssSlider input + label::after {
+  display: block;
+}
+
+[class*=pdPluscssSliderLayout] {
+  position: relative;
+  z-index: 100;
+}

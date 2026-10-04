@@ -1,0 +1,28 @@
+{
+  "name": "PD Plus Shop By Interest",
+  "description": "Interest tiles that link into the catalog.",
+  "group": "pd_assets",
+  "attribute_definition_groups": [
+    {
+      "id": "interests",
+      "name": "Interests",
+      "attribute_definitions": [
+        { "id": "heading", "name": "Heading", "type": "string", "required": false },
+        { "id": "subheading", "name": "Subheading", "type": "string", "required": false },
+        { "id": "image1", "name": "Interest 1 image", "type": "image", "required": true },
+        { "id": "title1", "name": "Interest 1 title", "type": "string", "required": true },
+        { "id": "link1", "name": "Interest 1 link", "type": "url", "required": false },
+        { "id": "image2", "name": "Interest 2 image", "type": "image", "required": true },
+        { "id": "title2", "name": "Interest 2 title", "type": "string", "required": true },
+        { "id": "link2", "name": "Interest 2 link", "type": "url", "required": false },
+        { "id": "image3", "name": "Interest 3 image", "type": "image", "required": true },
+        { "id": "title3", "name": "Interest 3 title", "type": "string", "required": true },
+        { "id": "link3", "name": "Interest 3 link", "type": "url", "required": false },
+        { "id": "image4", "name": "Interest 4 image", "type": "image", "required": true },
+        { "id": "title4", "name": "Interest 4 title", "type": "string", "required": true },
+        { "id": "link4", "name": "Interest 4 link", "type": "url", "required": false }
+      ]
+    }
+  ],
+  "region_definitions": []
+}
